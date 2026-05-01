@@ -386,12 +386,24 @@ def create_git_backup(dex_vault: Path) -> str:
 
 def write_manifest(results: dict, manifest_path: Path) -> None:
     """Write migration manifest for rollback."""
+
+    # Convert any date objects to strings for JSON serialization
+    def convert_dates(obj):
+        if isinstance(obj, dict):
+            return {k: convert_dates(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [convert_dates(item) for item in obj]
+        elif hasattr(obj, 'isoformat'):  # datetime, date objects
+            return obj.isoformat()
+        else:
+            return obj
+
     manifest = {
         'migration': 'ghx-to-dex',
         'timestamp': datetime.now(UTC).isoformat(),
         'source_vault': str(GHX_VAULT),
         'target_vault': str(DEX_VAULT),
-        'results': results,
+        'results': convert_dates(results),
     }
 
     atomic_write_json(manifest_path, manifest)

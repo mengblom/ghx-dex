@@ -1,0 +1,15 @@
+---
+tags:
+  - Hiring
+  - Recruiting
+  - Engineering
+  - meeting
+content_type: meeting_note
+meeting_type: staff_meeting
+destination_category: 60-69 Archive
+kb_insights: false
+---
+- Rashita and Sneha seeking feedback on how they are doing
+- Asked if I and Ramesh can meet with 2 candidates for the ICS team (1 EM, 1 Staff)
+- The comp ranges keep coming up as a problem - we are screening out lots of candidates based on their current comp being above our max range.
+- We need a new comp benchmark - the last one was 2 years ago

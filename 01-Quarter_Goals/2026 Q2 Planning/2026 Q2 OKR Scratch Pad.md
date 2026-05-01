@@ -1,0 +1,26 @@
+### My Priorities... regardless of OKRs ###
+- The Organization
+	- Fill remaining open roles
+	- Onboarding, make sure everyone understands the vision, priorities etc.
+	- Upskilling to empower teams to complete ownership, autonomy:
+		- Deployments (Github Actions)
+		- Infrastructure (IaC, Terraform/OpenTofu)
+- Exchange Architecture
+	- Define domain boundaries for each team
+	- Define Vision / Target Architecture
+	- Prioritize / stack rank foundational / cross-org work
+		- Events / Messaging / Service Bus
+		- Observability - need an opinionated approach
+- Agile Process Improvements
+	- Intake process improvement
+		- Need everything in Jira
+	- Visibility
+		- Dashboards, connection with Aha
+	- Get a handle on unplanned work - The Sanctity of a Sprint
+- Specific Projects
+	- MongoDB -> Atlas Migration
+	- Elastic Cloud Migration
+	- Disaster Recovery
+	- IPA LLM based document understanding project
+	- DB Stabilization
+	- ICS solution - simulation test to establish RTO

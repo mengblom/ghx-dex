@@ -1,0 +1,338 @@
+{
+  "processedMeetings": {
+    "a5e075cb-f346-4e8a-8a3a-8a641e68e4e9": {
+      "processedAt": "2026-05-01T19:52:00.000Z",
+      "title": "Technical priorities review",
+      "outputFile": "00-Inbox/Meetings/2026-05-01/Technical_Priorities_Review.md"
+    },
+    "9fd1f3be-8e8b-42ae-9838-b47272a12490": {
+      "processedAt": "2026-05-01T19:52:00.000Z",
+      "title": "Observability tools exploration",
+      "outputFile": "00-Inbox/Meetings/2026-04-28/Observability_Tools_Exploration_with_Observe.md"
+    },
+    "a9ee6b54-200b-4957-8c37-ac7341915bb4": {
+      "processedAt": "2026-05-01T19:52:00.000Z",
+      "title": "Red Mythos vulnerability remediation kickoff",
+      "outputFile": "00-Inbox/Meetings/2026-04-27/Red_Mythos_Vulnerability_Remediation_Kickoff.md"
+    },
+    "fec3a791-6578-4cfb-9c83-377ceaa57917": {
+      "processedAt": "2026-05-01T20:09:04.047Z",
+      "title": "2026-03-24 10.05 Curtis Staff Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/2026-03-24_10.05_Curtis_Staff_Meeting.md"
+    },
+    "dc9a829f-cded-4a5b-8e3c-a88904f42ade": {
+      "processedAt": "2026-05-01T20:09:04.053Z",
+      "title": "2026-03-24 13.30 Marten  Aaron",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/2026-03-24_13.30_Marten_Aaron.md"
+    },
+    "17379bc9-e8a9-4c38-826e-7be581abd0f9": {
+      "processedAt": "2026-05-01T20:09:04.053Z",
+      "title": "Data architecture and engineering role interview with candidate",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/Data_architecture_and_engineering_role_interview_with_candidate.md"
+    },
+    "b94f6762-7631-437f-9dbb-f676eb7542ba": {
+      "processedAt": "2026-05-01T20:09:04.054Z",
+      "title": "Interview: David E. Smith for Principal Software Engineer - Data,  Data Architecture",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/Interview__David_E._Smith_for_Principal_Software_Engineer_-_Data,_Data_Architecture.md"
+    },
+    "b9d605ba-fcb9-42b5-8002-6dd996745353": {
+      "processedAt": "2026-05-01T20:09:04.055Z",
+      "title": "Q1 carryover and migration strategy update",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/Q1_carryover_and_migration_strategy_update.md"
+    },
+    "a4130e17-630d-416c-a37c-78aa4ce9b243": {
+      "processedAt": "2026-05-01T20:09:04.056Z",
+      "title": "Quarterly planning and org change strategy for product team",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/Quarterly_planning_and_org_change_strategy_for_product_team.md"
+    },
+    "9e0f4ff9-eea9-4e21-b91c-b2c05971b54e": {
+      "processedAt": "2026-05-01T20:09:04.057Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-24/Untitled_Meeting.md"
+    },
+    "24d709a8-c96a-4cf9-a5ab-496d128f7cb5": {
+      "processedAt": "2026-05-01T20:09:04.060Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-25/Untitled_Meeting.md"
+    },
+    "8696d617-c6d3-41d9-bdd1-05bdf4b3a395": {
+      "processedAt": "2026-05-01T20:09:04.063Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-25/Untitled_Meeting.md"
+    },
+    "da42946f-7c59-497e-b094-7e3b7b8a3041": {
+      "processedAt": "2026-05-01T20:09:04.065Z",
+      "title": "Exchange Recruiting - Weekly Team Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-26/Exchange_Recruiting_-_Weekly_Team_Meeting.md"
+    },
+    "7e0967fb-e970-49d2-8d52-6254434244c1": {
+      "processedAt": "2026-05-01T20:09:04.066Z",
+      "title": "Enterprise AI March Steerco",
+      "outputFile": "00-Inbox/Meetings/2026-03-27/Enterprise_AI_March_Steerco.md"
+    },
+    "daf7f292-4629-4a0f-a0d4-868c0daa8ba6": {
+      "processedAt": "2026-05-01T20:09:04.067Z",
+      "title": "IPA acceleration",
+      "outputFile": "00-Inbox/Meetings/2026-03-27/IPA_acceleration.md"
+    },
+    "6f598366-4e41-43aa-bb1a-708f70815512": {
+      "processedAt": "2026-05-01T20:09:04.069Z",
+      "title": "Jarvis Steerco",
+      "outputFile": "00-Inbox/Meetings/2026-03-27/Jarvis_Steerco.md"
+    },
+    "7ba3a85f-9e92-48ef-ae2f-3dcc60be2149": {
+      "processedAt": "2026-05-01T20:09:04.070Z",
+      "title": "Engineering Manager Expectations for AI - Mandatory",
+      "outputFile": "00-Inbox/Meetings/2026-03-30/Engineering_Manager_Expectations_for_AI_-_Mandatory.md"
+    },
+    "5e607a30-aaa0-47f4-b186-04044db0e4ef": {
+      "processedAt": "2026-05-01T20:09:04.071Z",
+      "title": "HM proposal on outcome based engagement for IPA",
+      "outputFile": "00-Inbox/Meetings/2026-03-30/HM_proposal_on_outcome_based_engagement_for_IPA.md"
+    },
+    "4101b2cb-148f-40b2-b4d6-2094215e6ec2": {
+      "processedAt": "2026-05-01T20:09:04.072Z",
+      "title": "Curtis Staff Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-31/Curtis_Staff_Meeting.md"
+    },
+    "5ba08726-b5ce-4faf-82a7-f0f53b88c989": {
+      "processedAt": "2026-05-01T20:09:04.073Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-03-31/Untitled_Meeting.md"
+    },
+    "c2f3dca6-b9a1-4998-b351-51634e499c12": {
+      "processedAt": "2026-05-01T20:09:04.075Z",
+      "title": "Exchange Automation Monthly Pod Team Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-01/Exchange_Automation_Monthly_Pod_Team_Meeting.md"
+    },
+    "6e1fd19f-49fa-4065-bf38-ecca29f08630": {
+      "processedAt": "2026-05-01T20:09:04.076Z",
+      "title": "Interview: Alex Nyffeler for Principal Software Engineer - Data,  Data Architecture, AWS, Full stack or Backend",
+      "outputFile": "00-Inbox/Meetings/2026-04-01/Interview__Alex_Nyffeler_for_Principal_Software_Engineer_-_Data,_Data_Architecture,_AWS,_Full_stack_.md"
+    },
+    "aa2f1321-bc76-4d84-b105-8bc0fad87863": {
+      "processedAt": "2026-05-01T20:09:04.078Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-01/Untitled_Meeting.md"
+    },
+    "eafae4ce-7dac-4f76-8224-a8b832efb92d": {
+      "processedAt": "2026-05-01T20:09:04.078Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-01/Untitled_Meeting.md"
+    },
+    "8ab71460-d822-4c94-9be6-e2da89fac4f1": {
+      "processedAt": "2026-05-01T20:09:04.079Z",
+      "title": "2026-01-22 14.30 MartenLaura 11",
+      "outputFile": "00-Inbox/Meetings/2026-04-02/2026-01-22_14.30_MartenLaura_11.md"
+    },
+    "a47d607c-b9e6-4e06-b487-28cc066ba666": {
+      "processedAt": "2026-05-01T20:09:04.080Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-02/Untitled_Meeting.md"
+    },
+    "529f79e4-0d19-4b14-8e41-ba7fdc05fa6d": {
+      "processedAt": "2026-05-01T20:09:04.081Z",
+      "title": "2026-04-03 10.30 Exchange ProductEngineering Weekly Checkpoint",
+      "outputFile": "00-Inbox/Meetings/2026-04-03/2026-04-03_10.30_Exchange_ProductEngineering_Weekly_Checkpoint.md"
+    },
+    "27fc1506-f02c-465d-90d3-161b3544c8cc": {
+      "processedAt": "2026-05-01T20:09:04.082Z",
+      "title": "Exchange Hiring De-Brief",
+      "outputFile": "00-Inbox/Meetings/2026-04-03/Exchange_Hiring_De-Brief.md"
+    },
+    "5e5cac9a-e0b3-4ccd-84f3-344088881644": {
+      "processedAt": "2026-05-01T20:09:04.083Z",
+      "title": "Interview: Jeff Sherard for Principal Software Engineer - Data,  Data Architecture, AWS, Full stack or Backend",
+      "outputFile": "00-Inbox/Meetings/2026-04-06/Interview__Jeff_Sherard_for_Principal_Software_Engineer_-_Data,_Data_Architecture,_AWS,_Full_stack_o.md"
+    },
+    "b2fd8a18-cd05-4b86-8e68-d370b40a4a14": {
+      "processedAt": "2026-05-01T20:09:04.083Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-06/Untitled_Meeting.md"
+    },
+    "efb79ba1-4560-4763-9c98-cdcd3d51bf41": {
+      "processedAt": "2026-05-01T20:09:04.084Z",
+      "title": "Untitled Meeting",
+      "outputFile": "00-Inbox/Meetings/2026-04-09/Untitled_Meeting.md"
+    },
+    "90b4e5ac-2da0-4a07-9637-c43e2e483957": {
+      "processedAt": "2026-05-01T20:09:04.085Z",
+      "title": "IPA - Introduction to MSOT and PriceSync workflows",
+      "outputFile": "00-Inbox/Meetings/2026-04-10/IPA_-_Introduction_to_MSOT_and_PriceSync_workflows.md"
+    },
+    "b0a37574-1db5-42a3-b72b-d8b7b3ec7b09": {
+      "processedAt": "2026-05-01T20:09:04.086Z",
+      "title": "GHX Q1 Product and Technology Quarterly Business Review",
+      "outputFile": "00-Inbox/Meetings/2026-04-15/GHX_Q1_Product_and_Technology_Quarterly_Business_Review.md"
+    },
+    "6e18fef2-41b6-4734-9bac-f0d95191949d": {
+      "processedAt": "2026-05-01T20:09:04.087Z",
+      "title": "Software development lifecycle and AI workflow platform exploration with Eric and Aaron",
+      "outputFile": "00-Inbox/Meetings/2026-04-15/Software_development_lifecycle_and_AI_workflow_platform_exploration_with_Eric_and_Aaron.md"
+    },
+    "69ff7b6b-e90f-4fe8-8bbc-9fe4f6c01ab2": {
+      "processedAt": "2026-05-01T20:09:04.090Z",
+      "title": "GHX monthly all hands meeting: Q1 business and technology priorities",
+      "outputFile": "00-Inbox/Meetings/2026-04-16/GHX_monthly_all_hands_meeting__Q1_business_and_technology_priorities.md"
+    },
+    "cd1af3fc-c8de-457a-b9d2-57a3c180459e": {
+      "processedAt": "2026-05-01T20:09:04.092Z",
+      "title": "Quarterly progress tracking and defect management review",
+      "outputFile": "00-Inbox/Meetings/2026-04-16/Quarterly_progress_tracking_and_defect_management_review.md"
+    },
+    "bfc3d25d-fb6e-4d46-8af1-26fec3dca3ac": {
+      "processedAt": "2026-05-01T20:09:04.093Z",
+      "title": "Cloud-based document extraction proof of concept for invoicing platform",
+      "outputFile": "00-Inbox/Meetings/2026-04-22/Cloud-based_document_extraction_proof_of_concept_for_invoicing_platform.md"
+    },
+    "d37e7087-5a6f-4253-b4e0-e21e7b85962c": {
+      "processedAt": "2026-05-01T20:09:04.093Z",
+      "title": "AI leadership and vulnerability remediation strategy for Q2",
+      "outputFile": "00-Inbox/Meetings/2026-04-24/AI_leadership_and_vulnerability_remediation_strategy_for_Q2.md"
+    }
+  },
+  "lastSync": "2026-05-01T20:09:04.094Z",
+  "queuedMeetings": {
+    "d37e7087-5a6f-4253-b4e0-e21e7b85962c": {
+      "queuedAt": "2026-05-01T20:04:41.810Z",
+      "queueFile": "2026-04-24-ai-leadership-and-vulnerability-remediation-strategy-for-q2-d37e7087.json"
+    },
+    "bfc3d25d-fb6e-4d46-8af1-26fec3dca3ac": {
+      "queuedAt": "2026-05-01T20:04:41.811Z",
+      "queueFile": "2026-04-22-cloud-based-document-extraction-proof-of-concept-for-invoici-bfc3d25d.json"
+    },
+    "cd1af3fc-c8de-457a-b9d2-57a3c180459e": {
+      "queuedAt": "2026-05-01T20:04:41.812Z",
+      "queueFile": "2026-04-16-quarterly-progress-tracking-and-defect-management-review-cd1af3fc.json"
+    },
+    "69ff7b6b-e90f-4fe8-8bbc-9fe4f6c01ab2": {
+      "queuedAt": "2026-05-01T20:04:41.813Z",
+      "queueFile": "2026-04-16-ghx-monthly-all-hands-meeting-q1-business-and-technology-pri-69ff7b6b.json"
+    },
+    "b0a37574-1db5-42a3-b72b-d8b7b3ec7b09": {
+      "queuedAt": "2026-05-01T20:04:41.815Z",
+      "queueFile": "2026-04-15-ghx-q1-product-and-technology-quarterly-business-review-b0a37574.json"
+    },
+    "6e18fef2-41b6-4734-9bac-f0d95191949d": {
+      "queuedAt": "2026-05-01T20:04:41.817Z",
+      "queueFile": "2026-04-15-software-development-lifecycle-and-ai-workflow-platform-expl-6e18fef2.json"
+    },
+    "90b4e5ac-2da0-4a07-9637-c43e2e483957": {
+      "queuedAt": "2026-05-01T20:04:41.827Z",
+      "queueFile": "2026-04-10-ipa-introduction-to-msot-and-pricesync-workflows-90b4e5ac.json"
+    },
+    "efb79ba1-4560-4763-9c98-cdcd3d51bf41": {
+      "queuedAt": "2026-05-01T20:04:41.835Z",
+      "queueFile": "2026-04-09-untitled-meeting-efb79ba1.json"
+    },
+    "5e5cac9a-e0b3-4ccd-84f3-344088881644": {
+      "queuedAt": "2026-05-01T20:04:41.837Z",
+      "queueFile": "2026-04-06-interview-jeff-sherard-for-principal-software-engineer-data--5e5cac9a.json"
+    },
+    "b2fd8a18-cd05-4b86-8e68-d370b40a4a14": {
+      "queuedAt": "2026-05-01T20:04:41.840Z",
+      "queueFile": "2026-04-06-untitled-meeting-b2fd8a18.json"
+    },
+    "529f79e4-0d19-4b14-8e41-ba7fdc05fa6d": {
+      "queuedAt": "2026-05-01T20:04:41.841Z",
+      "queueFile": "2026-04-03-2026-04-03-10-30-exchange-productengineering-weekly-checkpoi-529f79e4.json"
+    },
+    "27fc1506-f02c-465d-90d3-161b3544c8cc": {
+      "queuedAt": "2026-05-01T20:04:41.842Z",
+      "queueFile": "2026-04-03-exchange-hiring-de-brief-27fc1506.json"
+    },
+    "8ab71460-d822-4c94-9be6-e2da89fac4f1": {
+      "queuedAt": "2026-05-01T20:04:41.843Z",
+      "queueFile": "2026-04-02-2026-01-22-14-30-martenlaura-11-8ab71460.json"
+    },
+    "a47d607c-b9e6-4e06-b487-28cc066ba666": {
+      "queuedAt": "2026-05-01T20:04:41.844Z",
+      "queueFile": "2026-04-02-untitled-meeting-a47d607c.json"
+    },
+    "6e1fd19f-49fa-4065-bf38-ecca29f08630": {
+      "queuedAt": "2026-05-01T20:04:41.844Z",
+      "queueFile": "2026-04-01-interview-alex-nyffeler-for-principal-software-engineer-data-6e1fd19f.json"
+    },
+    "aa2f1321-bc76-4d84-b105-8bc0fad87863": {
+      "queuedAt": "2026-05-01T20:04:41.845Z",
+      "queueFile": "2026-04-01-untitled-meeting-aa2f1321.json"
+    },
+    "c2f3dca6-b9a1-4998-b351-51634e499c12": {
+      "queuedAt": "2026-05-01T20:04:41.848Z",
+      "queueFile": "2026-04-01-exchange-automation-monthly-pod-team-meeting-c2f3dca6.json"
+    },
+    "eafae4ce-7dac-4f76-8224-a8b832efb92d": {
+      "queuedAt": "2026-05-01T20:04:41.849Z",
+      "queueFile": "2026-04-01-untitled-meeting-eafae4ce.json"
+    },
+    "5ba08726-b5ce-4faf-82a7-f0f53b88c989": {
+      "queuedAt": "2026-05-01T20:04:41.849Z",
+      "queueFile": "2026-03-31-untitled-meeting-5ba08726.json"
+    },
+    "4101b2cb-148f-40b2-b4d6-2094215e6ec2": {
+      "queuedAt": "2026-05-01T20:04:41.850Z",
+      "queueFile": "2026-03-31-curtis-staff-meeting-4101b2cb.json"
+    },
+    "7ba3a85f-9e92-48ef-ae2f-3dcc60be2149": {
+      "queuedAt": "2026-05-01T20:04:41.851Z",
+      "queueFile": "2026-03-30-engineering-manager-expectations-for-ai-mandatory-7ba3a85f.json"
+    },
+    "5e607a30-aaa0-47f4-b186-04044db0e4ef": {
+      "queuedAt": "2026-05-01T20:04:41.852Z",
+      "queueFile": "2026-03-30-hm-proposal-on-outcome-based-engagement-for-ipa-5e607a30.json"
+    },
+    "6f598366-4e41-43aa-bb1a-708f70815512": {
+      "queuedAt": "2026-05-01T20:04:41.852Z",
+      "queueFile": "2026-03-27-jarvis-steerco-6f598366.json"
+    },
+    "7e0967fb-e970-49d2-8d52-6254434244c1": {
+      "queuedAt": "2026-05-01T20:04:41.853Z",
+      "queueFile": "2026-03-27-enterprise-ai-march-steerco-7e0967fb.json"
+    },
+    "daf7f292-4629-4a0f-a0d4-868c0daa8ba6": {
+      "queuedAt": "2026-05-01T20:04:41.855Z",
+      "queueFile": "2026-03-27-ipa-acceleration-daf7f292.json"
+    },
+    "da42946f-7c59-497e-b094-7e3b7b8a3041": {
+      "queuedAt": "2026-05-01T20:04:41.855Z",
+      "queueFile": "2026-03-26-exchange-recruiting-weekly-team-meeting-da42946f.json"
+    },
+    "8696d617-c6d3-41d9-bdd1-05bdf4b3a395": {
+      "queuedAt": "2026-05-01T20:04:41.856Z",
+      "queueFile": "2026-03-25-untitled-meeting-8696d617.json"
+    },
+    "24d709a8-c96a-4cf9-a5ab-496d128f7cb5": {
+      "queuedAt": "2026-05-01T20:04:41.857Z",
+      "queueFile": "2026-03-25-untitled-meeting-24d709a8.json"
+    },
+    "9e0f4ff9-eea9-4e21-b91c-b2c05971b54e": {
+      "queuedAt": "2026-05-01T20:04:41.858Z",
+      "queueFile": "2026-03-24-untitled-meeting-9e0f4ff9.json"
+    },
+    "a4130e17-630d-416c-a37c-78aa4ce9b243": {
+      "queuedAt": "2026-05-01T20:04:41.858Z",
+      "queueFile": "2026-03-24-quarterly-planning-and-org-change-strategy-for-product-team-a4130e17.json"
+    },
+    "dc9a829f-cded-4a5b-8e3c-a88904f42ade": {
+      "queuedAt": "2026-05-01T20:04:41.859Z",
+      "queueFile": "2026-03-24-2026-03-24-13-30-marten-aaron-dc9a829f.json"
+    },
+    "b94f6762-7631-437f-9dbb-f676eb7542ba": {
+      "queuedAt": "2026-05-01T20:04:41.860Z",
+      "queueFile": "2026-03-24-interview-david-e-smith-for-principal-software-engineer-data-b94f6762.json"
+    },
+    "b9d605ba-fcb9-42b5-8002-6dd996745353": {
+      "queuedAt": "2026-05-01T20:04:41.860Z",
+      "queueFile": "2026-03-24-q1-carryover-and-migration-strategy-update-b9d605ba.json"
+    },
+    "17379bc9-e8a9-4c38-826e-7be581abd0f9": {
+      "queuedAt": "2026-05-01T20:04:41.861Z",
+      "queueFile": "2026-03-24-data-architecture-and-engineering-role-interview-with-candid-17379bc9.json"
+    },
+    "fec3a791-6578-4cfb-9c83-377ceaa57917": {
+      "queuedAt": "2026-05-01T20:04:41.862Z",
+      "queueFile": "2026-03-24-2026-03-24-10-05-curtis-staff-meeting-fec3a791.json"
+    }
+  },
+  "lastQueuedAt": "2026-05-01T20:04:41.862Z"
+}

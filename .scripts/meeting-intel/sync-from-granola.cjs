@@ -392,11 +392,8 @@ function convertApiDocToMeeting(doc) {
   // Extract notes — try last_viewed_panel (ProseMirror) first, then notes_markdown
   let notes = '';
   const panel = doc.last_viewed_panel;
-  if (panel && typeof panel === 'object') {
-    const content = panel.content;
-    if (content && typeof content === 'object') {
-      notes = convertProseMirrorToMarkdown(content);
-    }
+  if (panel && typeof panel === 'object' && panel.content) {
+    notes = convertProseMirrorToMarkdown(panel.content);
   }
   if (!notes && doc.notes_markdown) {
     notes = doc.notes_markdown;

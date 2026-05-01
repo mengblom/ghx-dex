@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import shutil
 import subprocess
 import sys
@@ -273,32 +274,65 @@ def append_tasks_to_file(tasks: list[dict], dry_run: bool) -> None:
     atomic_write_text(TASKS_FILE, new_content)
 
 
-def run_auto_link_people(dex_vault: Path) -> None:
-    """Run auto-link-people script on migrated files."""
+def link_person_names_in_file(file_path: Path, person_names: list[str]) -> int:
+    """Link person names in a single file."""
     try:
-        logger.info("\nRunning auto-link-people post-processing...")
-        script_path = dex_vault / '.scripts' / 'auto-link-people.cjs'
+        content = file_path.read_text(encoding='utf-8')
+        original = content
 
-        if not script_path.exists():
-            logger.warning("  Auto-link-people script not found, skipping")
+        for person_name in person_names:
+            wiki_name = person_name.replace(' ', '_')
+            # Skip if already linked
+            if f'[[{wiki_name}]]' in content:
+                continue
+
+            # Replace unlinked occurrences (not in code blocks or existing links)
+            # Simple replacement - avoid in code blocks and existing wiki links
+            pattern = re.compile(r'(?<!\[\[)(?<!`)' + re.escape(person_name) + r'(?![\]`])')
+            content = pattern.sub(f'[[{wiki_name}]]', content)
+
+        if content != original:
+            atomic_write_text(file_path, content)
+            return 1
+        return 0
+    except Exception as e:
+        logger.warning(f"  Error linking names in {file_path.name}: {e}")
+        return 0
+
+
+def run_auto_link_people(dex_vault: Path) -> None:
+    """Link person names in migrated files."""
+    try:
+        logger.info("\nLinking person names in files...")
+
+        # Get person names from person pages
+        person_names = []
+        for subdir in ['Internal', 'External']:
+            people_subdir = PEOPLE_DIR / subdir
+            if people_subdir.exists():
+                for person_file in people_subdir.glob('*.md'):
+                    if person_file.name != 'README.md':
+                        person_name = person_file.stem.replace('_', ' ')
+                        person_names.append(person_name)
+
+        if not person_names:
+            logger.info("  No person names to link")
             return
 
-        # Run with --batch flag if available
-        result = subprocess.run(
-            ['node', str(script_path), '--batch'],
-            cwd=dex_vault,
-            capture_output=True,
-            text=True,
-            timeout=300
-        )
+        logger.info(f"  Linking {len(person_names)} people: {', '.join(person_names)}")
 
-        if result.returncode == 0:
-            logger.info("  ✓ Auto-link-people completed")
-        else:
-            logger.warning(f"  Auto-link-people failed: {result.stderr}")
+        # Link in all migrated markdown files
+        linked_count = 0
+        for folder in ['00-Inbox', '01-Quarter_Goals', '04-Projects', '05-Areas', '06-Resources', '07-Archives']:
+            folder_path = dex_vault / folder
+            if folder_path.exists():
+                for md_file in folder_path.rglob('*.md'):
+                    linked_count += link_person_names_in_file(md_file, person_names)
+
+        logger.info(f"  ✓ Linked person names in {linked_count} files")
 
     except Exception as e:
-        logger.warning(f"  Error running auto-link-people: {e}")
+        logger.warning(f"  Error linking person names: {e}")
 
 
 def rebuild_person_index(dex_vault: Path) -> None:
@@ -455,10 +489,14 @@ def run_migration(dry_run: bool = True) -> dict[str, Any]:
     logger.info("="*60)
 
     logger.info(f"\nFound {len(all_attachments)} unique attachments referenced")
-    copied_count = copy_attachments(all_attachments, GHX_VAULT, DEX_VAULT, dry_run)
 
-    if not dry_run:
-        logger.info(f"  ✓ Copied {copied_count} attachments")
+    try:
+        copied_count = copy_attachments(all_attachments, GHX_VAULT, DEX_VAULT, dry_run)
+        if not dry_run:
+            logger.info(f"  ✓ Copied {copied_count} attachments")
+    except Exception as e:
+        logger.warning(f"  Warning during attachment copy: {e}")
+        logger.info("  Continuing with migration...")
 
     # Phase 4: Append tasks
     if all_tasks and not dry_run:

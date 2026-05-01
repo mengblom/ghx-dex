@@ -14,15 +14,62 @@
 #
 # The Work MCP uses these to categorize tasks and check balance across your work.
 
-pillars: []
-  # Will be populated during onboarding
-  # Example structure:
-  # - id: pillar_id
-  #   name: "Pillar Name"
-  #   description: "What this pillar represents"
-  #   keywords:
-  #     - keyword1
-  #     - keyword2
+pillars:
+  - id: org_foundation
+    name: "Organizational Foundation (People & Process)"
+    description: "Building the right team, skills, and processes to enable autonomous delivery"
+    keywords:
+      - hiring
+      - onboarding
+      - upskilling
+      - agile
+      - process
+      - team structure
+      - training
+      - SDLC
+      - workflow
+
+  - id: break_monolith
+    name: "Breaking the Monolith → Autonomous Teams"
+    description: "Architectural transformation to enable independent, cross-functional teams"
+    keywords:
+      - architecture
+      - autonomous teams
+      - domain boundaries
+      - decoupling
+      - microservices
+      - strangler pattern
+      - Conway's Law
+      - deployment independence
+      - technical architecture
+
+  - id: ai_native
+    name: "AI Native Software Development Process"
+    description: "Integrating AI throughout the development workflow for competitive advantage"
+    keywords:
+      - AI
+      - Claude
+      - Copilot
+      - MCP
+      - AI-native
+      - automation
+      - developer tools
+      - SDLC automation
+      - LLM
+
+  - id: critical_execution
+    name: "Critical Technical Execution"
+    description: "Delivering migrations, stability, security, and keeping the lights on"
+    keywords:
+      - migrations
+      - MongoDB Atlas
+      - AWS SDK
+      - technical debt
+      - stability
+      - security
+      - resilience
+      - incident response
+      - production
 
 # Priority limits (how many active tasks per priority level)
 priority_limits:

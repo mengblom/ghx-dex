@@ -1,0 +1,15 @@
+{
+  "user": {
+    "name": "Marten Engblom",
+    "role": "Engineering Leader / Software Architect",
+    "company": "GHX",
+    "companySize": "enterprise",
+    "pillars": [
+      "Organizational Foundation (People & Process)",
+      "Breaking the Monolith → Autonomous Teams",
+      "AI Native Software Development Process",
+      "Critical Technical Execution"
+    ]
+  },
+  "createdAt": "2026-05-01"
+}

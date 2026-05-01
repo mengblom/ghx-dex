@@ -8,20 +8,20 @@
 demo_mode: false
 
 # Your name (used to identify you in meetings, filter yourself from participant lists)
-name: ""
+name: "Marten Engblom"
 
 # Your role (used in meeting analysis prompts)
-role: ""
+role: "Engineering Leader / Software Architect"
 
 # Role group (for command filtering and adaptation)
 # Options: product, sales, marketing, finance, engineering, customer_success, operations, leadership, design, support, advisory
-role_group: ""
+role_group: "engineering"
 
 # Your company (optional, adds context to meeting analysis)
-company: ""
+company: "GHX"
 
 # Company size tier
-company_size: ""  # options: startup (1-100), scaling (100-1000), enterprise (1000-10000), large_enterprise (10000+)
+company_size: "enterprise"  # options: startup (1-100), scaling (100-1000), enterprise (1000-10000), large_enterprise (10000+)
 
 # Your company email domain (used to identify internal vs external people)
 # Example: "pendo.io" (without @)
@@ -41,7 +41,7 @@ communication:
   detail_level: "concise"  # options: concise, balanced, comprehensive
   
   # Career/seniority context (for tone calibration)
-  career_level: "mid"  # options: junior, mid, senior, leadership, c_suite
+  career_level: "leadership"  # options: junior, mid, senior, leadership, c_suite
   
   # Coaching style preference (for career coaching)
   coaching_style: "collaborative"  # options: encouraging, collaborative, challenging
@@ -50,8 +50,8 @@ communication:
 # How Dex processes meetings from Granola
 meeting_processing:
   # Mode: "automatic" (notes appear in your vault within 30min) or "manual" (run /process-meetings)
-  mode: automatic
-  
+  mode: manual
+
   # API provider for automatic mode: gemini, anthropic, or openai
   api_provider: gemini
 
@@ -60,24 +60,24 @@ meeting_processing:
 meeting_intelligence:
   # Extract customer pain points and challenges
   extract_customer_intel: false
-  
+
   # Extract competitive mentions and comparisons
   extract_competitive_intel: false
-  
+
   # Extract action items (always recommended)
   extract_action_items: true
-  
+
   # Extract decisions made (always recommended)
   extract_decisions: true
-  
-  # Extract stakeholder dynamics and relationships
-  extract_stakeholder_dynamics: false
-  
+
+  # Extract stakeholder dynamics and relationships (People & Process intel)
+  extract_stakeholder_dynamics: true
+
   # Extract budget, authority, need, timeline (BANT for sales)
   extract_budget_timeline: false
-  
-  # Extract technical decisions and architecture choices
-  extract_technical_decisions: false
+
+  # Extract technical decisions and architecture choices (Technical & Architecture intel)
+  extract_technical_decisions: true
 
 # Journaling Configuration
 # Controls which journal types are enabled

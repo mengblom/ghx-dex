@@ -72,13 +72,16 @@ The system automatically suggests `/getting-started` at next session if vault < 
 
 ## User Profile
 
-<!-- Updated during onboarding -->
-**Name:** Not yet configured
-**Role:** Not yet configured
-**Company Size:** Not yet configured
-**Working Style:** Not yet configured
+**Name:** Marten Engblom
+**Role:** Engineering Leader / Software Architect
+**Company:** GHX (Global Healthcare Exchange)
+**Company Size:** Enterprise (1,000-10,000 people)
+**Working Style:** Strategic engineering leadership focused on organizational transformation
 **Pillars:**
-- Not yet configured
+- Organizational Foundation (People & Process)
+- Breaking the Monolith → Autonomous Teams
+- AI Native software development process
+- Critical Technical Execution
 
 ---
 

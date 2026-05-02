@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "9ea767f9596d9e59",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c164495f5381ab8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "803772a18c090a8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-Week_Priorities/2026-05-05_Week_Priorities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-05_Week_Priorities"
+            }
+          },
+          {
+            "id": "9466207755dc2f2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-Resources/Architecture/Architecture_Discussion_Backlog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Architecture_Discussion_Backlog"
+            }
+          },
+          {
+            "id": "ab22287dc8fb7b83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/Kickdrum Prep from Confluence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kickdrum Prep from Confluence"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb3447e7babd24b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f34386550a01608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70474b2148212cd4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a76cd69ceaa66e1a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#source/2026-03-24-21",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fc9f07f1adbd4525",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ef4d907c28b6785",
+    "type": "split",
+    "children": [
+      {
+        "id": "67b1175891e3dd64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9425b2039dbae0ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-Week_Priorities/2026-05-05_Week_Priorities.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2026-05-05_Week_Priorities"
+            }
+          },
+          {
+            "id": "2acb6153a56cbc14",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-Week_Priorities/2026-05-05_Week_Priorities.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-05-05_Week_Priorities"
+            }
+          },
+          {
+            "id": "ce26c17bcea52b93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a649bb6299088c37",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "69de7c49bae30145",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-Week_Priorities/2026-05-05_Week_Priorities.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-05-05_Week_Priorities"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "803772a18c090a8f",
+  "lastOpenFiles": [
+    "00-Inbox/Architecture_Forum_Proposal.md",
+    "02-Week_Priorities/2026-05-05_Week_Priorities.md",
+    "02-Week_Priorities/Week_Priorities.md",
+    "06-Resources/Architecture/Architecture_Discussion_Backlog.md",
+    "00-Inbox/Kickdrum Prep from Confluence.md",
+    "00-Inbox/Confluence_Rovo_Search_Prompt.md",
+    "00-Inbox/Team_Housekeeping_Asks.md",
+    "00-Inbox/Agile_Team_Housekeeping_Standards.md",
+    "00-Inbox/Agile_Team_Housekeeping_Asks.md",
+    "00-Inbox/Key_Talking_Points_From_Confluence.md",
+    "03-Tasks/Tasks.md",
+    "00-Inbox/Thinktiv_Kickdrum_Deep_Dive_Topics.md",
+    "00-Inbox/Thinktiv_Kickdrum_Priority_Reading_List.md",
+    "00-Inbox/CJ_Strategic_Deliverables_Next_Week.md",
+    "00-Inbox/Meetings/2026-05-01/Technical_Priorities_Review.md",
+    "00-Inbox/Thinktiv_Kickdrum_Full_Agenda.md",
+    "00-Inbox/Thinktiv_Kickdrum_Meeting_Agenda.docx",
+    "05-Areas/People/Internal/Mike_Mitchell.md",
+    "00-Inbox/README.md",
+    "01-Quarter_Goals/Quarter_Goals.md",
+    "00-Inbox/Weekly_Synthesis_2026-05-01.md",
+    "00-Inbox/Competing Priorities Q2.md",
+    "00-Inbox/SKILL.md",
+    "00-Inbox/Daily Note Template.md",
+    "00-Inbox/Ideas/2026-04-13 14.00 Automation - Exchange Team Taxes - Detractors.md",
+    "00-Inbox/Ideas/2026-04-14 Leadership Formalization and Cadence.md",
+    "00-Inbox/2026-05-01.md",
+    "07-Archives/Daily-Notes/2026-04",
+    "07-Archives/Daily-Notes",
+    "07-Archives/Meetings",
+    "06-Resources/Communications",
+    "06-Resources/Architecture",
+    "06-Resources/Teams",
+    "06-Resources/Decisions",
+    "06-Resources/Travel",
+    "06-Resources/Leadership"
+  ]
+}

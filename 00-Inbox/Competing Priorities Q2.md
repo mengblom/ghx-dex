@@ -1,0 +1,11 @@
+Quick Brainstorm on the number of competing priorities, without clear executive decisions on what takes precedence. 
+
+- Commercial Work - Fresh Q2 Roadmap
+- Customer Defects
+- Vulnerabilities (Red Mythos)
+- DR
+- Resiliency Center 2.0
+- Getting to Autonomy 
+- AI Native SDLC
+- Roadmap / Planning Visibility
+- 

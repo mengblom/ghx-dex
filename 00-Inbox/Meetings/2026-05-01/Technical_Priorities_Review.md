@@ -127,7 +127,7 @@ Reference: Curtis's 5-priority tech slide (to be sent)
 
 ## Next Steps & Timeline
 
-- [ ] **Schedule 30-minute review session** end of next week (Thursday/Friday) ^task-20260501-009
+- [x] **Schedule 30-minute review session** end of next week (Thursday/Friday) ^task-20260501-009
 - [ ] **Staff meeting discussion Monday** with timeline commitment
 - [ ] **Curtis progress update** while in India
 - [ ] **Receive Curtis's 5 technical priorities slide**

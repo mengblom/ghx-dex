@@ -175,6 +175,31 @@ def get_meetings_dir() -> Path:
         return DEMO_DIR / '00-Inbox' / 'Meetings'
     return MEETINGS_DIR
 
+def get_first_day_of_week() -> str:
+    """Get first day of week preference from user profile.
+
+    Returns:
+        'monday' or 'sunday' (defaults to 'monday' if not set)
+    """
+    if not USER_PROFILE_FILE.exists() or yaml is None:
+        return 'monday'  # Default to business calendar standard
+
+    try:
+        content = USER_PROFILE_FILE.read_text()
+        data = yaml.safe_load(content)
+        regional = data.get('regional_preferences', {})
+        first_day = regional.get('first_day_of_week', 'monday').lower()
+
+        # Validate - only monday or sunday allowed
+        if first_day not in ['monday', 'sunday']:
+            logger.warning(f"Invalid first_day_of_week '{first_day}', defaulting to 'monday'")
+            return 'monday'
+
+        return first_day
+    except Exception as e:
+        logger.error(f"Error reading first_day_of_week preference: {e}")
+        return 'monday'  # Safe default
+
 
 # Default pillars (used if pillars.yaml doesn't exist or can't be loaded)
 DEFAULT_PILLARS = {
@@ -2336,16 +2361,42 @@ def classify_all_tasks_effort(tasks: List[Dict]) -> List[Dict]:
 def get_week_progress_data() -> Dict[str, Any]:
     """Get comprehensive progress data for the current week"""
     today = _tz_today()
-    week_start = today - timedelta(days=today.weekday())  # Monday
-    week_end = week_start + timedelta(days=6)  # Sunday
     day_of_week = today.strftime('%A')
-    days_elapsed = today.weekday()  # 0=Monday, 1=Tuesday, ..., 6=Sunday
 
-    # Calculate work-week days remaining (Mon-Fri only, excluding today)
-    if today.weekday() < 5:  # Monday-Friday
-        days_remaining = 4 - today.weekday()  # Days until Friday (not including today)
-    else:  # Weekend
-        days_remaining = 0
+    # Get user's first day of week preference
+    first_day_pref = get_first_day_of_week()
+
+    if first_day_pref == 'monday':
+        # Monday = 0, Tuesday = 1, ..., Sunday = 6 (Python's default weekday())
+        week_start = today - timedelta(days=today.weekday())  # Monday
+        week_end = week_start + timedelta(days=6)  # Sunday
+        days_elapsed = today.weekday()  # 0=Monday, 1=Tuesday, ..., 6=Sunday
+
+        # Calculate work-week days remaining (Mon-Fri only, excluding today)
+        if today.weekday() < 5:  # Monday-Friday
+            days_remaining = 4 - today.weekday()  # Days until Friday (not including today)
+        else:  # Weekend
+            days_remaining = 0
+
+    else:  # sunday
+        # Sunday = 0, Monday = 1, ..., Saturday = 6
+        # Python's weekday() gives 0=Mon, so adjust: (weekday + 1) % 7
+        # Sunday (weekday=6) becomes (6+1)%7 = 0
+        # Monday (weekday=0) becomes (0+1)%7 = 1
+        py_weekday = today.weekday()
+        days_elapsed = (py_weekday + 1) % 7  # Adjust to Sunday=0
+
+        # Calculate week start (Sunday)
+        week_start = today - timedelta(days=days_elapsed)
+        week_end = week_start + timedelta(days=6)  # Saturday
+
+        # Work week is Monday-Friday (days 1-5 in Sunday-first week)
+        if days_elapsed == 0:  # Sunday - full work week ahead
+            days_remaining = 5  # Monday through Friday
+        elif 1 <= days_elapsed <= 5:  # Monday-Friday
+            days_remaining = 5 - days_elapsed  # Days until Friday (not including today)
+        else:  # Saturday (days_elapsed=6)
+            days_remaining = 0
     
     # Get weekly priorities
     priorities_file = get_week_priorities_file()

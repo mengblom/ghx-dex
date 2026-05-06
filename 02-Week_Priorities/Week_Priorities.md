@@ -26,7 +26,7 @@ The most important outcomes for this week. Everything else is secondary.
 
 **Monday 3 PM - Daniel/Mike Architecture Q&A:**
 - [ ] Ask architecture and technical detail questions for Kickdrum prep
-- [ ] Platform Architecture clarifications for Wed 1:30 PM session
+- [ ] Platform Architecture clarifications for Wed 4:00 PM session
 - [ ] Identity/SSO deep dive (for Fri 2 PM session)
 - [ ] UI shared components and CoreUI overview (for Fri 2 PM session)
 - [ ] Validate "breaking the monolith" scope against Resiliency Plan (for CJ)
@@ -42,15 +42,15 @@ The most important outcomes for this week. Everything else is secondary.
   - [ ] Skim: CoreUI design system docs (30 min)
 
 **Tuesday PM (After Daniel Meeting):**
-- [ ] Finalize talking points for Wed 1:30 PM session [[04-Projects/Thinktiv_Kickdrum_Engagement_May_2026/Key_Talking_Points.md|Quick Reference]]
+- [ ] Finalize talking points for Wed 4:00 PM session [[04-Projects/Thinktiv_Kickdrum_Engagement_May_2026/Key_Talking_Points.md|Quick Reference]]
 - [ ] Review any additional materials from Daniel meeting
 - [ ] Prepare diagrams or slides if needed
 
-**Wednesday Morning (Final Review Before 1:30 PM):**
+**Wednesday Morning (Final Review Before 4:00 PM):**
 - [ ] Quick review of talking points and materials
 - [ ] Run through presentation flow mentally
 
-**Wednesday 1:30 PM - Thinktiv/Kickdrum Session 1 (90 min):**
+**Wednesday 4:00 PM - Thinktiv/Kickdrum Session 1 (90 min):**
 - [ ] Present Platform Architecture (Current State)
 - [ ] Capture consultant questions and feedback
 - [ ] Note any insights for "breaking monolith" deliverables
@@ -113,7 +113,7 @@ The most important outcomes for this week. Everything else is secondary.
 | Tue | 9:05 AM | Marten Staff meeting - discuss timeline commitments to CJ | Reference CJ deliverables |
 | Tue | 10:00 AM | Marten/Sandy (HR Check-in) | |
 | Tue | 4:00 PM | Daniel 1x1 (weekly manager check-in) | Regular 1x1 - may touch on Kickdrum/CJ work |
-| Wed | **1:30 PM** | **🎯 Thinktiv/Kickdrum Session 1: Platform Architecture (90 min)** | You + CJ, Bharat, Arshad, Greg Wilson |
+| Wed | **4:00 PM** | **🎯 Thinktiv/Kickdrum Session 1: Platform Architecture (90 min)** | You + CJ, Bharat, Arshad, Greg Wilson |
 | Thu | TBD | **CJ Follow-up (30 min)** - Present 3 strategic deliverables | [[04-Projects/CJ_Q2_Strategic_Deliverables/CJ_Strategic_Deliverables_Next_Week.md\|Deliverables Guide]] |
 | Fri | **2:00 PM** | **🎯 Thinktiv/Kickdrum Session 2: Platform-Enabling Services (60 min)** | You present Identity/SSO, UI, IPA |
 
@@ -160,7 +160,7 @@ Tasks intentionally pushed to create focus on CJ deliverables:
 ## 📝 Notes
 
 **Thinktiv/Kickdrum Meetings Confirmed:**
-- **Wednesday, May 6 at 1:30 PM** - Session 1: Platform Architecture (90 min)
+- **Wednesday, May 6 at 4:00 PM** - Session 1: Platform Architecture (90 min)
   - You + CJ, Bharat, Arshad, Greg Wilson
   - Logical architecture, tech stack, integration patterns
 - **Friday, May 8 at 2:00 PM** - Session 2: Platform-Enabling Services (60 min)
@@ -179,7 +179,7 @@ Tasks intentionally pushed to create focus on CJ deliverables:
 **Week Flow:**
 - **Monday:** Start Confluence reading, 3 PM Daniel/Mike Q&A (Kickdrum prep), continue reading
 - **Tuesday:** Complete Confluence reading (AM), 4 PM regular 1x1 with Daniel
-- **Wednesday 1:30 PM:** Thinktiv Session 1, then draft CJ deliverables
+- **Wednesday 4:00 PM:** Thinktiv Session 1, then draft CJ deliverables
 - **Thursday:** CJ meeting (present 3 deliverables)
 - **Friday 2:00 PM:** Thinktiv Session 2 (you present Identity/SSO, UI, IPA)
 

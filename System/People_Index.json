@@ -1,5 +1,89 @@
 {
-  "README": "05-Areas/People/External/README.md",
-  "Daniel Milburn": "05-Areas/People/Internal/Daniel_Milburn.md",
-  "Ramesh Donnipadu": "05-Areas/People/Internal/Ramesh_Donnipadu.md"
+  "version": 1,
+  "built_at": "2026-05-06T11:04:18.145122",
+  "total": 7,
+  "by_type": {
+    "internal": 7,
+    "external": 0,
+    "cpo_network": 0
+  },
+  "people": [
+    {
+      "name": "Mike Mitchell",
+      "company": "GHX",
+      "role": "Sr. Engineering Manager",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Mike_Mitchell.md",
+      "last_interaction": "2026-05-01",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "John James PaulRaj",
+      "company": null,
+      "role": null,
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/John_James_PaulRaj.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Daniel Milburn",
+      "company": "GHX",
+      "role": "Direct Report",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Daniel_Milburn.md",
+      "last_interaction": "2026-05-01",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Pratik Panchal",
+      "company": null,
+      "role": null,
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Pratik_Panchal.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Suresh Kumar",
+      "company": null,
+      "role": null,
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Suresh_Kumar.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Ramesh Donnipadu",
+      "company": "GHX",
+      "role": "Direct Report",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Ramesh_Donnipadu.md",
+      "last_interaction": "2026-05-01",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Piyush Srivastava",
+      "company": null,
+      "role": null,
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Piyush_Srivastava.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    }
+  ]
 }

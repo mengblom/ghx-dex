@@ -100,6 +100,22 @@ Check for yesterday's review and extract context (open loops, tomorrow's focus, 
 
 Gather context from all available sources. **This is where the magic happens.**
 
+**CRITICAL: Calendar Configuration**
+
+Before making ANY calendar queries, read `System/user-profile.yaml` and check for `calendar.primary_calendar_name`. If present, pass this value as the `calendar_name` parameter to ALL calendar MCP calls. If not present, let the MCP use its default.
+
+Example:
+```yaml
+calendar:
+  primary_calendar_name: "mengblom@ghx.com"
+```
+
+Then call:
+```
+calendar_get_today(calendar_name="mengblom@ghx.com")
+calendar_get_events(calendar_name="mengblom@ghx.com", ...)
+```
+
 ### 5.1 Midweek Progress Check (NEW)
 
 ```
@@ -317,6 +333,10 @@ If items found, surface:
 
 Also gather:
 - **Calendar**: Today's meetings with times and attendees
+  - **CRITICAL: Calendar times are the SINGLE SOURCE OF TRUTH**
+  - Never override calendar times with information from project docs, week priorities, or any other source
+  - Project docs provide CONTEXT (topics, prep materials) but calendar provides WHEN
+  - If calendar says 4:00 PM and project doc says 1:30 PM → calendar wins, always
 - **Tasks**: P0, P1, started-but-not-completed, overdue
 - **Week Priorities**: This week's Top 3
 - **Work Summary**: Quarterly goals context (if enabled)
@@ -348,10 +368,13 @@ Generate 3 recommended focus items based on:
 ### Meeting Prep (Enhanced)
 
 For each meeting, show:
+- **Meeting time from calendar** (NEVER from project docs or other sources)
 - Who's attending + People/ context
 - Related project status
 - Outstanding tasks with attendees
 - Suggested prep time and what to prepare
+
+**CRITICAL RULE: Use calendar times exclusively. Project documents provide context about WHAT to discuss, but calendar is authoritative for WHEN meetings happen.**
 
 ### Heads Up (Enhanced)
 
@@ -372,6 +395,12 @@ Flag potential issues:
 - Example: Wednesday has days_elapsed=2, so "Day 3 of 5"
 - For frontmatter `week_day`, use: `days_elapsed + 1`
 - The MCP returns `days_remaining` counting work days only (Mon-Fri)
+
+**CRITICAL - Meeting Times:**
+- **ALL meeting times must come from the calendar query results**
+- Do NOT use times from Week Priorities, project documents, or any other source
+- Project documents provide context (agenda, prep materials) but calendar is authoritative for times
+- If there's a conflict between calendar and other sources, calendar always wins
 
 Create `00-Inbox/Daily_Plans/YYYY-MM-DD.md` (note: active plans go in Inbox, not Archives):
 

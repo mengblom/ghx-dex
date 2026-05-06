@@ -30,7 +30,12 @@ company_size: "enterprise"  # options: startup (1-100), scaling (100-1000), ente
 # Your company email domain (used to identify internal vs external people)
 # Example: "pendo.io" (without @)
 # Multiple domains: "pendo.io, pendo.com"
-email_domain: ""
+email_domain: "ghx.com"
+
+# Calendar Configuration
+# Which calendar to use for daily planning and meeting queries
+calendar:
+  primary_calendar_name: "mengblom@ghx.com"  # Use the full calendar identifier
 
 # Regional Preferences
 # Calendar and locale settings

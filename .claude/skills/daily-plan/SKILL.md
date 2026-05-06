@@ -366,12 +366,21 @@ Flag potential issues:
 
 ## Step 7: Generate Daily Plan
 
-Create `07-Archives/Plans/YYYY-MM-DD.md`:
+**IMPORTANT - Date Calculation:**
+- The MCP returns `days_elapsed` (0=Monday, 1=Tuesday, ..., 4=Friday)
+- For display "Day X of 5", use: `X = days_elapsed + 1`
+- Example: Wednesday has days_elapsed=2, so "Day 3 of 5"
+- For frontmatter `week_day`, use: `days_elapsed + 1`
+- The MCP returns `days_remaining` counting work days only (Mon-Fri)
+
+Create `00-Inbox/Daily_Plans/YYYY-MM-DD.md` (note: active plans go in Inbox, not Archives):
 
 ```markdown
 ---
 date: YYYY-MM-DD
 type: daily-plan
+week_day: {{days_elapsed + 1}}  # 1=Monday, 2=Tuesday, 3=Wednesday, etc.
+days_remaining: {{days_remaining}}  # Work days left (Mon-Fri only)
 integrations_used: [calendar, tasks, people, work-intelligence]
 ---
 

@@ -2339,8 +2339,13 @@ def get_week_progress_data() -> Dict[str, Any]:
     week_start = today - timedelta(days=today.weekday())  # Monday
     week_end = week_start + timedelta(days=6)  # Sunday
     day_of_week = today.strftime('%A')
-    days_remaining = (week_end - today).days
-    days_elapsed = today.weekday()  # 0=Monday
+    days_elapsed = today.weekday()  # 0=Monday, 1=Tuesday, ..., 6=Sunday
+
+    # Calculate work-week days remaining (Mon-Fri only, excluding today)
+    if today.weekday() < 5:  # Monday-Friday
+        days_remaining = 4 - today.weekday()  # Days until Friday (not including today)
+    else:  # Weekend
+        days_remaining = 0
     
     # Get weekly priorities
     priorities_file = get_week_priorities_file()

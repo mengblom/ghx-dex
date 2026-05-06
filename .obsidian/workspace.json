@@ -249,6 +249,8 @@
   },
   "active": "3810b924a0c510d1",
   "lastOpenFiles": [
+    "core/mcp/__pycache__/work_server.cpython-314.pyc",
+    "core/mcp/__pycache__",
     "00-Inbox/Daily_Plans/2026-05-06.md",
     "00-Inbox/Daily_Reviews/2026-05-05.md",
     "00-Inbox/Ideas/2026-04-13 14.00 Automation - Exchange Team Taxes - Detractors.md",
@@ -274,7 +276,6 @@
     "00-Inbox/Meetings/2026-04-24/AI_leadership_and_vulnerability_remediation_strategy_for_Q2.md",
     "2026-04-14 Q2 Focus Areas.md",
     "00-Inbox/Meetings/2026-04-16/Quarterly_progress_tracking_and_defect_management_review.md",
-    "00-Inbox/Meetings/2026-03-24/Quarterly_planning_and_org_change_strategy_for_product_team.md",
     "core/mcp/scripts/__pycache__/calendar_eventkit.cpython-314.pyc",
     "core/mcp/scripts/__pycache__",
     "00-Inbox/Meetings/2026-05-05",
@@ -283,7 +284,6 @@
     "04-Projects/Team_Housekeeping_Rollout",
     "04-Projects/Thinktiv_Kickdrum_Engagement_May_2026",
     "04-Projects/Architecture_Forum_Launch",
-    "04-Projects/CJ_Q2_Strategic_Deliverables",
-    "00-Inbox/Thinktiv_Kickdrum_Meeting_Agenda.docx"
+    "04-Projects/CJ_Q2_Strategic_Deliverables"
   ]
 }

@@ -32,21 +32,27 @@ company_size: "enterprise"  # options: startup (1-100), scaling (100-1000), ente
 # Multiple domains: "pendo.io, pendo.com"
 email_domain: ""
 
+# Regional Preferences
+# Calendar and locale settings
+regional_preferences:
+  # First day of the week for calendar calculations
+  first_day_of_week: "monday"  # options: sunday, monday
+
 # Communication Preferences
 # How the AI adapts its tone and language when working with you
 communication:
   # Formality level
   formality: "professional_casual"  # options: formal, professional_casual, casual
-  
+
   # Directness preference
   directness: "balanced"  # options: very_direct, balanced, supportive
-  
+
   # Detail level in responses
   detail_level: "concise"  # options: concise, balanced, comprehensive
-  
+
   # Career/seniority context (for tone calibration)
   career_level: "leadership"  # options: junior, mid, senior, leadership, c_suite
-  
+
   # Coaching style preference (for career coaching)
   coaching_style: "collaborative"  # options: encouraging, collaborative, challenging
 

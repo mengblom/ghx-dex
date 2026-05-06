@@ -59,7 +59,7 @@
 4. We are also tracking against the other resiliency priorities (ties this to the priorities in [2026 Tech Org Priorities.pptx](https://ghx365-my.sharepoint.com/:p:/r/personal/csingh_ghx_com/Documents/2026/2026%20Tech%20Org%20Priorities.pptx?d=w3d38032c08714d5eb49a0b00d8ecc1ae&csf=1&web=1&e=jwqa7k))
 	1. Atlast migration
 	2. DR test
-	3. Red Mythos
+	3. Red Mythos / Vulnerabilities / EOL technologies
 	4. ICS
 5. Now on to the monolith
 	1. The problem with the monolith

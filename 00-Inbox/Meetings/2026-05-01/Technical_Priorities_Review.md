@@ -14,7 +14,7 @@ meeting_type: 1-on-1
 source: granola
 granola_id: a5e075cb-f346-4e8a-8a3a-8a641e68e4e9
 ---
-
+The raw transcript: [[2026-05-01_Call_with_CJ]]
 # Technical Priorities Review - Productivity & Monolith Migration Focus
 
 ## Key Deliverables Required from Mårten

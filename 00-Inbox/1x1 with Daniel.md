@@ -1,0 +1,15 @@
+- Red Mythos project - Dan is coming off a conversation with Ben...  
+	- has some concerns about our tolerance for increased risk 
+- Daniel/Marten AOR
+	- There are still some areas where Daniel owns//works across the org 
+		- Happiest Minds Contractors (we discussed in the Staff meeting) 
+	- AWS cost projections 
+		- Daniel will schedule a meeting for when this is due next time (next month) with me, Ramesh, Aaron and Mike to  
+			- a) show how it is done 
+			- b) hand over / share the responsibility 
+- Chrstine is through the interview process with Product – Laura has “congratulated” her on getting the role. 
+- Knarr Backfill 
+	- Request [link](https://ghx365-my.sharepoint.com/:p:/g/personal/dmilburn_ghx_com/IQDmRrIOTk9rSaXEiLHgD4waAWt6IGdr68P6XhZ-B2Cdvw0?email=mengblom%40ghx.com&e=KsYtNW) 
+- Talked a little bit about Marten’s upcoming meeting with CJ and Steve – how to address 
+	- Progress made in terms of productivity and resiliency 
+	- When we are “done” with resiliency and can shift back towards more “normal” capacity pie charts

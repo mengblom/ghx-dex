@@ -1,0 +1,9 @@
+- Aaron gives update on Red Mythos
+	- 3 pronged approach
+		- Better triaging process
+		- Infrastructure updated frequently
+		- Monitoring aspect
+	- Aaron and Ben
+		- Currently working on app code
+	- Infrastructure
+		- Working on upgrading Gold AMIs

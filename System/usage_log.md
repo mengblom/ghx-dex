@@ -8,7 +8,7 @@
 
 ## Core Workflows (8 features)
 
-- [ ] Daily planning (`/daily-plan`)
+- [x] Daily planning (`/daily-plan`)
 - [ ] Daily review (`/review` or `/daily-review`)
 - [x] Weekly planning (`/week-plan`)
 - [ ] Weekly review (`/week-review`)
@@ -19,7 +19,7 @@
 
 ## Meeting Workflows (7 features)
 
-- [ ] Meeting prep (`/meeting-prep`)
+- [x] Meeting prep (`/meeting-prep`)
 - [ ] Meeting processing (`/process-meetings`)
 - [ ] Commitment scan (`/commitment-scan`)
 - [ ] Person page created
@@ -107,7 +107,7 @@
 ## Tracking Metadata
 
 - **Last dex-level-up prompt:** (not yet prompted)
-- **First daily plan:** (not yet run)
+- **First daily plan:** 2026-05-04
 - **Setup date:** (set during onboarding)
 
 ---

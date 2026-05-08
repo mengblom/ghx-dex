@@ -7,6 +7,7 @@
 | **Role** | Direct Report |
 | **Company** | GHX |
 | **Company Page** | 05-Areas/Companies/GHX.md |
+| **Email** | dmilburn@ghx.com |
 | **Type** | Internal |
 
 ---
@@ -19,7 +20,7 @@
 
 **Strength:** Strong
 
-**Last interaction:** 2026-05-01
+**Last interaction:** 2026-05-06
 
 ---
 
@@ -35,7 +36,8 @@ See `05-Areas/People/Internal/Daniel_Milburn/Reviews/` for performance review do
 
 | Date | Topic | Notes Link |
 |------|-------|------------|
-| | | |
+| 2026-05-06 | TT/KD Platform Architecture Workshop | [[00-Inbox/Meetings/2026-05-06/TT_KD_WS2_Platform_Architecture_Current_State.md]] |
+| 2026-05-05 | Marten Staff Meeting | [[00-Inbox/Meetings/2026-05-05/Marten_Staff_Meeting.md]] |
 
 *Auto-populated from meeting notes with this person's name*
 

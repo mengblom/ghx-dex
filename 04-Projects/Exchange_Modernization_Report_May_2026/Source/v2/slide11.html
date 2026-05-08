@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.column {
+  flex: 1;
+}
+.column h2 {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.column ul {
+  color: #2E4053;
+  font-size: 10.5pt;
+  margin: 0;
+  padding-left: 20pt;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Progress So Far - Technical & Cultural</h1>
+</div>
+<div class="content">
+  <div class="column">
+    <h2>Technical Progress</h2>
+    <ul>
+      <li>Template for breaking pieces off monolith (repo, CI/CD, infra)</li>
+      <li>AI-Native SDLC (Aaron hired, dedicated team, tooling deployed)</li>
+      <li>Architecture backlog discussions (debt visibility)</li>
+      <li>Teams moving to GitHub repos (out of monorepo)</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Cultural Progress (Signs of Change)</h2>
+    <ul>
+      <li>Teams requesting testing ownership (huge shift from fear culture)</li>
+      <li>Teams breaking off components proactively (not mandated)</li>
+      <li>Incremental delivery wins:
+        <ul style="margin-top: 4pt; font-size: 10pt;">
+          <li>MEX Core UI Migrations</li>
+          <li>EMS Managed Services Portal (quarterly commits to 2027 Q2)</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

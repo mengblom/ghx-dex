@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 20pt 40pt 25pt 40pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12pt;
+}
+.quadrant {
+  background: #F4F6F6;
+  padding: 15pt;
+  border-left: 4pt solid #1C2833;
+}
+.quadrant h2 {
+  color: #1C2833;
+  font-size: 12pt;
+  margin: 0 0 8pt 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.quadrant ul {
+  color: #2E4053;
+  font-size: 9.5pt;
+  margin: 0;
+  padding-left: 18pt;
+  line-height: 1.4;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Current Progress - What's Happening Right Now</h1>
+</div>
+<div class="content">
+  <div class="quadrant">
+    <h2>Organizational</h2>
+    <ul>
+      <li>1 director/3 EMs → 4 directors/12 EMs (for ~80 engineers)</li>
+      <li>Each team defining: domain, coupling points, deployment blockers</li>
+      <li>Teams moving to GitHub repos (out of monorepo)</li>
+    </ul>
+  </div>
+  <div class="quadrant">
+    <h2>Technical</h2>
+    <ul>
+      <li>Template for breaking pieces off monolith (repo, CI/CD, infra)</li>
+      <li>AI-Native SDLC (Dedicated team for this, Aaron hired, teams adopting)</li>
+      <li>Architecture backlog discussions (debt visibility)</li>
+    </ul>
+  </div>
+  <div class="quadrant">
+    <h2>Cultural</h2>
+    <ul>
+      <li>Teams requesting testing ownership (huge shift)</li>
+      <li>Incremental delivery wins (MEX Core UI Migrations, EMS Managed Services Portal)</li>
+      <li>Teams breaking off components proactively</li>
+    </ul>
+  </div>
+  <div class="quadrant">
+    <h2>Hiring</h2>
+    <ul>
+      <li>4 directors (3 hired, 1 in final rounds)</li>
+      <li>12 EMs (8 hired, 4 in process)</li>
+      <li>Other Key Roles (AI Director, senior ICs)</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

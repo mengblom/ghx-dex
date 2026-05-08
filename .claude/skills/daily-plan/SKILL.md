@@ -116,6 +116,51 @@ calendar_get_today(calendar_name="mengblom@ghx.com")
 calendar_get_events(calendar_name="mengblom@ghx.com", ...)
 ```
 
+**CRITICAL: Calendar Validation (BLOCKING)**
+
+After calling the calendar MCP, validate the response:
+
+1. **Check if the call succeeded:**
+   - If `success: false` or the MCP call errors → STOP IMMEDIATELY
+   - Display error message:
+     ```
+     ❌ Calendar integration failed. Cannot generate daily plan without accurate calendar data.
+     
+     Error: [error message from MCP]
+     
+     Please check:
+     - Calendar MCP is running: pkill -f calendar_server.py && restart
+     - Calendar access is granted
+     - Calendar name is correct in System/user-profile.yaml
+     
+     Run /health-check to diagnose.
+     ```
+   - Exit the skill - DO NOT proceed with daily plan generation
+
+2. **Sanity check event count (weekdays only):**
+   - If today is Monday-Friday AND event count < 3:
+     ```
+     ⚠️ Calendar returned only [X] events for today ([Day]).
+     
+     Events found:
+     - [list events with times]
+     
+     This seems low for a typical work day. Is this correct?
+     
+     Options:
+     1. Yes, this is accurate (proceed with plan)
+     2. No, something's wrong (exit and check calendar)
+     3. Check a different calendar (specify name)
+     ```
+   - Wait for user confirmation before proceeding
+   - If user says "No" or "something's wrong" → exit and suggest /health-check
+   
+3. **Only proceed if:**
+   - Calendar MCP returned success: true
+   - Event count validated (either ≥3 events, OR user confirmed <3 is correct, OR weekend)
+
+**This is a BLOCKING check. Never generate a daily plan with incomplete calendar data.**
+
 ### 5.1 Midweek Progress Check (NEW)
 
 ```
@@ -367,6 +412,12 @@ Generate 3 recommended focus items based on:
 
 ### Meeting Prep (Enhanced)
 
+**CRITICAL: Display ALL calendar events returned by the MCP.**
+- No filtering, no de-duplication, no smart selection
+- If calendar returns 8 events, the plan must show 8 meetings
+- If there are duplicate titles at the same time (e.g., two Kickdrum meetings), show both
+- ONLY exclude all-day events (e.g., "Out of Office", holidays)
+
 For each meeting, show:
 - **Meeting time from calendar** (NEVER from project docs or other sources)
 - Who's attending + People/ context
@@ -410,7 +461,8 @@ date: YYYY-MM-DD
 type: daily-plan
 week_day: {{days_elapsed + 1}}  # 1=Monday, 2=Tuesday, 3=Wednesday, etc.
 days_remaining: {{days_remaining}}  # Work days left (Mon-Fri only)
-integrations_used: [calendar, tasks, people, work-intelligence]
+integrations_used: [calendar, tasks, people, work-intelligence]  # calendar is ALWAYS present (required)
+calendar_events_count: {{X}}  # Number of events returned by calendar MCP
 ---
 
 # Daily Plan — {{Day}}, {{Month}} {{DD}}
@@ -556,19 +608,24 @@ This only fires if the user has opted into analytics. No action needed if it ret
 
 ## Graceful Degradation
 
-The plan works at multiple levels:
+**Calendar MCP is REQUIRED** - the skill will not run without it (see Step 5 validation).
+
+For other MCPs, the plan degrades gracefully:
 
 ### Full Context (All MCPs available)
 - Complete week progress, meeting intelligence, scheduling suggestions
 - Maximum "surprise and delight"
 
-### Partial Context (Work MCP only)
-- Week progress and task scheduling
-- No meeting context (prompt user to add manually)
+### Partial Context (Calendar + some other MCPs)
+- Calendar meetings always shown (required)
+- Week progress if Work MCP available
+- Task scheduling if Work MCP available
+- Other integrations degrade gracefully
 
-### Minimal Context (No MCPs)
-- Interactive flow asking about priorities
-- Basic daily note
+### Calendar MCP Failure
+- Skill exits immediately with error message
+- User directed to /health-check
+- No daily plan generated with incomplete data
 
 ---
 

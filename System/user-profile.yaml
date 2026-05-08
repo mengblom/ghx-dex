@@ -35,7 +35,8 @@ email_domain: "ghx.com"
 # Calendar Configuration
 # Which calendar to use for daily planning and meeting queries
 calendar:
-  primary_calendar_name: "mengblom@ghx.com"  # Use the full calendar identifier
+  primary_calendar_name: "mengblom@ghx.com"  # Use the full calendar identifier (used by /daily-plan)
+  work_calendar: "mengblom@ghx.com"  # Legacy field for calendar MCP default
 
 # Regional Preferences
 # Calendar and locale settings

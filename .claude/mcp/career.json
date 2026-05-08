@@ -2,7 +2,7 @@
   "name": "career",
   "description": "Career development MCP - evidence aggregation, ladder parsing, competency analysis, and progress tracking",
   "server": {
-    "command": "python",
+    "command": ".venv/bin/python",
     "args": ["core/mcp/career_server.py"],
     "env": {
       "VAULT_PATH": "${workspaceFolder}"

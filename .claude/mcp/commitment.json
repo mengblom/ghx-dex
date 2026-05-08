@@ -2,7 +2,7 @@
   "name": "commitment-detection",
   "description": "Detect uncommitted asks and promises from ScreenPipe screen activity, match to projects/people/goals",
   "server": {
-    "command": "python",
+    "command": ".venv/bin/python",
     "args": ["core/mcp/commitment_server.py"],
     "env": {
       "VAULT_PATH": "${workspaceFolder}"

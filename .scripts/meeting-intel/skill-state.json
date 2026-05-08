@@ -1,0 +1,54 @@
+{
+  "processedMeetings": {
+    "d30880ae-0c9b-4c72-9f2b-c30944de7502": {
+      "processedAt": "2026-05-07T22:10:00.000Z",
+      "filepath": "00-Inbox/Meetings/2026-05-06/TT_KD_WS2_Platform_Architecture_Current_State.md",
+      "peopleUpdated": [
+        "CJ_Desai",
+        "Daniel_Milburn",
+        "Mike_Mitchell",
+        "Bharat_Patel",
+        "Anand_Mani"
+      ],
+      "peopleCreated": [
+        "Bharat_Patel",
+        "Hong_Lim",
+        "Tim_LoGrasso",
+        "Michael_Schnapf",
+        "Ryan_Kennedy",
+        "Ryan_Donnelly",
+        "Jay_Kamm",
+        "Joe_Petro",
+        "Sha_Waters",
+        "Ankit_Malhotra",
+        "Vinay_George",
+        "Geoff_Wilson"
+      ],
+      "companiesCreated": [
+        "Kickdrum",
+        "Thinktiv",
+        "Veritas_Capital"
+      ],
+      "tasksExtracted": 2
+    },
+    "marten-staff-2026-05-05": {
+      "processedAt": "2026-05-07T22:01:52.677Z",
+      "filepath": "00-Inbox/Meetings/2026-05-05/Marten_Staff_Meeting.md",
+      "peopleUpdated": [
+        "Aaron_Srivastava",
+        "Daniel_Milburn",
+        "Ramesh_Donnipadu",
+        "Mike_Mitchell"
+      ],
+      "peopleCreated": [],
+      "tasksExtracted": 8
+    },
+    "technical-priorities-2026-05-01": {
+      "processedAt": "2026-05-07T22:01:52.682Z",
+      "filepath": "00-Inbox/Meetings/2026-05-01/Technical_Priorities_Review.md",
+      "peopleUpdated": [],
+      "peopleCreated": [],
+      "tasksExtracted": 4
+    }
+  }
+}

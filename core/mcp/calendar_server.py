@@ -645,13 +645,15 @@ async def _handle_call_tool_inner(
     elif name == "calendar_get_events":
         calendar_name = arguments.get("calendar_name", DEFAULT_WORK_CALENDAR)
         start_date = arguments.get("start_date", _tz_now().strftime("%Y-%m-%d"))
-        
+
         # Parse start date
         start_dt = datetime.strptime(start_date, "%Y-%m-%d")
-        
-        # End date defaults to start + 1 day
+
+        # End date: always add 1 day to make it an exclusive upper bound
+        # This ensures single-day queries work correctly (2026-05-08 to 2026-05-08 becomes 2026-05-08 to 2026-05-09)
         if "end_date" in arguments:
             end_dt = datetime.strptime(arguments["end_date"], "%Y-%m-%d")
+            end_dt = end_dt + timedelta(days=1)  # Make inclusive date exclusive upper bound
         else:
             end_dt = start_dt + timedelta(days=1)
         
@@ -852,10 +854,12 @@ async def _handle_call_tool_inner(
     elif name == "calendar_get_events_with_attendees":
         calendar_name = arguments.get("calendar_name", DEFAULT_WORK_CALENDAR)
         start_date = arguments.get("start_date", _tz_now().strftime("%Y-%m-%d"))
-        
+
         start_dt = datetime.strptime(start_date, "%Y-%m-%d")
+        # End date: always add 1 day to make it an exclusive upper bound
         if "end_date" in arguments:
             end_dt = datetime.strptime(arguments["end_date"], "%Y-%m-%d")
+            end_dt = end_dt + timedelta(days=1)  # Make inclusive date exclusive upper bound
         else:
             end_dt = start_dt + timedelta(days=1)
         

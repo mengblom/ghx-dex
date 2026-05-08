@@ -189,9 +189,15 @@
       "processedAt": "2026-05-01T20:09:04.093Z",
       "title": "AI leadership and vulnerability remediation strategy for Q2",
       "outputFile": "00-Inbox/Meetings/2026-04-24/AI_leadership_and_vulnerability_remediation_strategy_for_Q2.md"
+    },
+    "d30880ae-0c9b-4c72-9f2b-c30944de7502": {
+      "processedAt": "2026-05-07T00:05:10.689Z",
+      "title": "TT/KD WS2 - Platform Architecture (Current State)",
+      "date": "2026-05-06",
+      "filepath": "00-Inbox/Meetings/2026-05-06/TT_KD_WS2_Platform_Architecture_Current_State.md"
     }
   },
-  "lastSync": "2026-05-01T20:09:04.094Z",
+  "lastSync": "2026-05-07T22:21:07.446Z",
   "queuedMeetings": {
     "d37e7087-5a6f-4253-b4e0-e21e7b85962c": {
       "queuedAt": "2026-05-01T20:04:41.810Z",
@@ -332,7 +338,11 @@
     "fec3a791-6578-4cfb-9c83-377ceaa57917": {
       "queuedAt": "2026-05-01T20:04:41.862Z",
       "queueFile": "2026-03-24-2026-03-24-10-05-curtis-staff-meeting-fec3a791.json"
+    },
+    "d30880ae-0c9b-4c72-9f2b-c30944de7502": {
+      "queuedAt": "2026-05-07T00:02:00.923Z",
+      "queueFile": "2026-05-06-tt-kd-ws2-platform-architecture-current-state-d30880ae.json"
     }
   },
-  "lastQueuedAt": "2026-05-01T20:04:41.862Z"
+  "lastQueuedAt": "2026-05-07T00:02:00.923Z"
 }

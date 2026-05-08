@@ -2,7 +2,7 @@
   "name": "work",
   "description": "Work management - quarterly goals, weekly priorities, and daily tasks with pillar alignment",
   "server": {
-    "command": "python",
+    "command": ".venv/bin/python",
     "args": ["core/mcp/work_server.py"],
     "env": {
       "VAULT_PATH": "${workspaceFolder}"

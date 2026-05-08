@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 30pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.column {
+  flex: 1;
+  background: #F4F6F6;
+  padding: 20pt;
+  border-left: 4pt solid #1C2833;
+}
+.column h2 {
+  color: #1C2833;
+  font-size: 14pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.column p {
+  color: #2E4053;
+  font-size: 11pt;
+  margin: 8pt 0;
+  line-height: 1.4;
+}
+.column ul {
+  color: #2E4053;
+  font-size: 11pt;
+  margin: 8pt 0;
+  padding-left: 20pt;
+  line-height: 1.5;
+}
+.highlight {
+  font-weight: bold;
+  color: #1C2833;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Executive Summary</h1>
+</div>
+<div class="content">
+  <div class="column">
+    <h2>Productivity</h2>
+    <p><span class="highlight">Measurable improvement, structural ceiling remains</span></p>
+    <ul>
+      <li>Stories completed up 86% (207→386)</li>
+      <li>Cycle time down 48% (44→23 days)</li>
+      <li>Gains are incremental until monolith + org structure changes complete</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Resiliency - "When are we done?"</h2>
+    <p><span class="highlight">2 Must-Do</span></p>
+    <ul>
+      <li>12 autonomous teams deploying independently (70% org work done)</li>
+      <li>Data layer modernization (MongoDB → purpose-built stores)</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Capacity Forecast</h2>
+    <p><span class="highlight">Shift from reactive to strategic</span></p>
+    <ul>
+      <li>Q2: 60% firefighting / 40% strategic</li>
+      <li>Q4: 30% firefighting / 70% strategic</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

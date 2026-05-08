@@ -1,13 +1,35 @@
 {
   "version": 1,
-  "built_at": "2026-05-06T11:04:18.145122",
-  "total": 7,
+  "built_at": "2026-05-08T07:25:02.983040",
+  "total": 22,
   "by_type": {
-    "internal": 7,
-    "external": 0,
+    "internal": 12,
+    "external": 10,
     "cpo_network": 0
   },
   "people": [
+    {
+      "name": "Geoff Wilson",
+      "company": "GHX",
+      "role": null,
+      "email": "gwilson@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Geoff_Wilson.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "CJ Desai",
+      "company": "GHX",
+      "role": "VP of Engineering / Manager",
+      "email": "csingh@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/CJ_Desai.md",
+      "last_interaction": "2026-05-07",
+      "tags": [],
+      "status": "populated"
+    },
     {
       "name": "Mike Mitchell",
       "company": "GHX",
@@ -15,7 +37,29 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Mike_Mitchell.md",
-      "last_interaction": "2026-05-01",
+      "last_interaction": "2026-05-06",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Bharat Patel",
+      "company": "GHX",
+      "role": "CDP Lead / Platform Engineering",
+      "email": "bsharma@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Bharat_Patel.md",
+      "last_interaction": "2026-05-06",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Anand Mani",
+      "company": "GHX",
+      "role": "Engineering Manager",
+      "email": "amahammad@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Anand_Mani.md",
+      "last_interaction": "2026-05-06",
       "tags": [],
       "status": "populated"
     },
@@ -34,10 +78,21 @@
       "name": "Daniel Milburn",
       "company": "GHX",
       "role": "Direct Report",
-      "email": null,
+      "email": "dmilburn@ghx.com",
       "type": "internal",
       "path": "05-Areas/People/Internal/Daniel_Milburn.md",
-      "last_interaction": "2026-05-01",
+      "last_interaction": "2026-05-06",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Aaron Srivastava",
+      "company": "GHX",
+      "role": "Direct Report",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Aaron_Srivastava.md",
+      "last_interaction": "2026-05-05",
       "tags": [],
       "status": "populated"
     },
@@ -70,7 +125,7 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Ramesh_Donnipadu.md",
-      "last_interaction": "2026-05-01",
+      "last_interaction": "2026-05-05",
       "tags": [],
       "status": "populated"
     },
@@ -81,6 +136,116 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Piyush_Srivastava.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Jay Kamm",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "jay@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Jay_Kamm.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Michael Schnapf",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "michael.schnapf@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Michael_Schnapf.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Sha Waters",
+      "company": "TechTern/Thinktiv",
+      "role": null,
+      "email": "swaters@thinktiv.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Sha_Waters.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Tim LoGrasso",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "tim@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Tim_LoGrasso.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Ryan Donnelly",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "ryan.donnelly@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Ryan_Donnelly.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Ankit Malhotra",
+      "company": "TechTern/Thinktiv",
+      "role": null,
+      "email": "amalhotra@thinktiv.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Ankit_Malhotra.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Ryan Kennedy",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "ryan@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Ryan_Kennedy.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Vinay George",
+      "company": "Veritas Capital",
+      "role": null,
+      "email": "vgeorge@veritascapital.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Vinay_George.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Joe Petro",
+      "company": "TechTern/Thinktiv",
+      "role": null,
+      "email": "jpetro@thinktiv.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Joe_Petro.md",
+      "last_interaction": null,
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Hong Lim",
+      "company": "Kickdrum",
+      "role": null,
+      "email": "hong.lim@kickdrumtech.com",
+      "type": "external",
+      "path": "05-Areas/People/External/Hong_Lim.md",
       "last_interaction": null,
       "tags": [],
       "status": "populated"

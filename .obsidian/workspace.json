@@ -6,7 +6,6 @@
       {
         "id": "7c164495f5381ab8",
         "type": "tabs",
-        "dimension": 47.78880866425993,
         "children": [
           {
             "id": "3810b924a0c510d1",
@@ -14,61 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Daily_Reviews/2026-05-04.md",
+                "file": "00-Inbox/Meeting_Prep_CJ_2026-05-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-04"
-            }
-          },
-          {
-            "id": "081ec83449e9c297",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Inbox/1x1 with Daniel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1x1 with Daniel"
-            }
-          },
-          {
-            "id": "6ca65034cb8380fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Projects/Automation Team - Vision and Strategy/Exchange - Building Autonomous Teams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exchange - Building Autonomous Teams"
-            }
-          }
-        ]
-      },
-      {
-        "id": "4097bf00cccb7d6e",
-        "type": "tabs",
-        "dimension": 52.21119133574007,
-        "children": [
-          {
-            "id": "a57fd6ed882867d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06-Resources/Leadership/Q2_Focus_Areas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Q2_Focus_Areas"
+              "title": "Meeting_Prep_CJ_2026-05-08"
             }
           },
           {
@@ -84,8 +34,65 @@
               "icon": "lucide-file",
               "title": "Technical_Priorities_Review"
             }
+          },
+          {
+            "id": "8727b8200b335000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/Daily_Reviews/2026-05-06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-06"
+            }
+          },
+          {
+            "id": "97df696d2079a7ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/2026-05-08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-08"
+            }
+          },
+          {
+            "id": "525be863699b751b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/Daily_Reviews/2026-05-06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-06"
+            }
+          },
+          {
+            "id": "e7364e9b595276cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Projects/Thinktiv_Kickdrum_Engagement_May_2026/Priority_Reading_List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Priority_Reading_List"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "q2 focus",
+                "query": "backlog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Inbox/Daily_Reviews/2026-05-04.md",
+                "file": "00-Inbox/Feedback from CJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-05-04"
+              "title": "Backlinks for Feedback from CJ"
             }
           },
           {
@@ -177,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Inbox/Daily_Reviews/2026-05-04.md",
+                "file": "00-Inbox/Feedback from CJ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-05-04"
+              "title": "Outgoing links from Feedback from CJ"
             }
           },
           {
@@ -220,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Inbox/Daily_Reviews/2026-05-04.md",
+                "file": "00-Inbox/Feedback from CJ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-05-04"
+              "title": "Outline of Feedback from CJ"
             }
           }
         ]
@@ -247,43 +254,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "3810b924a0c510d1",
+  "active": "e7364e9b595276cc",
   "lastOpenFiles": [
-    "core/mcp/__pycache__/work_server.cpython-314.pyc",
-    "core/mcp/__pycache__",
-    "00-Inbox/Daily_Plans/2026-05-06.md",
-    "00-Inbox/Daily_Reviews/2026-05-05.md",
-    "00-Inbox/Ideas/2026-04-13 14.00 Automation - Exchange Team Taxes - Detractors.md",
-    "07-Archives/Plans/2026-05-06.md",
-    "00-Inbox/Meeting_Prep_CJ_2026-05-08.md",
-    "05-Areas/People/Internal/Suresh_Kumar.md",
-    "05-Areas/People/Internal/Piyush_Srivastava.md",
-    "05-Areas/People/Internal/John_James_PaulRaj.md",
-    "05-Areas/People/Internal/Pratik_Panchal.md",
-    "07-Archives/Reviews/Daily_Review_2026-05-05.md",
-    "System/Session_Learnings/2026-05-06.md",
-    "00-Inbox/Ideas/Next Staff Meeting Ideas & Topics.md",
-    "00-Inbox/Meetings/2026-05-05/Marten_Staff_Meeting.md",
+    "00-Inbox/Daily_Plans/2026-05-04.md",
     "00-Inbox/Daily_Plans/2026-05-05.md",
-    "00-Inbox/Meeting_Prep_Architecture_Questions_2026-05-04.md",
-    "00-Inbox/Marten Staff Meeting Continued.md",
-    "01-Quarter_Goals/Quarter_Goals.md",
-    "01-Quarter_Goals/2026 Q2 Planning/2026 Q2 OKR Direction from Curtis.md",
-    "01-Quarter_Goals/2026 Q2 Planning/2026 Q2 OKR Scratch Pad.md",
-    "01-Quarter_Goals/2026 Q2 Planning/2026 Priorities Summary.md",
-    "01-Quarter_Goals/2026 Q2 Planning/OKR_Planning_Session_Q2_2026.md",
-    "06-Resources/Leadership/Q2_Focus_Areas.md",
-    "00-Inbox/Meetings/2026-04-24/AI_leadership_and_vulnerability_remediation_strategy_for_Q2.md",
-    "2026-04-14 Q2 Focus Areas.md",
-    "00-Inbox/Meetings/2026-04-16/Quarterly_progress_tracking_and_defect_management_review.md",
-    "core/mcp/scripts/__pycache__/calendar_eventkit.cpython-314.pyc",
-    "core/mcp/scripts/__pycache__",
-    "00-Inbox/Meetings/2026-05-05",
-    "00-Inbox/Daily_Reviews",
-    "04-Projects/Thinktiv_Kickdrum_Engagement_May_2026/Thinktiv_Kickdrum_Meeting_Agenda.docx",
-    "04-Projects/Team_Housekeeping_Rollout",
-    "04-Projects/Thinktiv_Kickdrum_Engagement_May_2026",
-    "04-Projects/Architecture_Forum_Launch",
-    "04-Projects/CJ_Q2_Strategic_Deliverables"
+    "00-Inbox/Temp/CJ Meeting Prep - More Concise Slide Outline.md",
+    "00-Inbox/2026-05-08.md",
+    "00-Inbox/2026-05-01.md",
+    "00-Inbox/Daily_Plans/2026-05-08.md",
+    "00-Inbox/Daily_Plans/2026-05-06.md",
+    "00-Inbox/Daily_Reviews/2026-05-07.md",
+    "00-Inbox/Feedback from CJ.md",
+    "core/tests/fixtures/vault/05-Areas/Meetings/Daily_Log",
+    "core/tests/fixtures/vault/05-Areas/Meetings",
+    "System/Session_Learnings/2026-05-08.md",
+    "00-Inbox/Meetings/2026-05-07/2026-05-07 - Marten Curtis 1-1.md",
+    "00-Inbox/Meetings/2026-05-07/2026-05-07 - Exchange DR Gap Remediation Check in.md",
+    "00-Inbox/Meeting_Prep_CJ_2026-05-08.md",
+    "00-Inbox/Meetings/2026-05-07/2026-05-07 - CJ Marten 1-1.md",
+    "00-Inbox/Meetings/2026-05-07",
+    "core/mcp/__pycache__/granola_server.cpython-314.pyc",
+    "05-Areas/People/Internal/Geoff_Wilson.md",
+    "05-Areas/Companies/Veritas_Capital.md",
+    "05-Areas/Companies/Thinktiv.md",
+    "05-Areas/Companies/Kickdrum.md",
+    "05-Areas/People/External/Ankit_Malhotra.md",
+    "05-Areas/People/External/Sha_Waters.md",
+    "05-Areas/People/External/Sha_Waters.md.tmp.25772.1778191640059",
+    "05-Areas/People/External/Jay_Kamm.md",
+    "05-Areas/People/External/Ryan_Donnelly.md",
+    "05-Areas/People/External/Ryan_Kennedy.md",
+    "05-Areas/People/External/Michael_Schnapf.md",
+    "05-Areas/People/External/Vinay_George.md",
+    "05-Areas/People/External/Joe_Petro.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Source/v3/create-presentation.js",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Source/v3/slide13.html",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Source/v3/slide12.html",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Source/v3/slide11.html",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Source/v3/slide10.html",
+    "node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
+    "node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
+    "node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
+    "node_modules/playwright-core/lib/server/chromium/appIcon.png",
+    "node_modules/jszip/graph.svg"
   ]
 }

@@ -39,6 +39,11 @@ try:
     HAS_QMD = True
 except ImportError:
     HAS_QMD = False
+    # Define stub functions when QMD is not available
+    def is_qmd_available():
+        return False
+    def vault_search(*args, **kwargs):
+        return []
 
 # Analytics helper (optional - gracefully degrade if not available)
 try:

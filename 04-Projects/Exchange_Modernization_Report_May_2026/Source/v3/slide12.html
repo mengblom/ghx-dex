@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.subtitle {
+  padding: 12pt 40pt;
+  background: #F4F6F6;
+}
+.subtitle p {
+  color: #2E4053;
+  font-size: 11pt;
+  margin: 0;
+  font-style: italic;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.column {
+  flex: 1;
+}
+.column h2 {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.column ul {
+  color: #2E4053;
+  font-size: 10.5pt;
+  margin: 0;
+  padding-left: 20pt;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>We Will Still Have a Backlog</h1>
+</div>
+<div class="subtitle">
+  <p>Still required, but timing negotiable. Veritas/Kickdrum will likely comment.</p>
+</div>
+<div class="content">
+  <div class="column">
+    <h2>Platform & Data</h2>
+    <ul>
+      <li>Event/messaging system replacement (EventBus MongoDB → SQS/Kafka)</li>
+      <li>Activity Flow optimization (S3-based storage vs 188M docs/day churn)</li>
+      <li>Observability improvements (extend log retention, proactive alerting)</li>
+      <li>Service health checks</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Development & Delivery</h2>
+    <ul>
+      <li>Testing framework modernization (replace Tandoori)</li>
+      <li>Feature flags system</li>
+      <li>Mapping tool modernization (EDI → JSON)</li>
+      <li>Cloud-native infra (serverless, managed services)</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.left {
+  flex: 0 0 280pt;
+}
+.right {
+  flex: 1;
+}
+.transformation {
+  background: #F4F6F6;
+  padding: 20pt;
+  border-left: 4pt solid #1C2833;
+  margin-bottom: 15pt;
+}
+.transformation h2 {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+}
+.transformation p {
+  color: #2E4053;
+  font-size: 11pt;
+  margin: 5pt 0;
+  line-height: 1.5;
+}
+.transformation .arrow {
+  color: #1C2833;
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 8pt 0;
+}
+.details h3 {
+  color: #1C2833;
+  font-size: 12pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+}
+.details ul {
+  color: #2E4053;
+  font-size: 10pt;
+  margin: 0;
+  padding-left: 18pt;
+  line-height: 1.5;
+}
+.placeholder {
+  background: #E8EAED;
+  border: 2pt dashed #AAB7B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.placeholder p {
+  color: #7F8C8D;
+  font-size: 12pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Org Chart - The New Structure</h1>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="transformation">
+      <h2>The Transformation</h2>
+      <p><b>Before:</b> 1 Director → 3 EMs → 80 engineers</p>
+      <p class="arrow">↓</p>
+      <p><b>After:</b> 4 Directors → 12 EMs → ~80 engineers</p>
+    </div>
+    <div class="details">
+      <h3>Each Team:</h3>
+      <ul>
+        <li>6-8 engineers</li>
+        <li>Cross-functional (backend, frontend, QA, DevOps)</li>
+        <li>Domain-aligned (Platform Services, Business Logic, Data/Integration, etc.)</li>
+        <li>Autonomous delivery capability</li>
+      </ul>
+    </div>
+  </div>
+  <div class="right">
+    <div id="orgchart" class="placeholder" style="width: 100%; height: 100%;">
+      <p>Org Chart Visual</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

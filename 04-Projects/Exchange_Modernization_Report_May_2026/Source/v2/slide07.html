@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.subtitle {
+  padding: 15pt 40pt;
+  background: #F4F6F6;
+}
+.subtitle p {
+  color: #2E4053;
+  font-size: 13pt;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.column {
+  flex: 1;
+}
+.column h2 {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+}
+.column ul {
+  color: #2E4053;
+  font-size: 10.5pt;
+  margin: 0;
+  padding-left: 20pt;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>The Monolith Problem</h1>
+</div>
+<div class="subtitle">
+  <p>The monolith is both technical and organizational</p>
+</div>
+<div class="content">
+  <div class="column">
+    <h2>Technical Reality</h2>
+    <ul>
+      <li>14-year-old codebase, 80+ engineers, monthly releases</li>
+      <li>Single deployment footprint (Blue-Green in us-east-1)</li>
+      <li>Shared database schemas = blast radius on every change</li>
+      <li>Testing bottleneck = defensive, slow releases</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Organizational Reality</h2>
+    <ul>
+      <li>1 director for 80 people = impossible span of control</li>
+      <li>Everything needs cross-team coordination</li>
+      <li>Fear culture ("what if we break something?")</li>
+      <li>Product launches = big-bang, not incremental</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+- Tech Debt list
+	- Vulnerabilities
+		- OS / Gold AMI
+		- OSS / Dependency upgrades
+	- IaC / DR
+	- Hosted DBs to Managed
+		- MongoDB -> Atlas
+		- Elastic Search
+	- Monolith
+	- MongoDB / Data store overhaul
+	- Event / Messaging
+	---
+	- Cloud Native Infra
+		- Get off the lift-and-shift footprint
+	- Github Migration
+	- Processing Engine
+		- Lambdas
+		- Containers
+	- Testing
+auto-link script

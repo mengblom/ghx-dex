@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+  display: flex;
+  gap: 20pt;
+}
+.column {
+  flex: 1;
+}
+.column h2 {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.column ul {
+  color: #2E4053;
+  font-size: 10.5pt;
+  margin: 0;
+  padding-left: 20pt;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>The Cost of the Monolith</h1>
+</div>
+<div class="content">
+  <div class="column">
+    <h2>Cost for Product & Customers</h2>
+    <ul>
+      <li>Innovation throttled (everything is a "project")</li>
+      <li>Poor deployment frequency</li>
+      <li>Long lead time for changes</li>
+      <li>Cannot respond quickly to customer needs</li>
+      <li>Slow incident remediation</li>
+      <li>Delayed security fixes</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h2>Cost for Engineering</h2>
+    <ul>
+      <li>Things that should be easy are now high risk and difficult</li>
+      <li>Uncertainty of impact / side effects</li>
+      <li>Coordination overhead</li>
+      <li>Lack of autonomy</li>
+      <li>Difficult to prioritize and manage mixed work streams</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #ffffff; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 20pt 40pt;
+}
+.header h1 {
+  color: #ffffff;
+  font-size: 28pt;
+  margin: 0;
+  font-weight: bold;
+}
+.subtitle {
+  padding: 12pt 40pt;
+  background: #2E4053;
+}
+.subtitle p {
+  color: #ffffff;
+  font-size: 13pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content {
+  flex: 1;
+  padding: 25pt 40pt;
+}
+.section {
+  margin-bottom: 14pt;
+}
+.section-title {
+  color: #1C2833;
+  font-size: 13pt;
+  margin: 0 0 10pt 0;
+  font-weight: bold;
+  border-bottom: 2pt solid #1C2833;
+  padding-bottom: 6pt;
+}
+.criterion {
+  margin-bottom: 12pt;
+}
+.criterion-title {
+  color: #1C2833;
+  font-size: 11pt;
+  margin: 0 0 6pt 0;
+  font-weight: bold;
+}
+.criterion ul {
+  color: #2E4053;
+  font-size: 9.5pt;
+  margin: 0;
+  padding-left: 18pt;
+  line-height: 1.4;
+}
+.progress {
+  color: #2E4053;
+  font-size: 9.5pt;
+  margin: 4pt 0 0 0;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>"When Are We Out of the Woods?"</h1>
+</div>
+<div class="subtitle">
+  <p>Must Haves (We won't be stable without these)</p>
+</div>
+<div class="content">
+  <div class="criterion">
+    <p class="criterion-title">1. 12 Autonomous Teams Operating Independently</p>
+    <ul>
+      <li>Dedicated EM, PO (1:1 ratio)</li>
+      <li>Own and deploy components independently</li>
+      <li>Own application-near infrastructure</li>
+      <li>Own deployment pipelines</li>
+      <li>Sprint independently</li>
+    </ul>
+    <p class="progress">✅ Progress: 70% (org structure in place, technical decoupling starting)</p>
+  </div>
+  <div class="criterion">
+    <p class="criterion-title">2. Data Stored in Purpose-Built Products</p>
+    <ul>
+      <li>MongoDB → RDS, DynamoDB, Aurora, S3 (right tool for job)</li>
+      <li>Scalability becomes elastic (not manual intervention)</li>
+      <li>HA/DR becomes config setting (not a project)</li>
+      <li>Cost optimization unlocked</li>
+    </ul>
+    <p class="progress">🟡 Progress: 20% (Atlas migrations in progress, architectural changes in planning)</p>
+  </div>
+</div>
+</body>
+</html>

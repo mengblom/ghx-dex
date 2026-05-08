@@ -382,10 +382,15 @@ def read_granola_cache() -> Optional[Dict[str, Any]]:
     try:
         raw_data = GRANOLA_CACHE.read_text()
         cache_wrapper = json.loads(raw_data)
-        
-        # The cache has a nested structure: { cache: JSON_STRING }
-        cache_data = json.loads(cache_wrapper.get('cache', '{}'))
-        
+
+        # The cache has a nested structure: { cache: JSON_STRING } in older versions
+        # In v6+, cache is already a dict
+        cache_value = cache_wrapper.get('cache', '{}')
+        if isinstance(cache_value, str):
+            cache_data = json.loads(cache_value)
+        else:
+            cache_data = cache_value
+
         logger.debug("Successfully read cache file")
         return {
             'documents': cache_data.get('state', {}).get('documents', {}),

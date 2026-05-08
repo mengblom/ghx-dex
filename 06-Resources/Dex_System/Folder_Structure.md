@@ -186,10 +186,18 @@ Keep archives indefinitely—they're your historical record and learning source 
 
 ```
 00-Inbox/
+├── Daily_Notes/     # Real-time capture throughout the day (Obsidian daily notes)
+│   └── YYYY-MM-DD.md  # Format: YYYY-MM-DD.md with Tasks, Notes, Journal sections
 ├── Meetings/        # Meeting notes (auto-created by /process-meetings)
 │   └── YYYY-MM-DD/  # Meetings organized by date
 └── Ideas/           # Quick captures and random thoughts
 ```
+
+**Daily_Notes/** - Lightweight scratchpad for quick capture
+- Format: `YYYY-MM-DD.md`
+- Structure: Tasks, Notes, Journal sections
+- Usage: Quick capture (Cmd+D in Obsidian) vs. dedicated meeting files for substantial discussions
+- Integration: Read by `/daily-review`, `/daily-plan`, `/triage`, `/week-review`
 
 ### Philosophy
 

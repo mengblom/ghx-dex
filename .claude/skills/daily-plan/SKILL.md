@@ -90,9 +90,33 @@ If today is Monday and week isn't planned, offer to run `/week-plan` first.
 
 ---
 
-## Step 4: Yesterday's Review Check (Soft Gate)
+## Step 4: Yesterday's Review Check (Soft Gate) + Daily Note Lookback
 
-Check for yesterday's review and extract context (open loops, tomorrow's focus, blocked items).
+Check for yesterday's review and daily note to extract context.
+
+**From yesterday's review:**
+- Open loops
+- Tomorrow's focus (today's intention)
+- Blocked items
+
+**From yesterday's daily note:**
+
+Look for `00-Inbox/Daily_Notes/YYYY-MM-DD.md` (yesterday's date).
+
+If found:
+- Extract uncompleted tasks → Surface as potential carryovers
+- Extract notes mentioning "tomorrow" or "follow up" → Surface as context
+- Extract journal insights → Provide emotional continuity
+
+**Example output:**
+
+> 📝 **From Yesterday's Daily Note:**
+> 
+> Uncompleted task: "Review pricing proposal" — should this be in today's plan?
+> 
+> Note: "Need to follow up with Sarah about Q2 budget" — relevant for today?
+
+**If neither review nor daily note exist:** Proceed without yesterday's context.
 
 ---
 

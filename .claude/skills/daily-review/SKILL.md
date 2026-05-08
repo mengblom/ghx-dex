@@ -222,6 +222,56 @@ Use: reminders_clear_completed(list_name="Dex Today")
 
 ---
 
+## Step 2.7: Daily Notes Reading
+
+**Check if today's Daily Note exists:**
+
+Look for `00-Inbox/Daily_Notes/YYYY-MM-DD.md` (today's date). If not found, check fallback location `00-Inbox/YYYY-MM-DD.md`.
+
+**If found, extract content:**
+
+Read the daily note and parse its three sections (Tasks, Notes, Journal). Surface the captured content in your review synthesis.
+
+**Integration with review output:**
+
+- Tasks captured → Compare against completed tasks from Tasks.md (deduplicate)
+- Notes captured → Include in "What Happened Today" context
+- Journal entries → Include in reflection prompts
+
+**If Daily Note doesn't exist:** Skip silently (optional input).
+
+**Output format in review:**
+
+> 📝 **From Today's Daily Note:**
+> 
+> **Quick Tasks (3):**
+> - Follow up with Sarah about Q2 budget
+> - Review pricing proposal
+> - Book 1:1 with Tom
+> 
+> **Notes Captured (2):**
+> - Exchange Hiring Meeting: Good candidate for Eng II role
+> - Curtis alignment on team housekeeping
+> 
+> **Journal (1):**
+> - Feeling good about team standardization conversation
+
+**Deduplication logic:**
+
+If a note mentions "Meeting with X" and there's also a dedicated meeting file `00-Inbox/Meetings/YYYY-MM-DD - Meeting with X.md`, prefer the dedicated file and note the overlap:
+
+> _Note: Daily Note mentions "Meeting with X" but dedicated notes exist - see meeting file for full context._
+
+**Post-processing:** After reading daily note, run auto-link-people to convert person names to WikiLinks:
+
+```bash
+node .scripts/auto-link-people.cjs 00-Inbox/Daily_Notes/YYYY-MM-DD.md
+```
+
+This ensures person mentions in daily notes are properly linked for context injection.
+
+---
+
 ## Step 3: Daily Plan Completion Tracking (NEW)
 
 **Compare what you planned vs. what you did.**

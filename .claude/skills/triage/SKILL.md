@@ -210,6 +210,36 @@ Extract uncompleted tasks from notes and route them appropriately.
    - `00-Inbox/*.md` - Captured tasks
    - Any file with unchecked tasks `- [ ]`
 
+1.5. **Scan Daily Notes for Orphaned Tasks**
+
+**Check Daily_Notes/ folder for files older than 7 days:**
+
+```bash
+find 00-Inbox/Daily_Notes -name "*.md" -type f -mtime +7
+```
+
+For each old daily note:
+- Read the Tasks section
+- Extract unchecked tasks
+- Check if task exists in `03-Tasks/Tasks.md`
+- If not found → Flag as orphaned
+
+**Surface orphaned tasks:**
+
+> 🗓️ **Orphaned Daily Note Tasks:**
+> 
+> From `2026-04-28.md` (10 days ago):
+> - [ ] Follow up with Tom about demo
+> - [ ] Review contract terms
+> 
+> → Route to: [Add to Tasks.md] [Create project] [Archive]
+
+**Routing suggestions:**
+
+- If task matches weekly priority → "Add to Tasks.md under [Priority Name]"
+- If task mentions person name → "Add to person page [[Person_Name]]"
+- If task is stale (>30 days) → "Archive or dismiss"
+
 2. **Extract Tasks**
    - Find all `- [ ]` items
    - Note the source file for each

@@ -324,6 +324,34 @@ Help the user capture:
 - Quick thoughts → `00-Inbox/Ideas/`
 - Tasks → surface them clearly
 
+### Daily Notes Integration
+
+**Daily Notes** are lightweight scratchpads for real-time capture using Obsidian's daily note plugin (Cmd+D).
+
+**Structure:**
+- Location: `00-Inbox/Daily_Notes/YYYY-MM-DD.md`
+- Template: `00-Inbox/Daily_Notes/README.md`
+- Sections: Tasks, Notes, Journal
+
+**When to use:**
+- **Daily Notes:** Quick capture (meetings, thoughts, tasks you don't want to forget)
+- **Dedicated Meeting Files:** Substantial discussions requiring detailed notes
+
+**Skills integration:**
+- `/daily-review` (Step 2.7) - Reads today's daily note and synthesizes captures
+- `/daily-plan` (Step 4) - References yesterday's note for continuity
+- `/triage` - Scans old daily notes for orphaned tasks
+- `/week-review` (Step 1.75) - Aggregates week's notes for pattern detection
+
+**Workflow:**
+```
+Morning:  /daily-plan → generates plan
+All day:  Cmd+D → capture in Daily Note
+Evening:  /daily-review → reads plan + note + tasks → reflection
+```
+
+**Auto-linking:** Daily notes are processed by `auto-link-people.cjs` during review to convert person names to WikiLinks.
+
 ### Search & Recall
 When asked about something:
 1. **Semantic search (default):** Use the `query` tool (QMD MCP) first. It finds content by meaning, not just keywords — "customer retention" will find notes about "churn", "cancellation", "NPS scores". Use `status` to confirm QMD is healthy if results seem off.

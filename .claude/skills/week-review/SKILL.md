@@ -97,6 +97,56 @@ If available, enhance the weekly priority review with meaning-based analysis:
 
 **If QMD unavailable:** Skip silently. Task completion stats still work fine.
 
+### 1.75: Daily Notes Aggregation (Pattern Detection)
+
+**Find all daily notes from this week:**
+
+```bash
+# Get Monday-Friday dates for this week
+start_date=$(date -v-monday +%Y-%m-%d)
+end_date=$(date -v-friday +%Y-%m-%d)
+
+# List daily notes in range
+ls 00-Inbox/Daily_Notes/*.md | grep -E "202[0-9]-[0-9]{2}-[0-9]{2}"
+```
+
+**For each daily note in the week:**
+
+1. Read the file and parse its three sections (Tasks, Notes, Journal)
+2. Track metrics:
+   - Days with captures (X of 5)
+   - Avg tasks per day
+   - Avg notes per day
+   - Task follow-through rate (tasks → Tasks.md)
+
+3. Pattern detection:
+   - Recurring themes (words appearing in 3+ notes)
+   - Uncompleted tasks still open at week end
+   - Journal sentiment trends (if present)
+
+**Output in week review:**
+
+> 📝 **Daily Notes This Week:**
+> 
+> **Capture patterns:**
+> - Used: 4 of 5 days (Monday-Thursday)
+> - Avg: 2 tasks, 3 notes, 1 journal per day
+> 
+> **Task follow-through:**
+> - 8 tasks captured → 6 made it to Tasks.md (75%)
+> - 2 still orphaned (>3 days old): 
+>   - "Follow up with Sarah about Q2 budget"
+>   - "Review pricing proposal"
+> 
+> **Themes detected:**
+> - "Exchange hiring" mentioned 3x
+> - "Team standardization" mentioned 2x
+> - "Q2 planning" mentioned 2x
+> 
+> **Recommendation:** Consider creating a project for "Exchange Hiring" (recurring focus).
+
+**If no daily notes this week:** Skip this section.
+
 ### 2. Task Completion Stats (Concrete Numbers)
 
 Scan `03-Tasks/Tasks.md` for completion timestamps from this week:

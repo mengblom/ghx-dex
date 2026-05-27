@@ -17,7 +17,7 @@
 
 **Internal (GHX):**
 - [[Marten_Engblom|Marten Engblom]] (mengblom@ghx.com) - Accepted
-- [[CJ_Desai|CJ Desai]] (csingh@ghx.com)
+- [[CJ_Singh]] (csingh@ghx.com)
 - [[Bharat_Patel|Bharat Patel]] (bsharma@ghx.com) - CDP Lead
 - [[Daniel_Milburn|Daniel Milburn]] (dmilburn@ghx.com) - Fusion History
 - Geoff Wilson (gwilson@ghx.com)

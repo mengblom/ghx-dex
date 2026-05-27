@@ -248,7 +248,7 @@ Prep discussion for upcoming meeting with CJ and Steve about productivity improv
 
 ## Related
 
-**People:** Curtis, [[CJ_Desai|CJ Desai]], Christie, Steve  
+**People:** Curtis, [[CJ_Singh]], Christie, Steve  
 **Projects:** [[04-Projects/Thinktiv_Kickdrum_Engagement_May_2026]], Exchange Resiliency  
 **Companies:** [[Kickdrum]], [[Thinktiv]]  
 **Context:** Pre-meeting coordination for CJ strategic update, competing priorities escalation

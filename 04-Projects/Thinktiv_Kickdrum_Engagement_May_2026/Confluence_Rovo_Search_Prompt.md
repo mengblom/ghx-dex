@@ -2,6 +2,8 @@
 
 **Purpose:** Find existing documentation for Platform Architecture and Platform-Enabling Services sessions
 
+Result: [[Kickdrum_Prep_from_Confluence]]
+
 ---
 
 ## Comprehensive Search Prompt (Use First)

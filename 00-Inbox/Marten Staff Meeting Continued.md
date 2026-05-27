@@ -1,3 +1,4 @@
+Notes:
 - Aaron gives update on Red Mythos
 	- 3 pronged approach
 		- Better triaging process

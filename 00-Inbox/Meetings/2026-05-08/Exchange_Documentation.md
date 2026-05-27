@@ -51,11 +51,11 @@ Two main topics discussed:
 - Alternative: Could refine Confluence Robo prompt to exclude docs older than 2 years
 
 ## Action Items
-- [ ] **Mårten:** Send Kickdrum deep dive schedule to team
-- [ ] **Team:** Identify who should attend which sessions next week
-- [ ] **Aaron/Suresh:** Review and curate documentation page (max 30 min) - Due EOD today
-- [ ] **Mårten:** Send curated documentation to Kickdrum before next week's sessions
-- [ ] **Mårten:** Send meeting summary to broader team
+- [x] **Mårten:** Send Kickdrum deep dive schedule to team
+- [x] **Team:** Identify who should attend which sessions next week
+- [x] **Aaron/Suresh:** Review and curate documentation page (max 30 min) - Due EOD today
+- [x] **Mårten:** Send curated documentation to Kickdrum before next week's sessions
+- [x] **Mårten:** Send meeting summary to broader team
 
 ## Follow-up
 

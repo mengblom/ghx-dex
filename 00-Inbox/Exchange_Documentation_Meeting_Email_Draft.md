@@ -28,9 +28,11 @@ Kickdrum has indicated they need **better documentation** to make these technica
 
 **What I did:** Used Confluence Robo to generate a comprehensive list of Exchange docs. The result is in the [Confluence page linked in today's meeting invite].
 
-**The ask:** Can Aaron and Suresh spend **max 30 minutes today** to either:
+**The ask:** Can you all spend **max 30 minutes today** to either:
 - **Option A:** Review the generated page and delete irrelevant/outdated content, OR
 - **Option B:** Replace it with 3-5 curated links to the most relevant current documentation
+
+You probably need to coordinate - Aaron and Suresh are already taking a look.
 
 **Why:** Much of our documentation is outdated (some from 2020). We want to give Kickdrum a curated, current list rather than overwhelming them.
 

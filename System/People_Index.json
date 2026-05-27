@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "built_at": "2026-05-08T07:25:02.983040",
-  "total": 22,
+  "built_at": "2026-05-21T11:55:12.375050",
+  "total": 26,
   "by_type": {
-    "internal": 12,
+    "internal": 16,
     "external": 10,
     "cpo_network": 0
   },
@@ -20,13 +20,35 @@
       "status": "populated"
     },
     {
-      "name": "CJ Desai",
+      "name": "Curtis",
       "company": "GHX",
-      "role": "VP of Engineering / Manager",
-      "email": "csingh@ghx.com",
+      "role": "VP of Engineering",
+      "email": null,
       "type": "internal",
-      "path": "05-Areas/People/Internal/CJ_Desai.md",
+      "path": "05-Areas/People/Internal/Curtis.md",
       "last_interaction": "2026-05-07",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Sadhana",
+      "company": "GHX",
+      "role": "Product Owner - Visibility Applications",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Sadhana.md",
+      "last_interaction": "2026-05-21 (via Ramesh)",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Radha",
+      "company": "GHX",
+      "role": "Product Manager - Visibility",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Radha.md",
+      "last_interaction": "2026-05-21 (via Ramesh)",
       "tags": [],
       "status": "populated"
     },
@@ -37,7 +59,7 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Mike_Mitchell.md",
-      "last_interaction": "2026-05-06",
+      "last_interaction": "2026-05-08",
       "tags": [],
       "status": "populated"
     },
@@ -49,6 +71,17 @@
       "type": "internal",
       "path": "05-Areas/People/Internal/Bharat_Patel.md",
       "last_interaction": "2026-05-06",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "CJ Singh",
+      "company": "GHX",
+      "role": "CTO",
+      "email": "csingh@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/CJ_Singh.md",
+      "last_interaction": "2026-05-21 (via Ramesh)",
       "tags": [],
       "status": "populated"
     },
@@ -75,24 +108,35 @@
       "status": "populated"
     },
     {
+      "name": "Laura Taylor",
+      "company": "GHX",
+      "role": "Product Leader - Visibility Applications",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Laura_Taylor.md",
+      "last_interaction": "2026-05-21 (via Ramesh)",
+      "tags": [],
+      "status": "populated"
+    },
+    {
       "name": "Daniel Milburn",
       "company": "GHX",
-      "role": "Direct Report",
+      "role": "Director",
       "email": "dmilburn@ghx.com",
       "type": "internal",
       "path": "05-Areas/People/Internal/Daniel_Milburn.md",
-      "last_interaction": "2026-05-06",
+      "last_interaction": "2026-05-08",
       "tags": [],
       "status": "populated"
     },
     {
       "name": "Aaron Srivastava",
       "company": "GHX",
-      "role": "Direct Report",
+      "role": "Director",
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Aaron_Srivastava.md",
-      "last_interaction": "2026-05-05",
+      "last_interaction": "2026-05-08",
       "tags": [],
       "status": "populated"
     },
@@ -121,11 +165,11 @@
     {
       "name": "Ramesh Donnipadu",
       "company": "GHX",
-      "role": "Direct Report",
+      "role": "Director",
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Ramesh_Donnipadu.md",
-      "last_interaction": "2026-05-05",
+      "last_interaction": "2026-05-21",
       "tags": [],
       "status": "populated"
     },

@@ -33,16 +33,22 @@ company_size: "enterprise"  # options: startup (1-100), scaling (100-1000), ente
 email_domain: "ghx.com"
 
 # Calendar Configuration
-# Which calendar to use for daily planning and meeting queries
+# Outlook MCP is the primary calendar source (macOS Calendar MCP is disabled)
 calendar:
-  primary_calendar_name: "mengblom@ghx.com"  # Use the full calendar identifier (used by /daily-plan)
-  work_calendar: "mengblom@ghx.com"  # Legacy field for calendar MCP default
+  source: "outlook"  # Using Outlook MCP for all calendar access
+  primary_calendar_name: "Calendar"  # Outlook calendar name (ID: 13)
+  calendar_id: 13  # Outlook calendar ID for API calls
+  work_calendar: "Calendar"  # Legacy field for calendar MCP default
 
 # Regional Preferences
 # Calendar and locale settings
 regional_preferences:
   # First day of the week for calendar calculations
   first_day_of_week: "monday"  # options: sunday, monday
+
+# Timezone
+# IANA timezone for accurate date/time calculations
+timezone: "America/Denver"
 
 # Communication Preferences
 # How the AI adapts its tone and language when working with you

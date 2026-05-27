@@ -9,7 +9,7 @@
 ## Core Workflows (8 features)
 
 - [x] Daily planning (`/daily-plan`)
-- [ ] Daily review (`/review` or `/daily-review`)
+- [x] Daily review (`/review` or `/daily-review`)
 - [x] Weekly planning (`/week-plan`)
 - [ ] Weekly review (`/week-review`)
 - [ ] Quarterly planning (`/quarter-plan`)
@@ -43,6 +43,12 @@
 - [ ] Project tracking (`/project-health`)
 - [ ] Product brief (`/product-brief`)
 - [ ] Project page created
+
+## Recruiting Workflows (3 features)
+
+- [x] Interview processed (`/process-interviews`)
+- [x] Candidate folder created
+- [x] Resume vs. interview analysis generated
 
 ## Journaling (4 features)
 

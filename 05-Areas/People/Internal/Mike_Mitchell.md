@@ -20,7 +20,7 @@
 
 **Strength:** Strong
 
-**Last interaction:** 2026-05-06
+**Last interaction:** 2026-05-08
 
 ---
 
@@ -56,6 +56,7 @@
 
 | Date | Topic | Notes Link |
 |------|-------|------------|
+| 2026-05-08 | Road to Autonomy Github Migrations | [[00-Inbox/Meetings/2026-05-08/Road_to_Autonomy_Github_Migrations.md]] |
 | 2026-05-06 | TT/KD Platform Architecture Workshop | [[00-Inbox/Meetings/2026-05-06/TT_KD_WS2_Platform_Architecture_Current_State.md]] |
 | 2026-05-05 | Marten Staff Meeting | [[00-Inbox/Meetings/2026-05-05/Marten_Staff_Meeting.md]] |
 | 2026-04-29 | SDLC Conversation | [[07-Archives/Daily-Notes/2026-04/2026-04-29 09.45 SDLC Conversation.md]] |

@@ -1,10 +1,10 @@
-# [[CJ_Desai]]
+# [[CJ_Singh]]
 
 ## Overview
 
 | Field | Value |
 |-------|-------|
-| **Role** | VP of Engineering / Manager |
+| **Role** | CTO |
 | **Company** | GHX |
 | **Company Page** | 05-Areas/Companies/GHX.md |
 | **Email** | csingh@ghx.com |
@@ -15,13 +15,13 @@
 
 ## Relationship Context
 
-**How we met:** Manager at GHX
+**How we met:** CTO at GHX
 
-**Relationship type:** Direct Manager
+**Relationship type:** Executive Leadership
 
 **Strength:** Strong
 
-**Last interaction:** 2026-05-07
+**Last interaction:** 2026-05-21 (via Ramesh)
 
 ---
 
@@ -39,9 +39,30 @@
 - Values radical clarity on project completion criteria
 - Asks "when are we done?" to avoid gold-plating
 - Advocates for partnership model between product and engineering
+- **Strong accountability focus:** "In God we trust. Everybody else should bring data."
+- Expects leaders to push, shout, yell when blocked - not just wait on other teams
+- Disappointed when teams don't track metrics at manager level
+
+### Recent Feedback (May 2026 - Hyderabad Visit)
+**Metrics Tracking Program:**
+- Disappointed Exchange teams (except IPA) not tracking metrics
+- Made Ramesh in charge of Hyderabad-wide metrics tracking program
+- Weekly meetings where all engineering managers present their metrics and how they're using them to improve
+- Starting with DORA metrics, but any metrics acceptable
+
+**Core UI Migration Project Concerns:**
+- Very disappointed with lack of accountability on Core UI migration (started Oct 2025, still not complete)
+- Feels project is drifting - "nobody is taking accountability"
+- Told Ramesh: "This is not the Ramesh I knew. The way you handled Swift and other projects - what happened to you?"
+- Expects leaders to push through blockers, not just report them
+
+**E-Invoice/Base Invoice Coupling:**
+- Knows the history of the strong coupling issue
+- Disappointed we're not pushing for resolution (combine or separate teams)
+- Guidance: escalate weekly until it reaches Tina if needed
 
 ### Strategic Priorities
-Working with Curtis on five technical priorities:
+Working with Curtis (VP of Engineering, direct report) on five technical priorities:
 1. Database migration
 2. DR maturity (RTO/RPO goals)
 3. Breaking the monolith (most ambiguous)
@@ -54,6 +75,8 @@ Working with Curtis on five technical priorities:
 
 | Date | Topic | Notes Link |
 |------|-------|------------|
+| 2026-05-21 | Ramesh/Marten 1:1 (CJ feedback discussed) | [[00-Inbox/2026-05-21 Ramesh 1x1.md]] |
+| 2026-05-07 | Referenced in Curtis/Marten 1:1 | [[00-Inbox/Meetings/2026-05-07/2026-05-07 - Marten Curtis 1-1.md]] |
 | 2026-05-06 | TT/KD Platform Architecture Workshop | [[00-Inbox/Meetings/2026-05-06/TT_KD_WS2_Platform_Architecture_Current_State.md]] |
 | 2026-05-01 | Technical Priorities Review | [[00-Inbox/Meetings/2026-05-01/Technical_Priorities_Review.md]] |
 | 2026-05-01 | Call with CJ (transcript) | [[00-Inbox/Meetings/2026-05-01/2026-05-01_Call_with_CJ.md]] |

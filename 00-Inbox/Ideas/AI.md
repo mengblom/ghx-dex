@@ -1,0 +1,8 @@
+- OSS team
+	- Setting up All repo for AI
+		- Claude.md for all services
+	- Reusable skills for dependency upgrades
+		- TDD approach
+		- Learning by doing - 1 service at a time, feedback loop with continuous improvements
+		- Getting added to the Exchange AI Plugin
+		- 

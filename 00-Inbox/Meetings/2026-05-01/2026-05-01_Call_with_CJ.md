@@ -1,6 +1,6 @@
 Meeting Title: Technical priorities review with focus on productivity and monolith migration
 Date: May 1, 2026
-Meeting participants: [[CJ_Desai|CJ]], Mårten Engblom
+Meeting participants: [[CJ_Singh|CJ]], Mårten Engblom
 
 ## Context
 

@@ -71,6 +71,9 @@
 - **Product Leadership Gap:** Observation that product team operates in project management mode vs product vision mode
 - **Autonomous Teams:** Strong alignment on need for teams to be independently deployable with clear ownership
 
+### Resource Allocation Pressures
+- Bharat requesting Mike Mitchell to spend 100% of time on Resiliency Center 2.0 (as of May 2026)
+
 ---
 
 *Created: 2026-05-08*

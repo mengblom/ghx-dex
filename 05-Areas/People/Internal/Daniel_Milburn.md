@@ -46,6 +46,23 @@ See `05-Areas/People/Internal/Daniel_Milburn/Reviews/` for performance review do
 
 ---
 
+## Key Context
+
+### Current Responsibilities & Transitions
+- Historically managed Happiest Minds relationship and resource allocation
+- Transitioning vendor management to distributed model across directors
+- Owns AWS cost projections (scheduling handover meeting with Marten, Ramesh, Aaron, Mike)
+- Deep technical knowledge of Red Mythos project challenges
+
+### Recent Discussions (May 2026)
+- **Red Mythos:** Has concerns about tolerance for increased risk in approach
+- **AOR (Areas of Responsibility):** Some cross-org areas still owned by Daniel including Happiest Minds contractors
+- **AWS Cost Projections:** Planning to demonstrate process and share responsibility next month
+- **Knarr Backfill:** Request submitted to backfill departing team member
+- **CJ/Steve Presentation:** Discussing how to address progress on productivity/resiliency and capacity shifts
+
+---
+
 ## Action Items Involving Them
 
 ### From May 8, 2026 Meetings
@@ -54,6 +71,7 @@ See `05-Areas/People/Internal/Daniel_Milburn/Reviews/` for performance review do
 
 ### Ongoing
 - [ ] Review migrated performance documentation
+- [ ] Schedule AWS cost projection handover meeting with Ramesh, Aaron, Mike
 
 ---
 

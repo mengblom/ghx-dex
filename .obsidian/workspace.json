@@ -6,7 +6,6 @@
       {
         "id": "7c164495f5381ab8",
         "type": "tabs",
-        "dimension": 49.157581764122895,
         "children": [
           {
             "id": "6db9eda364daec13",
@@ -37,67 +36,52 @@
             }
           },
           {
-            "id": "102eecd30b444391",
+            "id": "c2fc91826be1aa1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Scorecard - Chas Narne.md",
+                "file": "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Email_to_CJ_Tonight.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Scorecard - Chas Narne"
-            }
-          },
-          {
-            "id": "f55dbe3dcc61da8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Scorecard - Chas Narne.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interview Scorecard - Chas Narne"
+              "title": "Email_to_CJ_Tonight"
             }
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "5cdaa2786b8fb54a",
+        "id": "a47d855394aaa052",
         "type": "tabs",
-        "dimension": 50.842418235877105,
         "children": [
           {
-            "id": "e36ab18f073614a6",
+            "id": "8bcb28b0ac9d2566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Meeting_Prep_CJ_2026-05-08.md",
+                "file": "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meeting_Prep_CJ_2026-05-08"
+              "title": "2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript"
             }
           },
           {
-            "id": "572ffd10ead072cb",
+            "id": "b7c815422252436e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Ideas/AI.md",
+                "file": "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Additional points.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI"
+              "title": "Additional points"
             }
           }
         ],
@@ -133,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "princ",
+                "query": "next staff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 395.5
   },
   "right": {
     "id": "2ef4d907c28b6785",
@@ -263,47 +247,47 @@
       "bases:Create new base": false
     }
   },
-  "active": "572ffd10ead072cb",
+  "active": "c2fc91826be1aa1e",
   "lastOpenFiles": [
-    "07-Archives/2026-05/Meetings/Marten Staff Meeting Continued.md",
-    "07-Archives/2026-05/Meeting_Prep_Architecture_Questions_2026-05-04.md",
-    "07-Archives/2026-05/Meeting_Prep_CJ_2026-05-08.md",
-    "07-Archives/2026-05/Weekly_Synthesis_2026-05-08.md",
-    "07-Archives/2026-05/Email_Drafts/Body of Work Email Thread Response.md",
-    "07-Archives/2026-05/Email_Drafts/Body of Work Email Thread.md",
-    "07-Archives/2026-05/Email_Drafts/Exchange_Documentation_Meeting_Email_Draft.md",
-    "07-Archives/2026-05/Meetings/1x1 with Daniel.md",
-    "07-Archives/2026-05/Meetings/Curtis 1x1.md",
-    "07-Archives/2026-05/Meetings/2026-05-21 Ramesh 1x1.md",
+    "00-Inbox/Ideas/CJ Email Backup.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Email_to_CJ_Tonight.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Additional points.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ's Questions.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Talking_Points_CJ_Meeting.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Meeting_Prep_CJ_2026-05-08.md",
+    "00-Inbox/Daily_Notes/2026-05-27.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_2_Timeline_With_Domain_Definition.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Meeting_Agenda_CJ_2026-05-29.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_1_Target_State_Diagram.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_3_Capacity_Shift_Analysis.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ_Follow_Up_Meeting_Prep_2026-05-29.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/~$Exchange-Modernization-Update.pptx",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ Meeting Prep - More Concise Slide Outline.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Outlines/presentation-outline-v3.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/CJ_Feedback_and_Slide_Outline.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/CJ_Strategic_Deliverables_Next_Week.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/Competing Priorities Q2.md",
+    "04-Projects/Autonomous_Teams/README.md",
+    "04-Projects/Disaster_Recovery/README.md",
+    "04-Projects/Team_Housekeeping_Rollout/Team_Housekeeping_Asks.md",
+    "04-Projects/Red_Mythos_Vulnerability_Remediation/README.md",
+    "04-Projects/Autonomous_Teams",
+    "04-Projects/Disaster_Recovery",
+    "04-Projects/Red_Mythos_Vulnerability_Remediation",
+    "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell.md",
+    "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript.md",
+    "00-Inbox/Ideas/Next Staff Meeting 2026-05-21.md",
+    "00-Inbox/Ideas/Autonomous Teams Handoff - Mike Mitchell.md",
+    "00-Inbox/Ideas/Q3_Roadmap_Planning_Communications.md",
+    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/SWEng_FrankParth.docx",
+    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/Interview_ Frank Parth for Principal Software Engineer, Data Architecture and Engineering.docx",
+    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth",
     "07-Archives/2026-05/Meetings",
     "07-Archives/2026-05/Email_Drafts",
     "07-Archives/2026-05",
-    "00-Inbox/Exchange_Documentation_Meeting_Email_Draft.md",
-    "00-Inbox/Body of Work Email Thread Response.md",
-    "00-Inbox/Body of Work Email Thread.md",
-    "00-Inbox/Ideas/AI.md",
-    "00-Inbox/CHANGELOG.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/CJ_Feedback_and_Slide_Outline.md",
-    "00-Inbox/Untitled.md",
-    "00-Inbox/Daily_Notes/2026-05-27.md",
-    "00-Inbox/Ideas/Next Staff Meeting 2026-05-27.md",
-    "00-Inbox/Daily_Notes/2026-05-26.md",
-    "00-Inbox/Ideas/Next Staff Meeting Ideas & Topics.md",
-    "00-Inbox/Ideas/Next Staff Meeting 2026-05-21.md",
-    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Scorecard - Chas Narne.md",
-    "04-Projects/AI_Productivity_Research/~$_Productivity_Report_Final.docx",
-    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Questions - Chas Narne.md",
-    "00-Inbox/Exchange Modernization Feedback from CJ.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/~$Exchange-Modernization-Update.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Exchange-Modernization-Update.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Exchange-Modernization-Update-v5-incomplete.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Archive/Exchange-Modernization-Update.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Archive/~$Exchange-Modernization-Update-v5-incomplete.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/~$Exchange-Modernization-Update.pptx",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/v5-rebuild/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/check-current/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Archive/workspace/gradient-bg.png",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Archive/README.md",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/v5-working/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/v4-unpacked/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/workspace/gradient-bg.png",

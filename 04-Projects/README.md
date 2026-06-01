@@ -2,6 +2,18 @@
 
 Time-bound initiatives with clear goals and deliverables.
 
+## Organization (Johnny Decimal System)
+
+Projects are numbered for easy reference and prioritization:
+
+- **10-19** — Critical Technical Execution (Big 4 Strategic Initiatives)
+- **20-29** — Exchange Transformation
+- **30-39** — AI & Innovation Strategy
+- **40-49** — Team & Organization
+- **50-59** — Strategic Partnerships
+
+**Example:** "Check 14 for MongoDB migration details" or "Update in 21"
+
 ## What Makes Something a Project?
 
 A project has:

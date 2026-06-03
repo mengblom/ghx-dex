@@ -104,5 +104,28 @@ Original strategic deliverables documentation:
 
 ---
 
-**Last Updated:** 2026-05-07  
-**Status:** Ready for delivery (v3)
+## June 2026 Follow-up Work
+
+After the May presentation, CJ requested additional data-driven analysis:
+
+### 2026-05-29 CJ Follow-up Call/
+Follow-up meeting and subsequent work to address CJ's specific data requirements:
+- **Email_Thread_Evolution.md** - Complete email thread (May 23 - June 2) showing evolution of CJ's requirements
+- **CJ_Data_Requirements_Status.md** - Tracking progress on gathering metrics and incident data
+- **2026-06-01 Email to CJ - Playback.md** - Summary of understanding
+- **Incident_Root_Cause_Data_Feb2025.md** - Historical incident data (Oct 2024 - Jan 2025) from Board deck
+- **Exchange_Plan_Latest.pptx** - Oct 2024 Board deck (shared by Curtis)
+- **Exchange Resiliency.md** - Resiliency progress update
+- Meeting transcripts and prep notes
+
+**Key Requirements from CJ:**
+1. Incident-backed data linking Autonomous Teams to resiliency improvements
+2. Metrics-driven "From → To" for P0 Database work (following Dermot's DB stabilization model)
+3. Documentation of decoupling work completed since Feb 2025
+4. Risk analysis: Oct 1 vs Jan 1 capacity shift to 50-50
+5. Update "exchange resiliency" box in May 19 India All Hands deck
+
+---
+
+**Last Updated:** 2026-06-03  
+**Status:** Ready for delivery (v3), Follow-up analysis in progress

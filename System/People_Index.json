@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "built_at": "2026-05-28T08:33:10.777412",
+  "built_at": "2026-06-03T09:22:53.156612",
   "total": 26,
   "by_type": {
     "internal": 16,
@@ -26,7 +26,7 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Curtis.md",
-      "last_interaction": "2026-05-07",
+      "last_interaction": "2026-05-29",
       "tags": [],
       "status": "populated"
     },
@@ -81,7 +81,7 @@
       "email": "csingh@ghx.com",
       "type": "internal",
       "path": "05-Areas/People/Internal/CJ_Singh.md",
-      "last_interaction": "2026-05-21 (via Ramesh)",
+      "last_interaction": "2026-05-29 (via Curtis debrief)",
       "tags": [],
       "status": "populated"
     },

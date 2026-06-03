@@ -153,6 +153,18 @@
 11. **Metrics standardization stance:** Critiqued KPMD dashboard as "bespoke solution doesn't seem like the right path" in conversation with Eric Arrington. Advocated for "back to basics" approach - standardize what counts as deployment, use data straight from tool chain
 12. **Recruiting timing:** Strategically paused Principal Engineer interviews until week of 5/18 (after Summit travel)
 
+### Email Communication (May 4-8)
+
+**Pattern:** Light email week - most coordination happening through meetings and Slack
+
+**Substantive emails sent:**
+- **May 6:** "Kickdrum Meeting Standby" - Brief coordination message asking team members to stand by for potential Kickdrum deep dive
+- **May 5:** "Marten Staff Meeting - continued" - Follow-up meeting invite after schedule conflicts
+- **May 8:** "Exchange Documentation" - Shared Confluence documentation link (curated for Kickdrum)
+- **May 8:** Document shares (LoginData files, Staff Meeting docs, Kickdrum meeting spreadsheet)
+
+**Observation:** Email used primarily for meeting coordination and document sharing this week. Strategic coordination and decision-making happened in meetings (14 tracked) and real-time channels.
+
 ### Action Items from Meetings
 
 From Exchange Documentation meeting (Friday):

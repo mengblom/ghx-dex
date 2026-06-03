@@ -11,77 +11,24 @@
             "id": "6db9eda364daec13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Inbox/Exchange Modernization Feedback from CJ.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Exchange Modernization Feedback from CJ"
+              "title": "New tab"
             }
           },
-          {
-            "id": "e93d3826c22c14e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Projects/Exchange_Modernization_Report_May_2026/Outlines/presentation-outline-v3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "presentation-outline-v3"
-            }
-          },
-          {
-            "id": "c2fc91826be1aa1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Inbox/Daily_Reviews/2026-05-28.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-28"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "a47d855394aaa052",
-        "type": "tabs",
-        "children": [
           {
             "id": "8bcb28b0ac9d2566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript.md",
+                "file": "00-Inbox/Weekly_Synthesis_2026-05-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript"
-            }
-          },
-          {
-            "id": "b7c815422252436e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Additional points.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Additional points"
+              "title": "Weekly_Synthesis_2026-05-24"
             }
           }
         ],
@@ -142,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 399.5
   },
   "right": {
     "id": "2ef4d907c28b6785",
@@ -247,44 +194,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "c2fc91826be1aa1e",
+  "active": "8bcb28b0ac9d2566",
   "lastOpenFiles": [
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Email_to_CJ_Tonight.md",
-    "00-Inbox/Daily_Reviews/2026-05-28.md",
-    "00-Inbox/Ideas/CJ Email Backup.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Additional points.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ's Questions.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Talking_Points_CJ_Meeting.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Meeting_Prep_CJ_2026-05-08.md",
-    "00-Inbox/Daily_Notes/2026-05-27.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_2_Timeline_With_Domain_Definition.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Meeting_Agenda_CJ_2026-05-29.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_1_Target_State_Diagram.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/Visual_Aid_3_Capacity_Shift_Analysis.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ_Follow_Up_Meeting_Prep_2026-05-29.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/~$Exchange-Modernization-Update.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Meeting_Prep/CJ Meeting Prep - More Concise Slide Outline.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Outlines/presentation-outline-v3.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/CJ_Feedback_and_Slide_Outline.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/CJ_Strategic_Deliverables_Next_Week.md",
-    "04-Projects/Exchange_Modernization_Report_May_2026/Competing Priorities Q2.md",
-    "04-Projects/Autonomous_Teams/README.md",
-    "04-Projects/Disaster_Recovery/README.md",
-    "04-Projects/Team_Housekeeping_Rollout/Team_Housekeeping_Asks.md",
-    "04-Projects/Red_Mythos_Vulnerability_Remediation/README.md",
-    "04-Projects/Autonomous_Teams",
-    "04-Projects/Disaster_Recovery",
-    "04-Projects/Red_Mythos_Vulnerability_Remediation",
-    "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell.md",
-    "00-Inbox/Meetings/2026-05-28 - Autonomous Teams Handoff - Mike Mitchell - Transcript.md",
-    "00-Inbox/Ideas/Next Staff Meeting 2026-05-21.md",
-    "00-Inbox/Ideas/Autonomous Teams Handoff - Mike Mitchell.md",
-    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/SWEng_FrankParth.docx",
-    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/Interview_ Frank Parth for Principal Software Engineer, Data Architecture and Engineering.docx",
-    "04-Projects/21 Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth",
-    "07-Archives/2026-05/Meetings",
-    "07-Archives/2026-05/Email_Drafts",
-    "07-Archives/2026-05",
+    "00-Inbox/Weekly_Synthesis_2026-05-30.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/Email_Thread_Evolution.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Incident_Root_Cause_Data_Feb2025.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/CJ_Data_Requirements_Status.md",
+    "00-Inbox/Daily_Plans/2026-05-28.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Exchange_Plan_Latest.pptx",
+    "02-Week_Priorities/Week_Priorities.md",
+    "System/Session_Learnings/2026-06-03.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-06-01 Email to CJ - Playback.md",
+    "00-Inbox/2026-06-02 08.30 Call with Var George from Veritas Capital - Transcript.md",
+    "System/Session_Learnings/2026-06-02.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Exchange Resiliency.md",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Scorecard - Chas Narne.md",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Principal Engineer, Data Architecture and Engineering - Job Description.md",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Principal Engineer, Data Architecture and Engineering - Scorecard.md",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Chas Narne/Interview Questions - Chas Narne.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 Debrief with Curtis - Communication Strategy.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 13.30-02 Curtis Briefing Transcript.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 13.30-01 Curtis Briefing Prep Notes.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-06-01 Email to CJ - Playback.md",
+    "04-Projects/Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call",
+    "04-Projects/Exchange_Modernization_Report_May_2026",
+    "04-Projects/12-Disaster_Recovery/README.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 10.30-02 - Call_Summary_and_Action_Items.md",
+    "04-Projects/README.md",
+    "04-Projects/MongoDB_Atlas_Migration/Migration_Schedule.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Thinktiv_Kickdrum_Meeting_Agenda.docx",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Priority_Reading_List.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Kickdrum_Prep_from_Confluence.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Key_Talking_Points.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026",
+    "04-Projects/43-Architecture_Forum_Launch",
+    "04-Projects/42-Team_Housekeeping_Rollout",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/SWEng_FrankParth.docx",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/Interview_ Frank Parth for Principal Software Engineer, Data Architecture and Engineering.docx",
+    "04-Projects/41-Recruiting/Roles/14 - Staff Software Engineer/Interviews/Brett Cooley",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/Presentations/Archive/workspace/gradient-bg.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/v5-rebuild/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/check-current/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/Archive/workspace/gradient-bg.png",
@@ -293,7 +241,6 @@
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/workspace/gradient-bg.png",
     "node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
     "node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
-    "node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
-    "node_modules/playwright-core/lib/server/chromium/appIcon.png"
+    "node_modules/playwright-core/lib/tools/dashboard/appIcon.png"
   ]
 }

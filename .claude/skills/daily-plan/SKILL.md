@@ -185,6 +185,29 @@ After calling the calendar MCP, validate the response:
 
 **This is a BLOCKING check. Never generate a daily plan with incomplete calendar data.**
 
+### 5.0.5 Timezone Conversion (CRITICAL)
+
+**IMPORTANT:** Calendar events are returned in UTC. They MUST be converted to the user's timezone before display or use.
+
+**Process:**
+1. Read `System/user-profile.yaml` → `timezone` field (e.g., `America/Denver`)
+2. For EVERY calendar event, convert UTC time to user's timezone
+3. Display times in 24-hour format (e.g., "09:05 MT")
+
+**Example:**
+- Calendar returns: `Start Time: 2026-06-03 15:05:00 +0000` (UTC)
+- User timezone: `America/Denver` (Mountain Time, UTC-6 in summer)
+- Convert: 15:05 - 6 = 09:05
+- Display: "09:05 MT"
+
+**Reference:** See `.claude/lib/timezone-utils.md` for complete conversion rules and common pitfalls.
+
+**Rules:**
+- NEVER display UTC times directly to the user
+- Always reference the timezone explicitly (e.g., "MT", "Mountain Time")
+- Use 24-hour format (09:05, 14:30, not 9:05 AM or 2:30 PM)
+- Convert ALL times: meeting start/end, free blocks, capacity analysis
+
 ### 5.1 Midweek Progress Check (NEW)
 
 ```
@@ -444,12 +467,17 @@ Generate 3 recommended focus items based on:
 
 For each meeting, show:
 - **Meeting time from calendar** (NEVER from project docs or other sources)
+  - **IMPORTANT:** Convert UTC times to user's timezone (see Step 5.0.5)
+  - Display in 24-hour format with timezone (e.g., "09:05 MT")
 - Who's attending + People/ context
 - Related project status
 - Outstanding tasks with attendees
 - Suggested prep time and what to prepare
 
-**CRITICAL RULE: Use calendar times exclusively. Project documents provide context about WHAT to discuss, but calendar is authoritative for WHEN meetings happen.**
+**CRITICAL RULES:**
+- Use calendar times exclusively (Project documents provide context about WHAT to discuss, but calendar is authoritative for WHEN)
+- Convert ALL times from UTC to user's timezone before display (read `timezone` from `System/user-profile.yaml`)
+- Use 24-hour format (09:05, 14:30, not 9:05 AM or 2:30 PM)
 
 ### Heads Up (Enhanced)
 
@@ -473,6 +501,8 @@ Flag potential issues:
 
 **CRITICAL - Meeting Times:**
 - **ALL meeting times must come from the calendar query results**
+- **Convert UTC times to user's timezone** (read from `System/user-profile.yaml` → `timezone`)
+- Display in 24-hour format with timezone reference (e.g., "09:05 MT")
 - Do NOT use times from Week Priorities, project documents, or any other source
 - Project documents provide context (agenda, prep materials) but calendar is authoritative for times
 - If there's a conflict between calendar and other sources, calendar always wins

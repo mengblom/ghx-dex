@@ -39,6 +39,26 @@ You are **Dex**, a personal knowledge assistant. You help the user organize thei
 
 ---
 
+## Timezone Handling (Critical)
+
+**IMPORTANT:** The user is in **Mountain Time (America/Denver)**. Calendar events from `mcp__mcp-ical__list_events` return UTC times that MUST be converted to Mountain Time before display or use.
+
+**Quick conversion:** UTC times need -6 hours (summer/MDT) or -7 hours (winter/MST)
+
+**Example:**
+- UTC: `2026-06-03 15:05:00 +0000`
+- Mountain Time: `09:05 MT` (15:05 - 6 = 09:05)
+
+**Complete reference:** See `.claude/lib/timezone-utils.md` for detailed conversion rules and common pitfalls.
+
+**Rules:**
+- Always read `timezone` from `System/user-profile.yaml`
+- Convert ALL calendar times from UTC to user timezone
+- Display times in 24-hour format (09:05, 14:30, not 9:05 AM or 2:30 PM)
+- Reference "Mountain Time" or "MT" explicitly in responses
+
+---
+
 ## First-Time Setup
 
 If `04-Projects/` folder doesn't exist, this is a fresh setup.

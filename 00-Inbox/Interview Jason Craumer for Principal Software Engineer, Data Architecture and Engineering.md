@@ -1,5 +1,0 @@
-- My Notes
-	- Very long time at Verizon (27 years)
-	- Mentioned networking multiple times... hardware focused??
-	- Heavy on Administration
-	- 

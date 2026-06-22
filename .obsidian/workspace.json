@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Weekly_Synthesis_2026-06-21.md",
+                "file": "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Kickdrum_Prep_from_Confluence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weekly_Synthesis_2026-06-21"
+              "title": "Kickdrum_Prep_from_Confluence"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "DORA_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -214,8 +214,19 @@
   },
   "active": "e3425fa85c2720b6",
   "lastOpenFiles": [
-    "00-Inbox/Daily_Notes/2026-06-18.md",
+    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/Interview_Notes.md",
+    "07-Archives/Plans/2026-05-28_Focus.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/2026-06-02_Var_George_Call.md",
+    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_CTO_Response_Draft.md",
+    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_Research_Findings.md",
+    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_Quick_Reference.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Key_Talking_Points.md",
+    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Full_Agenda.md",
+    "00-Inbox/DORA_Metrics_Research_Findings.md",
+    "00-Inbox/DORA_Metrics_Quick_Reference.md",
+    "00-Inbox/DORA_Metrics_CTO_Response_Draft.md",
     "00-Inbox/Weekly_Synthesis_2026-06-21.md",
+    "00-Inbox/Daily_Notes/2026-06-18.md",
     "System/Session_Learnings/2026-06-22.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Slack Message to Leads.md",
     "System/Session_Learnings/2026-06-18.md",
@@ -230,18 +241,7 @@
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/~$Exchange_Plan_Latest.pptx",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Exchange Resiliency.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/Email_Thread_Evolution.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/Org_Transformation_Story_Outline.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/CJ_Feedback_and_Slide_Outline.md",
-    "00-Inbox/Meetings/2026-06-02 08.30 Call with Var George from Veritas Capital.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/Competing Priorities Q2.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/CJ_Strategic_Deliverables_Next_Week.md",
-    "02-Week_Priorities/Week_Priorities.md",
-    "00-Inbox/Temp/Red Mythos Update.md",
-    "00-Inbox/Weekly_Synthesis_2026-06-14.md",
-    "07-Archives/Plans/2026-W24.md",
-    "00-Inbox/Meetings/2026-06-09 17.00 Mike Mitchell 1-1 - Yu Chen Resignation.md",
-    "System/Session_Learnings/2026-06-15.md",
     "04-Projects/44-Engineering_Metrics_Strategy/Research_and_Prep",
     "04-Projects/44-Engineering_Metrics_Strategy",
     "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Jason_Craumer/Interview Scorecard - Jason Craumer.md.backup",

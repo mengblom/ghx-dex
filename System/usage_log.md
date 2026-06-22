@@ -38,7 +38,7 @@
 
 ## Organization (5 features)
 
-- [ ] Inbox triage (`/triage` or `/process-inbox`)
+- [x] Inbox triage (`/triage` or `/process-inbox`)
 - [ ] Learning capture (`/save-insight`)
 - [ ] Project tracking (`/project-health`)
 - [ ] Product brief (`/product-brief`)

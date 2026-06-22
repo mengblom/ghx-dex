@@ -62,7 +62,38 @@ Your task backlog organized by priority.
 
 <!-- Standard priority items -->
 
+- [ ] **Check Jira rollout completion status with Mike Mitchell** ^task-20260622-001
+	- Was this completed during your June 11-14 FTO? Need to verify 12 project spaces created, templates approved, and teams onboarded. If incomplete, identify blockers.
+	- Pillar: Organizational Foundation (People & Process) | Priority: P2
+	- Source: Daily note May 26 (orphaned task)
+
+- [ ] **Set up Confluence space for team domain ownership documentation** ^task-20260622-002
+	- Create central place to document each team's domain/area of responsibility, decoupling plans, and architectural decisions. Supports Architecture Forum launch.
+	- Pillar: Breaking the Monolith → Autonomous Teams | Priority: P2
+	- Source: Daily notes June 5/8 (orphaned task)
+	- Related: Architecture Forum Priority #2 this week
+
+- [ ] **Follow up with Chantelle/Tasha on GHXi salary information** ^task-20260622-003
+	- Sandy Chronister mentioned salaries might be missing from GHXi system for India hires. Verify if this is blocking hiring or compensation discussions.
+	- Pillar: Organizational Foundation (People & Process) | Priority: P2
+	- Source: Daily note June 9 (orphaned task from Sandy 1x1)
+
+- [ ] **Verify project/initiative tracking above sprint level** ^task-20260622-004
+	- Check if Jira spaces rollout solved visibility gap for strategic initiatives that span multiple sprints/teams. If not, define tracking mechanism.
+	- Pillar: Organizational Foundation (People & Process) | Priority: P2
+	- Source: Daily note May 27 (orphaned task)
+
 ## P3 - Backlog
+
+- [ ] **Set up Marten Staff Confluence page** ^task-20260622-005
+	- Create team documentation hub on Confluence for staff-level information, meeting notes, and team resources.
+	- Pillar: Organizational Foundation (People & Process) | Priority: P3
+	- Source: Daily notes June 5/8 (orphaned task)
+
+- [ ] **Process transcripts from prior meetings (May/early June)** ^task-20260622-006
+	- Review and extract action items from unprocessed meeting transcripts. Low ROI after 2+ weeks but may surface missed commitments.
+	- Pillar: Organizational Foundation (People & Process) | Priority: P3
+	- Source: Daily notes June 5/8 (orphaned task)
 
 ### Archived from May 2026 (marked complete 2026-06-01)
 

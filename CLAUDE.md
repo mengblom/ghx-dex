@@ -604,7 +604,7 @@ Use `capture_idea` MCP tool to capture Dex system improvements anytime. Ideas ar
 ## File Conventions
 
 - Date format: YYYY-MM-DD
-- Meeting notes: `YYYY-MM-DD - Meeting Topic.md`
+- Meeting notes: `YYYY-MM-DD HH.mm Meeting Topic.md` (24-hour time with period separator)
 - Person pages: `Firstname_Lastname.md`
 - Career skill tags: Add `# Career: [skill]` to tasks/goals that develop specific skills
   - Example: `Ship payments redesign [[^task-20260128-001]] # Career: System Design`

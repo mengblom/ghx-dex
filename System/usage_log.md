@@ -9,7 +9,7 @@
 ## Core Workflows (8 features)
 
 - [x] Daily planning (`/daily-plan`)
-- [x] Daily review (`/review` or `/daily-review`)
+- [x] Daily review (`/review` or `/daily-review`) - last used 2026-06-08
 - [x] Weekly planning (`/week-plan`)
 - [x] Weekly review (`/week-review`)
 - [ ] Quarterly planning (`/quarter-plan`)
@@ -201,3 +201,6 @@ This file is automatically updated as you use Dex features:
 - Checkboxes get checked when you use a feature
 - Journey metadata updates based on checked features
 - Run `/dex-level-up` anytime to discover capabilities you haven't explored yet
+
+## Week Planning
+- [x] /week-plan

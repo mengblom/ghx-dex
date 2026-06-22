@@ -205,3 +205,6 @@ scripts/private/
 !CHANGELOG.md
 !.claude-plugin/
 .ant-colony/
+
+# Office temp/lock files
+~$*

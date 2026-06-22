@@ -1,0 +1,15 @@
+### Themes to acknowledge, touch on ###
+- Alignment, competing priorities, frequent shifting priorities
+- Communication
+	- Corp comms around org changes etc.
+		- Outside Exchange
+		- Inside Exchange
+	- Comms around goals, future, company direction
+- India
+	- Some changes lately (in-office requirement)
+	- Leadership calls GHXI an equal partner but the actions do not match the words.
+		- Time tracking
+		- 3 days in office
+		- (Hiring practices - salary discussions)
+		- US Managers not sharing information
+- Some comments around not being able to express opinions, deliver contrary opinions etc.

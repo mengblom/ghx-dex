@@ -1,0 +1,20 @@
+- Background
+	- Well known that we have a lot of "tech debt" (at GHX in general and particularily in Exchange)
+	- Back in 2024, following some disruptive outages/incidents, there was a lot of work done to document the root causes of incidents/instability etc., as well as general tech debt and improvements needed, documented in
+		- [2025.02 Exchange_Board Deck_Feb.2025](https://ghx365-my.sharepoint.com/:b:/r/personal/mengblom_ghx_com/Documents/Documents/Projects/Exchange%20Resiliency/2025.02%20Exchange_Board%20Deck_Feb.2025.pdf?csf=1&web=1&e=wgKzKQ) 
+		- [Exchange_Plan_Latest.pptx](https://ghx365-my.sharepoint.com/:p:/r/personal/mengblom_ghx_com/Documents/Documents/Projects/Exchange%20Resiliency/Exchange_Plan_Latest.pptx?d=wcb18e3e1412f4dbbbd3750ebb1e85ea5&csf=1&web=1&e=QdtLLA)
+		- [2026 Product Health Portfolio - Copy.pptx](https://ghx365-my.sharepoint.com/:p:/r/personal/mengblom_ghx_com/Documents/Documents/Projects/Exchange%20Resiliency/2026%20Product%20Health%20Portfolio%20-%20Copy.pptx?d=w37fa829cb4154a5689578a1030a2360c&csf=1&web=1&e=4oQOf0) (slide 41 - 49)
+	- Unfortunately there is a feeling/narrative in the business along the lines of
+		- We are not making progress on the tech debt
+		- We have an endless amount of tech debt and will never get through it
+		- What is the point of planning new commercial roadmap features, the engineering team will never have time for it
+	- The truth is we have made a lot of progress against many of the issues, incident root causes, improvement opportunities, tech debt etc., we have just not told the story enough
+	- I want to change this narrative, and I need help taking inventory of all the great work that has been done.
+	- 
+- Ask
+	- Help cataloging any and all work completed or partially completed in the last ~18 months:
+		- That maps against any of the items (big or small) mentioned in the few slide decks mentioned above
+		- Has had a positive impact on "resiliency" (stability, incidents, scalability, modularity, decoupling, vulnerabilities, EOL technologies,... )
+		- Has improved our engineering efficiency (team autonomy, CI/CD automation, DORA metrics improvements etc.)
+	- We are collecting references to this work in [Exchange Resiliency Completed.docx](https://ghx365-my.sharepoint.com/:w:/r/personal/mengblom_ghx_com/Documents/Documents/Projects/Exchange%20Resiliency/Exchange%20Resiliency%20Completed.docx?d=w0c1816a3b45f4d8b98641b37592b8f8a&csf=1&web=1&e=PestU9) . There is a table to collect the data, as well as a brainstormed list that Daniel and Mike helped me get started. 
+	- I am constructing this narrative / deck next week. But please don't let this ask derail important work in progress. Start by taking a little bit of time reviewing the material referenced, jot down any related completed/partially completed work that comes to mind. If you feel that you need more time for this, coordinate with your manager, Daniel, Mike or Ramesh.   

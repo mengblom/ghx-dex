@@ -1,189 +1,171 @@
 # Week Priorities
 
-**Week of:** 2026-06-15
+**Week of:** 2026-06-22
 
-**⚠️ EXTREMELY SHORT WEEK:** Mon-Thu offsite events, Fri holiday (Juneteenth)
+**Week Shape:** AFTERNOON EXECUTION WEEK - Heavy meeting mornings (46 meetings total), productive afternoon blocks
 
 ---
 
 ## 📊 Week Shape
 
-**⚠️ EXTREMELY LIMITED CAPACITY:** Mon-Thu offsite, Fri holiday
+**Meeting Load:** 46 meetings, 35.1 hours scheduled
+- **Mon:** 5 meetings (3.2 hrs) - Lightest day
+- **Tue:** 10 meetings (6.8 hrs)
+- **Wed:** 12 meetings (8.0 hrs)
+- **Thu:** 13 meetings (12.1 hrs) - Heaviest day
+- **Fri:** 6 meetings (4.9 hrs) - Two major deliverables
 
-**Working capacity:** Email and Slack collaboration only (no dedicated work time)
-- **Mon-Thu:** Offsite events (full days committed)
-- **Fri:** Holiday (Juneteenth)
+**Available Deep Work Time:** ~10.5 hours (afternoons Mon-Wed)
+- **Monday 15:30-18:00:** 3 hours
+- **Tuesday 12:00-16:00:** 4 hours (best block)
+- **Wednesday 12:30-16:00:** 3.5 hours
 
-**Deep work capacity:** ~0 hours
-**Meeting capacity:** Offsite schedule only
-**Collaboration capacity:** Light (email/Slack between sessions)
+**Pattern:** Meeting-heavy mornings → productive afternoon blocks
 
-**This is NOT an execution week.**
+**Strategy:** Protect afternoon blocks ruthlessly for CJ prep and All-Hands prep. This is NOT a wide-open execution week, but you DO have enough concentrated time for the two major deliverables.
 
 ---
 
-## 🎯 Last Week Context (June 8-14)
+## 🎯 Last Week Context (June 15-20)
 
-**Strategic wins:**
-- ✅ Kickdrum access granted (weekly SteerCo, monthly readouts)
-- ✅ DORA metrics strategy resolved with CJ (learning vs. surveillance culture)
-- ✅ Yu Chen HR situation documented comprehensively
-- ✅ Short week managed appropriately (strategic over execution)
+**Week reality:** Mon-Thu offsite + Fri holiday = 0 days execution capacity
 
-**What didn't get done:**
-- ❌ Architecture forum launch (deferred appropriately)
-- ❌ CJ data-backed response (requires 6-8 hours deep work)
+**Prep work completed:**
+- ✅ CJ deck structure drafted (outline + placeholders)
+- ✅ All-Hands agenda drafted (ready for finalization)
+
+**What deferred (appropriately):**
+- ❌ CJ data gathering (needs deep work)
+- ❌ Architecture forum launch (needs coordination)
+- ❌ All other execution work
 
 **Key insight:**
-> Last week was 2-day work week (Mon-Tue only, FTO Wed-Fri). This week is even more constrained - offsite Mon-Thu means NO dedicated work time.
+> Last week was pure prep. This week is DELIVERY week: All-Hands Thursday, CJ presentation Friday. The afternoon blocks make this possible.
 
 ---
 
-## 🎯 Top 5 This Week
+## 🎯 Top 3 This Week
 
-**⚠️ Adjusted for offsite week with zero execution capacity + 2 prep tasks for next week**
+**Note:** Only 3 priorities this week. Calendar is too packed for more.
 
-### 1. **Maintain Presence & Strategic Relationships** — **Organizational Foundation** ^week-2026-W25-p1
+### 1. **Deliver CJ Exchange Resiliency Presentation** — **Critical Technical Execution** ^week-2026-W26-p1
 
-**Success criteria:** Stay responsive on email/Slack, maintain visibility during offsite, preserve momentum on CJ/Kickdrum relationships
+**Deadline:** Friday 11:00-12:00 meeting with [[CJ_Singh|CJ Singh]]
+
+**Success criteria:** 
+- Data-backed deck showing 18 months of resiliency work mapped to incident root causes
+- Metrics-driven "From → To" analysis for 3 P0 database items (Audit DB, BT/BD, data layer)
+- Clear stability risk analysis: Oct 1 vs Jan 1 capacity shift
+- SharePoint 1-pager updated
+- Confidence to present: "This is what we've done, this is the impact"
 
 **Why this is Priority #1:**
-- You have NO dedicated work time this week
-- Only capacity is responsive communication
-- Don't let strategic relationships (CJ, Kickdrum, Yu Chen situation) go silent
-- Quick responses between offsite sessions
+- **Deferred 3 weeks** (June 2 → June 8 → June 15 → June 22)
+- **Strategic stakes:** Determines timeline for Autonomous Teams work (3 extra months if Oct 1 vs Jan 1)
+- **Steve's product planning depends on this**
+- **The data exists** - you just need to map the story
+- **Zero tolerance for another defer** - this MUST happen this week
 
-**Effort:** Minimal (30 min/day checking in)
-- Morning: Check email/Slack (15 min)
-- Evening: Quick responses (15 min)
-- Watch for urgent items (Yu Chen decision, Kickdrum meeting invites)
+**Time allocation:** ~9 hours total (Mon-Wed afternoons)
+- **Monday 15:30-18:00 (3 hrs):** Gather all data sources
+  - Find resiliency surge plan decks `task-20260602-032`
+  - Find Dermot's DB stabilization work `task-20260602-033`
+  - Gather current DB metrics (Audit DB, BT/BD, data layer) `task-20260602-034`
+  - Organize incident data (zero DB incidents Nov 2024-Mar 2025, zero release incidents Oct 2024-present)
 
-**Best timing:** Morning before offsite starts, evening after sessions end
+- **Tuesday 12:00-16:00 (4 hrs):** Deep analysis work
+  - Build metrics-driven "From → To" for P0 database work `task-20260602-035`
+  - Map 18-month resiliency work to incident root causes `task-20260601-027`
+  - Document specific examples: I/O throttling (saved recent incident), release rigor (19+ months clean)
 
-**Quarterly goal:** None active (operational)
+- **Wednesday 12:30-15:00 (2.5 hrs):** Finalize deliverables
+  - Complete deck with data-backed narrative
+  - Analyze stability risk: Oct 1 vs Jan 1 capacity shift `task-20260602-038`
+  - Update SharePoint 1-pager "Exchange resiliency" box `task-20260602-036`
+  - Draft follow-up email `task-20260602-037`
 
----
-
-### 2. **Protect Next Week for CJ Deep Work** — **Critical Technical Execution** ^week-2026-W25-p2
-
-**Success criteria:** Ensure week of June 22 has protected time for CJ data-backed response (6-8 hours deep work needed)
-
-**Why this is Priority #2:**
-- CJ work has been deferred 2 weeks already (June 2 → June 8 → June 15)
-- Requires sustained focus: map 18 months resiliency work to incident root causes
-- Can't happen this week (offsite) or next week if calendar fills up
-- Steve's product planning depends on this
-
-**Action for this week:** 
-- Block deep work time on calendar for June 23-25 (Mon-Wed next week)
-- Resist any meeting requests for those days
-- Mental prep: what data sources you'll need (resiliency surge decks, Dermot's DB work)
-
-**Next week plan:**
-- Monday 6/22: Gather data sources (resiliency decks, incident metrics)
-- Tuesday 6/23: Build "From → To" analysis for P0 database work
-- Wednesday 6/24: Map 18 months work to incident root causes
-- Thursday 6/25: Draft email, update SharePoint 1-pager
-- Friday 6/26: Send CJ response
+**Thursday:** Final review in morning gaps before All-Hands
 
 **Quarterly goal:** None active (de facto quarterly goal)
 
----
-
-### 3. **Draft CJ Exchange Resiliency Deck (Fri 6/26 11:00)** — **Critical Technical Execution** ^week-2026-W25-p3
-
-**Success criteria:** Initial draft structure and key slides ready for refinement next week
-
-**Why this is Priority #3:**
-- Meeting with CJ Friday June 26 at 11:00
-- Can work on this in offsite downtime (laptop-friendly)
-- Aligns with deep work planned for Mon-Wed next week
-- Better to start structure now than scramble Thursday night
-
-**Effort:** 2-3 hours spread across the week (30-45 min sessions)
-- Outline deck structure (problem, solution, metrics, timeline)
-- Draft key slides: "From → To" metrics, incident data, work completed
-- Placeholder slides for data you'll gather next week
-
-**Best timing:** Evening downtime after offsite sessions, hotel work
-
-**Quarterly goal:** None (supports CJ follow-up work)
-
-**Note:** This is drafting/structure work, not final. You'll refine with actual data Mon-Wed next week.
+**Related meetings:**
+- Sunday 6/22 13:00-13:30: Exchange Resiliency Completed - Q&A (context gathering)
+- Friday 6/26 11:00-12:00: Exchange Resiliency presentation (THE MEETING)
 
 ---
 
-### 4. **Draft All-Hands Agenda (Planned for Wed 6/25)** — **Organizational Foundation** ^week-2026-W25-p4
+### 2. **Deliver All-Hands Session** — **Organizational Foundation** ^week-2026-W26-p2
 
-**Success criteria:** Clear agenda outline ready to send for scheduling
+**Deadline:** Thursday 08:00-09:00
 
-**Why this is Priority #4:**
-- Planning to schedule for Wednesday June 25
-- Need to send calendar invite next week
-- Can draft agenda structure in offsite downtime
-- Sets tone for organizational communication
+**Success criteria:**
+- Clear agenda sent to team
+- Key messages prepared (org updates, wins, strategic priorities)
+- Decision made on what to share vs. hold back (CJ timeline, Kickdrum, DORA metrics)
+- Session facilitated effectively
+- Team feels informed and connected
 
-**Effort:** 1-2 hours total
-- Define purpose and key messages
-- Outline agenda sections (org updates, wins, strategic priorities, Q&A)
-- Consider what to share vs. hold back (CJ timeline, Kickdrum, DORA metrics)
-- Draft logistics (time, format, follow-up)
+**Why this is Priority #2:**
+- **You're scheduling it this week** (canceling Exchange Recruiting 08:00-09:00 Thursday)
+- **Sets organizational communication tone**
+- **Agenda already drafted last week** - just needs finalization
+- **Good timing:** After CJ prep complete, before CJ presentation
 
-**Best timing:** Quiet moment between offsite sessions
+**Time allocation:** ~2 hours total
+- **Wednesday 15:00-16:00 (1 hr):** Finalize content
+  - Review draft agenda from last week
+  - Prep talking points and key messages
+  - Decide what to share vs. hold back
+  - Finalize logistics
+
+- **Wednesday evening or Thursday morning gaps:** Final polish
+
+**Actions:**
+- **TODAY:** Send calendar invite for Thursday 08:00-09:00, cancel/decline Exchange Recruiting meeting
+- **Tuesday:** Decline or reschedule Jarvis Enablement 08:30-09:30 (conflicts with All-Hands)
 
 **Quarterly goal:** None (operational)
 
-**Note:** You may want to reference the All-Hands after CJ work completes - consider if you want to announce any Exchange resiliency wins.
+**Note:** Consider whether you want to reference Exchange resiliency work after Friday's CJ meeting - but DON'T preview it Thursday (meeting hasn't happened yet).
 
 ---
 
-### 5. **Defer All Other Work** — **All Pillars** ^week-2026-W25-p5
+### 3. **Maintain Operational Flow** — **All Pillars** ^week-2026-W26-p3
 
-**Success criteria:** Explicitly acknowledge this week is write-off for deep execution, don't feel guilty about it
+**Success criteria:** Key relationships and operational items don't stall while you focus on CJ/All-Hands
 
-**Why this is Priority #5:**
-- Offsite Mon-Thu = zero deep work capacity
-- Friday = holiday
-- Architecture forum, Kickdrum punch list, all other tasks → week of June 22
-- Better to acknowledge reality than create false expectations
+**Why this is Priority #3:**
+- You have **46 meetings** this week - many are operational and can't be deferred
+- Strategic relationships need maintenance (Kickdrum, Yu Chen situation, hiring)
+- Quick wins in meeting gaps keep momentum
 
-**What defers:**
-- Architecture forum launch
-- Kickdrum punch list (draft validation areas)
-- Jira rollout (Mike Mitchell can handle if urgent)
-- India hiring discussions
-- Autonomous teams documentation
-- All 37 open tasks in backlog
+**Key activities:**
 
-**Mental model:** This is a 0-day deep work week. Light prep tasks (CJ deck, All-Hands) are appropriate. Heavy execution defers to next week.
+**Kickdrum engagement:**
+- ✅ Attend Kickdrum Project Readout #2 (Fri 08:00-10:00) - listening/learning
+- ✅ Attend Kickdrum Weekly SteerCo (Fri 14:00-14:30)
+- ✅ Attend Kickdrum Tech Debt Working Session (Mon 14:30-15:30)
+- Stay alert to insights that inform your architecture work
 
-**Quarterly goal:** None
+**Hiring decisions:**
+- Exchange Hiring De-Briefs (Fri 09:30-10:30) - two back-to-back sessions
+- Make decisions quickly, don't let drag
 
----
+**Yu Chen situation monitoring:**
+- Marten/Sandy HR Check-in (Tue 10:00-10:30) - likely update
+- Follow up with [[Mike_Mitchell|Mike Mitchell]] if needed
+- [[Adam_Gordon|Adam Gordon]] coaching may be topic
 
-## ⚡ If You Have 30 Minutes Between Offsite Sessions
+**Staff meetings and 1:1s:**
+- Marten Staff Meeting (Tue 09:05-10:00)
+- Curtis Staff Meeting (Tue 10:35-12:00)
+- Ramesh 1:1s (Mon 08:30, Thu 07:30)
+- Daniel 1:1 (Tue 16:00)
+- Laura 1:1 (Thu 15:30)
 
-### Quick Wins (5-10 minutes each)
+**Effort:** Distributed across the week, in meeting gaps
 
-- **Check in with Mike Mitchell** on Yu Chen situation progress
-- **Respond to any Kickdrum meeting invites** (likely first SteerCo coming up)
-- **Skim email for urgent CJ/Curtis items** (unlikely but check)
-- **Review Friday's orphaned daily note tasks** (from June 5) - still relevant?
-
-### Good Downtime Work (30-45 minutes)
-
-- ✅ **Draft CJ deck structure** (outline problem/solution/metrics sections)
-- ✅ **Brainstorm All-Hands agenda** (purpose, key messages, logistics)
-- ✅ **Sketch key slides** for Exchange Resiliency deck (placeholders for data)
-- ✅ **Draft messaging** for All-Hands (what to share vs. hold back)
-
-### Don't Even Try
-
-- ❌ CJ data gathering (needs access to decks/metrics - do Mon-Wed next week)
-- ❌ Final CJ deck polish (needs actual data first)
-- ❌ Architecture forum planning (needs team coordination)
-- ❌ Kickdrum punch list (needs 1-2 hours synthesis)
-- ❌ Any task requiring collaboration or sustained deep focus
+**Quarterly goal:** None (operational)
 
 ---
 
@@ -191,233 +173,243 @@
 
 ### Must Complete This Week
 
-**Presence & Relationships (Priority 1):**
-- [ ] Check email morning/evening each day (15 min each)
-- [ ] Stay responsive on Slack to urgent items
-- [ ] Watch for Yu Chen situation updates (HR decision pending)
-- [ ] Respond to any Kickdrum meeting invites
+**CJ Exchange Resiliency Deck (Priority 1):**
+- [ ] **Monday afternoon:** Gather all data sources
+  - [ ] Find resiliency surge plan decks `task-20260602-032`
+  - [ ] Find Dermot's DB stabilization work reference `task-20260602-033`
+  - [ ] Gather current DB metrics (Audit DB, BT/BD, data layer) `task-20260602-034`
+  - [ ] Organize incident data timeline (Nov 2024-present)
 
-**CJ Deck Prep (Priority 3):**
-- [ ] Draft deck structure for Exchange Resiliency meeting (Fri 6/26 11:00)
-- [ ] Outline problem/solution/metrics sections
-- [ ] Create placeholder slides for key data points (incident trends, completed work, risk analysis)
-- [ ] Draft narrative flow (context → problem → solution → impact)
+- [ ] **Tuesday afternoon:** Build the analysis
+  - [ ] Build metrics-driven "From → To" for P0 database work `task-20260602-035`
+  - [ ] Map 18-month resiliency work to incident root causes `task-20260601-027`
+  - [ ] Document I/O throttling impact (saved recent incident)
+  - [ ] Document release rigor results (19+ months zero incidents)
 
-**All-Hands Prep (Priority 4):**
-- [ ] Draft All-Hands agenda for Wednesday June 25
-- [ ] Define purpose and key messages for the session
-- [ ] Outline agenda sections (org updates, wins, strategic priorities, Q&A)
-- [ ] Consider logistics (time, format, venue, follow-up)
-- [ ] Draft what to share vs. hold back (CJ timeline, Kickdrum, DORA metrics)
+- [ ] **Wednesday afternoon:** Finalize deliverables
+  - [ ] Complete deck with full data-backed narrative
+  - [ ] Analyze stability risk: Oct 1 vs Jan 1 capacity shift `task-20260602-038`
+  - [ ] Update SharePoint 1-pager "Exchange resiliency" box `task-20260602-036`
+  - [ ] Draft follow-up email to CJ `task-20260602-037`
 
-### Deferred to Week of June 22 (Post-Offsite)
+- [ ] **Thursday morning:** Final review before All-Hands
 
-**CJ Follow-up (Priority 1 for next week):**
-- [ ] Block Mon-Wed 6/22-6/24 for deep work (do this from your phone if needed)
-- [ ] Find and review resiliency surge plan decks `task-20260602-032`
-- [ ] Find Dermot's DB stabilization work reference `task-20260602-033`
-- [ ] Gather current DB metrics (Audit DB, BT/BD, data layer) `task-20260602-034`
-- [ ] Build metrics-driven "From → To" for P0 database work `task-20260602-035`
-- [ ] Map 18-month resiliency work to incident root causes `task-20260601-027`
-- [ ] Analyze stability risk: Oct 1 vs Jan 1 capacity shift `task-20260602-038`
-- [ ] Update SharePoint 1-pager "Exchange resiliency" box `task-20260602-036`
-- [ ] Draft data-backed email response to CJ `task-20260602-037`
+**All-Hands Session (Priority 2):**
+- [ ] **TODAY (Monday):** Send calendar invite for Thursday 08:00-09:00, cancel Exchange Recruiting
+- [ ] **Tuesday:** Decline/reschedule Jarvis Enablement 08:30-09:30 (conflicts with All-Hands)
+- [ ] **Wednesday afternoon:** Finalize All-Hands content
+  - [ ] Review draft agenda from last week
+  - [ ] Prep talking points and key messages
+  - [ ] Decide what to share vs. hold back (CJ timeline, Kickdrum, DORA metrics)
+  - [ ] Finalize logistics (format, follow-up)
+- [ ] **Thursday 08:00-09:00:** Deliver All-Hands session
 
-**Architecture Forum (Priority 2 for next week):**
-- [ ] Define architecture forum structure (purpose, format, cadence)
+**Operational Flow (Priority 3):**
+- [ ] Attend Kickdrum sessions (Mon 14:30, Fri 08:00, Fri 14:00)
+- [ ] Exchange Hiring De-Briefs (Fri 09:30-10:30) - make decisions
+- [ ] Check Yu Chen situation status with Sandy (Tue) or Mike Mitchell
+- [ ] Maintain presence in staff meetings and 1:1s
+
+### Should Complete (If Time Permits)
+
+**Quick wins in meeting gaps:**
+- [ ] Check status of Jira rollout with Mike Mitchell
+- [ ] Review any urgent Confluence setup items
+- [ ] Process any orphaned daily note tasks
+
+### Explicitly Deferred to Next Week
+
+**Architecture Forum Launch:**
+- [ ] Define architecture forum structure (purpose, format, cadence) `task-20260601-031`
 - [ ] Schedule first session via regular team meetings
 - [ ] Create domain boundary definition template
 - [ ] Initiate domain boundary discussions with teams
 
-**Kickdrum Engagement (Priority 3 for next week):**
-- [ ] Attend first Kickdrum SteerCo meeting (when invited)
-- [ ] Draft Kickdrum punch list (tech coupling, deployment, DR, MongoDB validation)
+**Reasoning:** This week is too packed. You need 4-6 hours of coordination time, and all your afternoon blocks are allocated to CJ/All-Hands. Better to defer than do poorly.
 
-**Jira Rollout (If Not Delegated):**
-- [ ] Check in with Mike Mitchell - did Wed testing happen? (FTO conflict)
-- [ ] Review and approve template if needed
-- [ ] Track 12 project creation progress
-
-### Should Complete (P1) - All Deferred
-
+**Other deferred items:**
 - [ ] Gather specific decoupling examples from teams `task-20260601-028`
-- [ ] Document P0 database work details `task-20260601-029`
-- [ ] Talk to Daniel about India hiring calibration (3 manager roles, 3+ weeks blocked)
-- [ ] Review Chas Narne interview feedback and make decision
-
-### Backlog (P2) - All Deferred
-
-- [ ] Triage orphaned tasks from June 5 daily notes (autonomous teams docs, Confluence space)
-- [ ] Process transcripts for prior meetings
+- [ ] Document P0 database work details `task-20260601-029` (will be covered in CJ deck)
+- [ ] Talk to Daniel about India hiring calibration
+- [ ] Review Chas Narne interview feedback
 - [ ] Set up Marten Staff Confluence page
+- [ ] Process old meeting transcripts
 
 ---
 
 ## 📅 Key Events
 
-| Day | Activity | Purpose | Capacity |
-|-----|----------|---------|----------|
-| **Mon 6/16** | Offsite (full day) | Company/team event | Email/Slack only |
-| **Tue 6/17** | Offsite (full day) | Company/team event | Email/Slack only |
-| **Wed 6/18** | Offsite (full day) | Company/team event | Email/Slack only |
-| **Thu 6/19** | Offsite (full day) | Company/team event | Email/Slack only |
-| **Fri 6/20** | **Juneteenth Holiday** | Federal holiday | No work |
-| **Mon 6/22** | 🎯 **CJ DEEP WORK** | Data gathering begins | BLOCK CALENDAR |
-| **Tue 6/23** | 🎯 **CJ DEEP WORK** | Build "From → To" analysis | BLOCK CALENDAR |
-| **Wed 6/24** | 🎯 **CJ DEEP WORK** | Map work to root causes | BLOCK CALENDAR |
-| **Wed 6/25** | 🎤 **All-Hands (Planned)** | Org communication session | Schedule this week |
-| **Fri 6/26** | 🎯 **CJ Meeting (11:00)** | Exchange Resiliency deck presentation | Finalize Thu 6/25 |
+| Day | Time (MT) | Event | Type | Notes |
+|-----|-----------|-------|------|-------|
+| **Mon 6/22** | 08:30-09:00 | Ramesh 1x1 | 1:1 | Weekly check-in |
+| | 10:00-10:30 | GHX/Cardinal DR Prep | Meeting | June 30 call prep |
+| | 12:00-12:45 | Jarvis ADKAR Session | Training | AI Fluency assessment |
+| | 13:00-13:30 | Exchange Resiliency Q&A | Meeting | Context for Friday deck |
+| | 14:30-15:30 | Kickdrum Tech Debt | Workshop | Listen for insights |
+| | **15:30-18:00** | 🎯 **CJ PREP - Data Gathering** | DEEP WORK | PROTECT THIS BLOCK |
+| **Tue 6/23** | 06:30-07:30 | Weekly IPA Claude Alignment | Meeting | Early call |
+| | 08:00-09:00 | Sprint Reviews (3 concurrent) | Meetings | OSS, QE, MEX |
+| | 09:05-10:00 | Marten Staff Meeting | Staff | Your team |
+| | 10:00-10:30 | Marten/Ramesh + Marten/Sandy | 1:1s | Yu Chen update likely |
+| | 10:30-11:00 | Exchange MySQL Migration | Meeting | Weekly sync |
+| | 10:35-12:00 | Curtis Staff Meeting | Staff | Leadership team |
+| | **12:00-16:00** | 🎯 **CJ PREP - Deep Analysis** | DEEP WORK | PROTECT THIS BLOCK |
+| | 16:00-16:30 | Daniel 1x1 | 1:1 | Weekly check-in |
+| **Wed 6/24** | 08:00-09:30 | Sprint Reviews (4 teams) | Meetings | Performance, IO, CoreX, Org |
+| | 09:05-09:55 | Post Incident Review | Meeting | 3 overlapping? Check calendar |
+| | 10:00-11:30 | Exchange Automation | Meetings | SteerCo + Estimation |
+| | 10:00-11:00 | Continue Assure Architecture | Review | Concurrent with SteerCo? |
+| | 11:30-12:00 | Document Processing | Meeting | Opentelemetry SDK |
+| | 12:00-12:30 | GHX/Datadog Discussion | Meeting | Observability |
+| | **12:30-15:00** | 🎯 **CJ PREP - Finalize Deck** | DEEP WORK | PROTECT THIS BLOCK |
+| | **15:00-16:00** | 🎯 **All-Hands Prep** | DEEP WORK | PROTECT THIS BLOCK |
+| **Thu 6/25** | 07:05-08:00 | AI in Automation Office Hours | Meeting | |
+| | 07:30-08:00 | Ramesh 1x1 | 1:1 | Weekly check-in |
+| | **08:00-09:00** | 🎤 **ALL-HANDS SESSION** | DELIVERABLE | YOUR SESSION |
+| | ~~08:00-09:00~~ | ~~Exchange Recruiting~~ | CANCELED | You're canceling this |
+| | ~~08:30-09:30~~ | ~~Jarvis Enablement~~ | DECLINE | Conflicts with All-Hands |
+| | 09:00-11:00 | Monthly Product Review (2 hrs) | Meeting | Concurrent entries? |
+| | 09:30-10:00 | Exchange CoreUI Go-to-Market | Meeting | Concurrent with Product Review? |
+| | 10:30-11:00 | Exchange Mongo to Atlas | Meeting | Office Hours |
+| | 14:00-14:55 | Exchange Automation Pod | Meeting | Weekly operating |
+| | 15:00-15:30 | Exchange DR Gap Remediation | Meeting | Check-in |
+| | 15:30-16:20 | Laura 1x1 | 1:1 | Weekly check-in |
+| | 16:00-17:00 | Update OKRs | Meeting | |
+| **Fri 6/26** | 08:00-10:00 | Kickdrum Project Readout #2 | Meeting | ATTENDING (no prep) |
+| | 09:30-10:30 | Exchange Hiring De-Briefs (2) | Meetings | Make decisions |
+| | 10:30-10:55 | Exchange Product/Eng Checkpoint | Meeting | Weekly sync |
+| | **11:00-12:00** | 🎯 **EXCHANGE RESILIENCY** | DELIVERABLE | PRESENT TO CJ |
+| | 14:00-14:30 | Kickdrum Weekly SteerCo | Meeting | |
 
 ---
 
 ## 📊 Pillar Balance
 
-**⚠️ Offsite week with light prep work**
+**Execution week with clear deliverables focus**
 
 | Pillar | This Week | Balance |
 |--------|-----------|---------|
-| **Organizational Foundation** | Light presence + All-Hands prep | 🟢 40% (appropriate for capacity) |
-| **Critical Technical Execution** | CJ deck drafting + protecting next week | 🟢 40% (prep work) |
-| **Breaking the Monolith** | Deferred | 🟥 None (0%) |
-| **AI Native SDLC** | Deferred | 🟥 None (0%) |
-| **Presence/Responsiveness** | Email/Slack maintenance | 🟢 20% |
+| **Critical Technical Execution** | CJ deck prep + presentation | 🟢 60% (Primary focus) |
+| **Organizational Foundation** | All-Hands session + operational meetings | 🟢 25% |
+| **Breaking the Monolith** | Deferred (no capacity) | 🟡 0% (appropriate defer) |
+| **AI Native SDLC** | Deferred (no capacity) | 🟡 0% (appropriate defer) |
+| **Strategic Learning** | Kickdrum sessions | 🟢 15% |
 
-**Balance Assessment:** Good distribution for offsite week. Two strategic prep tasks (CJ deck, All-Hands) are laptop-friendly work that sets up next week's execution. No deep work attempted.
+**Balance Assessment:** Heavily weighted to Critical Technical Execution (CJ work). This is appropriate given:
+- 3 weeks of deferral
+- High strategic stakes
+- Clear Friday deadline
+- Limited deep work capacity
+
+Architecture Forum (Breaking the Monolith) appropriately deferred - needs coordination time you don't have this week.
 
 ---
 
-## 🔄 Carried Over from Last 2 Weeks
+## 🔄 Carried Over from Last 3 Weeks
 
-**CJ Follow-up** — Deferred 2 weeks (June 8 → June 15 → June 22)
+**CJ Follow-up** — Deferred 3 weeks (June 2 → June 8 → June 15 → June 22)
 - Week of June 2: Research phase only
 - Week of June 8: Short week (Mon-Tue), FTO Wed-Fri
 - Week of June 15: Offsite Mon-Thu, holiday Fri
-- **Week of June 22:** EXECUTION WEEK (deep work time available)
+- **Week of June 22:** DELIVERY WEEK - no more deferrals
 
-**Architecture Forum** — Deferred 2 weeks (June 8 → June 15 → June 22)
-- Week of June 8: Short week, deferred appropriately
-- Week of June 15: Offsite week, no team coordination capacity
-- **Week of June 22:** Regular work week, can launch
-
-**Jira Rollout** — Status unclear
-- Was scheduled for Wed June 11 testing (during FTO)
-- Mike Mitchell may have delegated or rescheduled
-- Check status this week
+**Architecture Forum** — Deferred 3 weeks (June 8 → June 15 → June 22 → June 29)
+- Deferred last 2 weeks appropriately (short week, offsite week)
+- Deferred this week due to packed calendar + CJ priority
+- **Week of June 29:** Target launch
 
 ---
 
-## 🎯 Quarterly Goals Context
+## ⚠️ Calendar Conflicts to Resolve
 
-**Status:** No quarterly goals currently tracked in system.
+**Thursday 6/25:**
+- Your All-Hands: 08:00-09:00
+- Exchange Recruiting: 08:00-09:00 (CANCEL THIS)
+- Jarvis Enablement: 08:30-09:30 (DECLINE THIS - conflicts 30 min)
 
-**Observation:** CJ work and Architecture Forum are operating as de facto quarterly goals without explicit framework.
+**Wednesday 6/24:**
+- Continue Assure Architecture Review: 10:00-11:00
+- Exchange Automation SteerCo: 10:00-10:30
+- Post Incident Review: 09:05-09:55 (shows 3x in calendar - duplicate entries?)
 
-**Recommendation:** After CJ follow-up completes (week of June 22), consider running `/quarter-plan` to establish Q2 2026 goals framework. Current priorities have multi-week momentum but lack overarching structure.
+**Action:** Review Wednesday 6/24 calendar for actual conflicts/duplicates.
+
+---
+
+## 🎯 Week Success Definition
+
+This week is successful if:
+
+1. ✅ **CJ deck delivered Friday 11:00** with data-backed story (18 months work → incident reduction)
+2. ✅ **All-Hands facilitated Thursday 08:00** with clear messaging and team connection
+3. ✅ **Afternoon blocks protected** Mon-Wed (no new meeting encroachment)
+4. ✅ **Operational flow maintained** (Kickdrum, hiring, 1:1s, staff meetings)
+5. ✅ **No guilt about deferring Architecture Forum** (appropriate given calendar reality)
+
+**Critical success:** Two major deliverables (All-Hands Thu, CJ presentation Fri) completed with confidence. Everything else is secondary.
+
+**What does NOT need to happen:**
+- ❌ Architecture Forum launch (deferred appropriately)
+- ❌ Long-term strategic planning
+- ❌ Backlog cleanup
+- ❌ Non-urgent operational items
 
 ---
 
 ## 💡 Strategic Context
 
-### The CJ Stakes (Now Blocked 2+ Weeks)
+### The CJ Stakes (Final Week)
 
-**What CJ needs:**
-- Incident data showing Autonomous Teams reduces resiliency risk
-- Metrics-driven "From → To" for 3 P0 database items
-- Stability risk analysis: Oct 1 vs Jan 1 capacity shift
-- SharePoint 1-pager updated with current resiliency metrics
+**What's at stake:**
+- **Timeline decision:** Oct 1 vs Jan 1 capacity shift (3 extra months for Autonomous Teams)
+- **Steve's product planning** depends on this
+- **18 months of work** needs to be mapped to incident reduction
+- **External validation opportunity** through Kickdrum engagement
 
-**Why it matters:**
-- Steve's product planning depends on this
-- Determines if you get 3 more months (Oct 1 vs Jan 1)
-- 18 months of work exists, story hasn't been told
-- Curtis revealed the gap: "I'm checking a bunch of them off" (incident root causes addressed)
-
-**The answer exists:** 
-- Zero DB incidents Nov 2024 - Mar 2025
-- Zero release incidents Oct 2024 - present
+**The story exists:**
+- Zero DB incidents Nov 2024 - Mar 2025 (after DB stabilization work)
+- Zero release incidents Oct 2024 - present (after release rigor implementation)
 - I/O throttling deployed Jan/Feb 2026 (saved recent incident)
-- Release rigor eliminated release-related incidents (19+ months)
+- Audit DB work, BT/BD improvements, data layer reliability investments
 
-**Just need to map it.** That's next week's job.
+**Your job this week:** Connect the dots. Show the "From → To" with data.
 
----
-
-### Kickdrum Opportunity (Access Granted)
-
-**Status:** Access granted to weekly SteerCo and monthly readouts
-
-**Value:** External validation pathway through Veritas Capital relationship (Var George)
-
-**Next steps (week of June 22):**
-1. Attend first SteerCo meeting
-2. Draft punch list: tech coupling, deployment flexibility, DR architecture, MongoDB strategy, monolith decomposition
-3. Position for external endorsement (either collapse timeline OR create peace with product org)
+**Confidence level:** HIGH. The work is done, the results are there, you just need to tell the story.
 
 ---
 
-### Yu Chen Situation (Monitoring)
+### Kickdrum Opportunity (Active Engagement)
 
-**Status:** HR decision pending (resign vs. team transfer)
+**Status:** Access granted, three sessions this week
+- Monday 14:30: Tech Debt Working Session
+- Friday 08:00: Project Readout #2 (2 hours)
+- Friday 14:00: Weekly SteerCo
 
-**Action items:**
-- Mike Mitchell handling with Sandy Chronister (HR)
-- Adam Gordon coaching needed (communication style, cultural sensitivity)
-- Monitor for updates this week (may resolve during offsite)
+**Your role:** Listen, learn, absorb context. No deliverables expected from you.
 
-**Your role:** Supportive oversight, not direct management. Mike owns this.
+**Value:** External validation pathway through [[Vinay_George|Vinay George]] (Veritas Capital). May support your Autonomous Teams timeline or create peace with product org.
 
----
-
-### DORA Metrics Monitoring (New Commitment)
-
-**Status:** CJ committed to learning approach (not surveillance)
-
-**Your commitment:** Monitor first 2-3 DORA metrics meetings for psychological safety
-
-**Action:** Speak up if format shifts from learning to evaluation
-
-**Next:** Likely first meeting in coming weeks, watch for calendar invite
+**Note:** Don't prep for these - your prep time is allocated to CJ/All-Hands. Just attend and be present.
 
 ---
 
-## 🏁 Week Success Definition
+### All-Hands Communication
 
-**⚠️ Adjusted for offsite week with light prep work**
+**Purpose:** Set organizational communication tone, connect team to strategic context
 
-This week is successful if:
+**Key decisions this week:**
+- What to share about CJ work? (AFTER Friday meeting, not before)
+- What to share about Kickdrum? (Access granted, learning phase)
+- What to share about DORA metrics? (CJ committed to learning approach)
+- What wins to highlight?
 
-1. ✅ **Stay responsive** to urgent items (Yu Chen, Kickdrum invites, CJ questions)
-2. ✅ **Protect next week's calendar** for CJ deep work (block Mon-Wed 6/22-6/24)
-3. ✅ **Draft CJ deck structure** for Friday 6/26 meeting (outline + placeholders)
-4. ✅ **Draft All-Hands agenda** for Wednesday 6/25 session (purpose + key messages)
-5. ✅ **Don't feel guilty** about limited execution this week
-
-**Critical success:** Preserve momentum on strategic relationships while making meaningful prep progress in offsite downtime. Don't burn out trying to do deep work that requires sustained focus.
-
-**Stretch goals:**
-- Quick check-in with Mike Mitchell on Yu Chen situation
-- Respond to Kickdrum meeting invites if they arrive
-- Finalize All-Hands logistics and send calendar invite
-
----
-
-## ⚠️ Blocked Items (No Movement Expected This Week)
-
-| Item | Blocked Since | What Would Unblock It |
-|------|---------------|-----------------------|
-| CJ follow-up | June 2 | Deep work time (arrives June 22) |
-| Architecture forum | June 8 | Regular work week with team coordination (arrives June 22) |
-| Yu Chen situation | June 9 | HR decision (may resolve this week) |
-| India hiring (3 manager roles) | ~3 weeks | Talk to Daniel about calibration |
-| Autonomous teams docs | June 5 | Confluence setup, all-hands meeting |
-| Chas Narne candidate decision | June 4 | Review interview feedback |
-| Jira rollout completion | June 11 | Check status with Mike Mitchell |
+**Timing note:** Thursday All-Hands is BEFORE Friday CJ meeting. Don't preview CJ outcome - you don't know it yet.
 
 ---
 
 ## 🏁 End of Week Review
 
-*Fill in on Friday, June 20 (or more realistically, Monday June 23)*
+*Fill in on Friday, June 27*
 
 ### Completed
 - 
@@ -429,15 +421,15 @@ This week is successful if:
 - 
 
 ### Next Week Focus
-- **CJ deep work** (Mon-Wed blocked) - gather data, finalize deck, present Fri 11:00
-- **All-Hands delivery** (Wed 6/25) - facilitate org communication session
-- **Architecture forum launch**
-- **Kickdrum engagement**
+- **Architecture Forum launch** (now you have capacity)
+- **Process CJ meeting outcomes** (what decisions were made?)
+- **Kickdrum follow-up** (what insights from readout/SteerCo?)
+- **Resume normal execution rhythm**
 
 ---
 
-*Generated: 2026-06-15 (Sunday)*  
+*Generated: 2026-06-22 (Monday)*  
 *Command: /week-plan*  
-*Context: Offsite Mon-Thu + Fri holiday = limited capacity week. Deep execution defers to week of June 22.*  
-*Strategy: Maintain presence, protect next week, prep for CJ deck (Fri 6/26) and All-Hands (Wed 6/25).*  
-*Updated: Added CJ deck drafting and All-Hands agenda prep as laptop-friendly offsite downtime work.*
+*Context: Meeting-heavy week (46 meetings, 35.1 hrs) with productive afternoon blocks. Two major deliverables: All-Hands Thursday, CJ presentation Friday.*  
+*Strategy: Protect Mon-Wed afternoon blocks ruthlessly for CJ prep (9 hrs) and All-Hands prep (1 hr). Maintain operational flow in gaps. Defer Architecture Forum appropriately.*  
+*Calendar note: User scheduling All-Hands Thu 08:00-09:00, canceling Exchange Recruiting. Need to resolve Jarvis Enablement conflict (08:30-09:30).*

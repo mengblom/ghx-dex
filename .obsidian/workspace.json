@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Incident_Root_Cause_Data_Feb2025.md",
+                "file": "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Resiliency Work Identified - Referenced.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Incident_Root_Cause_Data_Feb2025"
-            }
-          },
-          {
-            "id": "e3425fa85c2720b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Kickdrum_Prep_from_Confluence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kickdrum_Prep_from_Confluence"
+              "title": "Resiliency Work Identified - Referenced"
             }
           },
           {
@@ -41,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/CJ_Data_Requirements_Status.md",
+                "file": "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Manual Listing of Resiliency Items.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CJ_Data_Requirements_Status"
+              "title": "Manual Listing of Resiliency Items"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DORA_",
+                "query": "we experienced six production issues",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -212,35 +197,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "e3425fa85c2720b6",
+  "active": "8bcb28b0ac9d2566",
   "lastOpenFiles": [
-    "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Frank_Parth/Interview_Notes.md",
-    "07-Archives/Plans/2026-05-28_Focus.md",
-    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/2026-06-02_Var_George_Call.md",
-    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_CTO_Response_Draft.md",
-    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_Research_Findings.md",
-    "04-Projects/44-Engineering_Metrics_Strategy/DORA_Metrics_Quick_Reference.md",
-    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Key_Talking_Points.md",
-    "04-Projects/51-Thinktiv_Kickdrum_Engagement_May_2026/Full_Agenda.md",
-    "00-Inbox/DORA_Metrics_Research_Findings.md",
-    "00-Inbox/DORA_Metrics_Quick_Reference.md",
-    "00-Inbox/DORA_Metrics_CTO_Response_Draft.md",
-    "00-Inbox/Weekly_Synthesis_2026-06-21.md",
-    "00-Inbox/Daily_Notes/2026-06-18.md",
-    "System/Session_Learnings/2026-06-22.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Slack Message to Leads.md",
-    "System/Session_Learnings/2026-06-18.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Message to Leads.md",
-    "System/Session_Learnings/2026-06-17.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/2026-06-26 Exchange Resiliency - Agenda CLEAN.md",
-    "System/Session_Learnings/2026-06-16.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Manual Listing of Resiliency Items.md",
+    "00-Inbox/Daily_Notes/2026-06-23.md",
+    "04-Projects/33-Jarvis_AI_Platform_Rollout/AI_Proficiency_Evaluation_Concerns_and_Recommendations.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/2026-06-26 Exchange Resiliency - Agenda.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/CJ_Data_Requirements_Status.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/Resiliency_Work_Completed_Mapping.md",
+    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update/Resiliency Work Identified - Referenced.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Release_Progression_Timeline.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-23_DR_BCP_Meeting_Summaries.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-23_Deployment_Pipeline_Crisis.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Executive_Email_Thread_Complete.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Incident_Root_Cause_Data_Feb2025.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-23_Incident_Reflection_with_Curtis.md",
+    "00-Inbox/Meetings/2026-06-23 Curtis Marten 1-1 - Incident and Jarvis Discussion.md",
+    "00-Inbox/Temp/Untitled 1.md",
+    "00-Inbox/Temp/Untitled 2.md",
+    "04-Projects/33-Jarvis_AI_Platform_Rollout/README.md",
+    "04-Projects/33-Jarvis_AI_Platform_Rollout",
+    "07-Archives/2026-06-22_Executive_Summary_to_Curtis_and_CJ.md",
+    "07-Archives/2026-06-22_Production_Incident/README.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Incident_Leadership_Communications.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Handoff_Message_Incident_Room.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Executive_Summary_to_Curtis_and_CJ.md",
+    "07-Archives/2026-06-22_Production_Incident/2026-06-22_Production_Incident_Comprehensive_Record.md",
+    "07-Archives/2026-06-22_Production_Incident",
+    "07-Archives/2026-06-22_Incident_Leadership_Communications.md",
+    "07-Archives/2026-06-22_Handoff_Message_Incident_Room.md",
+    "00-Inbox/Daily_Plans/2026-06-22.md",
+    "05-Areas/Career/Evidence/2026-06-22_Multi_Issue_Production_Incident_Leadership.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/~$Exchange_Plan_Latest.pptx",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Exchange Resiliency.md",
-    "04-Projects/21-Exchange_Modernization_Report_May_2026/Email_Thread_Evolution.md",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-06-26 Exchange Resiliency Update",
     "04-Projects/44-Engineering_Metrics_Strategy/Research_and_Prep",
     "04-Projects/44-Engineering_Metrics_Strategy",
@@ -248,8 +235,6 @@
     "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Jason_Craumer/Interview Questions - Jason Craumer.md.backup",
     "04-Projects/41-Recruiting/Roles/13 - Principal Engineer - Data Architecture and Engineering/Interviews/Jason_Craumer",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/Exchange_Plan_Latest.pptx",
-    "04-Projects/Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call",
-    "04-Projects/Exchange_Modernization_Report_May_2026",
     "04-Projects/21-Exchange_Modernization_Report_May_2026/Presentations/Archive/workspace/gradient-bg.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/v5-rebuild/ppt/media/image1.png",
     "04-Projects/Exchange_Modernization_Report_May_2026/Presentations/check-current/ppt/media/image1.png",

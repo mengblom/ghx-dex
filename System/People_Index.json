@@ -1,13 +1,24 @@
 {
   "version": 1,
-  "built_at": "2026-06-08T10:44:26.081999",
-  "total": 26,
+  "built_at": "2026-06-22T15:20:28.250586",
+  "total": 29,
   "by_type": {
-    "internal": 16,
+    "internal": 19,
     "external": 10,
     "cpo_network": 0
   },
   "people": [
+    {
+      "name": "Sandy Chronister",
+      "company": "GHX",
+      "role": "HR Business Partner",
+      "email": "sachronister@ghx.com",
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Sandy_Chronister.md",
+      "last_interaction": "2026-06-09",
+      "tags": [],
+      "status": "populated"
+    },
     {
       "name": "Geoff Wilson",
       "company": "GHX",
@@ -27,6 +38,17 @@
       "type": "internal",
       "path": "05-Areas/People/Internal/Curtis.md",
       "last_interaction": "2026-05-29",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Yu Chen",
+      "company": "GHX",
+      "role": "Senior Engineer",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Yu_Chen.md",
+      "last_interaction": "2026-06-09 (resignation situation)",
       "tags": [],
       "status": "populated"
     },
@@ -59,7 +81,7 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Mike_Mitchell.md",
-      "last_interaction": "2026-05-08",
+      "last_interaction": "2026-06-09 (critical personnel situation)",
       "tags": [],
       "status": "populated"
     },
@@ -115,6 +137,17 @@
       "type": "internal",
       "path": "05-Areas/People/Internal/Laura_Taylor.md",
       "last_interaction": "2026-05-21 (via Ramesh)",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Adam Gordon",
+      "company": "GHX",
+      "role": "Engineering Manager",
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Adam_Gordon.md",
+      "last_interaction": "2026-06-09",
       "tags": [],
       "status": "populated"
     },

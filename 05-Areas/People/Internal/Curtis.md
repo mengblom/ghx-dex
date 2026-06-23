@@ -21,7 +21,7 @@
 
 **Strength:** Strong
 
-**Last interaction:** 2026-05-29
+**Last interaction:** 2026-06-23
 
 ---
 
@@ -62,6 +62,8 @@
 
 | Date | Topic | Notes Link |
 |------|-------|------------|
+| 2026-06-23 | Production Incident Debrief & Jarvis Rollout Concerns | [[00-Inbox/Meetings/2026-06-23 Curtis Marten 1-1 - Incident and Jarvis Discussion.md]] |
+| 2026-06-04 | Jira Setup, Jarvis Platform, Break the Monolith AI, Capacity Planning | [[00-Inbox/Meetings/2026-06-04 11.05 Curtis Marten 1-1.md]] |
 | 2026-06-02 | Exchange Modernization Email Thread - Provided Historical Board Decks | [[04-Projects/21-Exchange_Modernization_Report_May_2026/Email_Thread_Evolution.md]] |
 | 2026-05-29 | Curtis Briefing on Exchange Modernization | [[04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 13.30-02 Curtis Briefing Transcript.md]] |
 | 2026-05-29 | CJ Communication Strategy Debrief | [[04-Projects/21-Exchange_Modernization_Report_May_2026/2026-05-29 CJ Follow-up Call/2026-05-29 Debrief with Curtis - Communication Strategy.md]] |
@@ -70,6 +72,12 @@
 ---
 
 ## Action Items Involving Them
+
+### From June 23, 2026 Meeting
+- [ ] **Staff meeting agenda Tuesday** — Jarvis messaging, goals, Seth's Marketplace challenges ^task-20260623-004
+- [ ] **Schedule team conversations** on Jarvis to address concerns directly ^task-20260623-005
+- [ ] **Workshop transparent messaging** about board commitment and urgency ^task-20260623-006
+- [ ] **Review Exchange resiliency narrative Wednesday** before PTO Thursday ^task-20260623-007
 
 ### From May 7, 2026 Meeting
 - [ ] Review CJ meeting prep materials before meeting
@@ -93,6 +101,26 @@
 - Partnering with Marten on Exchange team standards (Jira, Compass, metrics)
 - Will adopt Exchange's standards for other teams once proven
 - Meeting regularly with Aaron (via Rajat) on DevOps coordination
+
+### Jarvis AI Platform Rollout (June 2026)
+- Leading organization-wide AI proficiency initiative
+- Committed to board: 60% AI productivity improvement by August 15
+- Wrestling with change management approach (structured vs. organic)
+- Navigating messaging concerns: "not performance management" optics vs. evaluation reality
+- **Open to revised messaging:** Support-focused framing, transparency about board commitment
+- Trying structured change management approach (Sandy's expertise) after learning from "One GHX" chaos
+- Deep into Q1 2027 expected for full organizational change
+
+**Key insight (June 23):**
+> "I may be a pawn in somebody else's game, but that is not on my agenda at all [referring to layoffs]."
+
+**Change management challenge:**
+> "We tripped and fell and ran into walls and fell into pits [with One GHX]. So I'm trying to figure out if it's a good way to go [with structured change management]."
+
+### Production Incident Leadership (June 2026)
+- Supported Marten through June 22 multi-issue production incident
+- Framed incident root causes organizationally: "Real root cause was lack of ownership in massive teams"
+- Connects incidents to autonomous teams transformation strategy
 
 ---
 

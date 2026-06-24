@@ -1,8 +1,8 @@
-# June 22, 2026 Production Incident
+# June 22-24, 2026 Production Incident
 
-**Incident:** CoreX-ALL 2.273.x Release - 6 Simultaneous Production Issues  
-**Duration:** 02:00 MT June 22 → Multi-day resolution  
-**Leadership:** 21-hour sustained incident oversight
+**Incident:** CoreX-ALL 2.273.x Release - 6 Simultaneous Production Issues + Secondary Hotfix Rollback  
+**Duration:** 02:00 MT June 22 → June 24 (with secondary incident June 24 morning)  
+**Leadership:** 21-hour sustained incident oversight (June 22-23) + June 24 hotfix rollback response
 
 ---
 
@@ -10,11 +10,12 @@
 
 ### 📋 Comprehensive Record
 **[2026-06-22_Production_Incident_Comprehensive_Record.md](2026-06-22_Production_Incident_Comprehensive_Record.md)**
-- Complete timeline of all 6 issues
-- Root causes (technical + organizational)
+- Complete timeline of all 6 original issues + June 24 secondary incident
+- Root causes (technical + organizational + monolithic coupling)
 - Leadership actions and decisions
 - Daniel Milburn's strategic analysis
 - Next steps for RCA and retrospective
+- **Updated June 24:** Added hotfix rollback incident details
 
 **[2026-06-23_Incident_Reflection_with_Curtis.md](2026-06-23_Incident_Reflection_with_Curtis.md)**
 - Unfiltered debrief with Curtis during incident recovery
@@ -29,13 +30,20 @@
 - Customer impact by release
 - 38-hour resolution timeline
 
+**[2026-06-24_Incident_Update_Summary.md](2026-06-24_Incident_Update_Summary.md)**
+- Daily summary of June 24 hotfix rollback incident
+- AS2 connection failure timeline and impact
+- Status of all original incident issues (resolved/remaining)
+- Current state and open questions
+- Strategic lessons about monolithic architecture constraints
+
 **Use for:** RCA, retrospectives, future reference, team discussions, leadership learning
 
 ---
 
 ### 📨 Leadership Communications
 
-**[2026-06-22_Executive_Summary_to_Curtis_and_CJ.md](2026-06-22_Executive_Summary_to_Curtis_and_CJ.md)**
+**[2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md](2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md)**
 - Executive summary to VP Engineering (Curtis Roady) and Director (CJ Singh)
 - Sent 19:38 MT after team vetting
 - Transparent crisis communication example
@@ -47,12 +55,27 @@
 - Ramesh's overnight updates (SCA issue discovery, incomplete fix identification)
 - CJ's request for deep dive on root causes
 
-**[2026-06-22_Handoff_Message_Incident_Room.md](2026-06-22_Handoff_Message_Incident_Room.md)**
+**[2026-06-22_23.52_Handoff_to_Ramesh_Slack.md](2026-06-22_23.52_Handoff_to_Ramesh_Slack.md)**
 - Formal authority transfer to Ramesh Donnipadu
 - Sent 23:52 MT in #ghx_incident_rm_1
 - Clear handoff after 21 hours
 
-**Use for:** Communication templates, stakeholder management examples
+**[2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md](2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md)**
+- GLT/SLT update about June 24 AS2 impact and hotfix rollback
+- Response to Chrystie Leonard's customer unrest inquiry
+- Explanation of monolithic coupling as root cause
+- Decision framework for next steps (risk tolerance vs. defect impact)
+- **Key lesson:** Crisis communication under customer confidence pressure
+
+**[2026-06-24_Slack_Context_AS2_Rollback.md](2026-06-24_Slack_Context_AS2_Rollback.md)**
+- Technical deep dive: BouncyCastle library conflict (1.68 vs 1.78)
+- Customer impact quantification (~5,186 US transactions, 336+ EU flows)
+- Organizational tensions: Arshad's "clean code" question, engineering defense
+- DevOps capability gaps: wrong environment deployments (twice), failed rollback, 18-month KT failure
+- Daniel/Marten/Ramesh private discussions about root causes
+- **Key insight:** Both engineering (tight coupling) and DevOps (pipeline mess) contributed equally
+
+**Use for:** Communication templates, stakeholder management examples, crisis communication under pressure, RCA technical details
 
 ---
 

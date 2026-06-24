@@ -10,7 +10,7 @@
 
 ### 1. Executive Summary to Curtis Roady & CJ Singh
 
-**File:** [`2026-06-22_Executive_Summary_to_Curtis_and_CJ.md`](2026-06-22_Executive_Summary_to_Curtis_and_CJ.md)
+**File:** [`2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md`](2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md)
 
 **Time:** 19:38 MT (drafted and vetted with team)  
 **Delivery Method:** Presumed Slack DM or email after team approval  
@@ -35,7 +35,7 @@
 
 ### 2. Formal Handoff Message - Incident Room
 
-**File:** [`2026-06-22_Handoff_Message_Incident_Room.md`](2026-06-22_Handoff_Message_Incident_Room.md)
+**File:** [`2026-06-22_23.52_Handoff_to_Ramesh_Slack.md`](2026-06-22_23.52_Handoff_to_Ramesh_Slack.md)
 
 **Time:** 23:52 MT  
 **Channel:** #ghx_incident_rm_1 (Primary Incident Channel)  

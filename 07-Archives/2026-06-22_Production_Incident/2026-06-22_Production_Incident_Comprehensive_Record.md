@@ -1,10 +1,12 @@
 # Production Incident - June 22, 2026
 ## CoreX-ALL 2.273.x Release
 
-**Incident Duration:** 02:00 MT (release) → Ongoing (multi-day resolution)  
+**Incident Duration:** 02:00 MT June 22 → June 24 (multi-day, secondary incident on June 24)  
 **Incident Managers:** [[Gaurav_Saini]] (IM), [[Oliver_Kampmann]] (EU IM)  
 **GHX Engineering Leadership:** [[Marten_Engblom]], [[Daniel_Milburn]], [[Ramesh_Donnipadu]] (handoff)  
 **Key Contributors:** [[Gregory_Bank]], [[Matt_Walker]], [[Suresh_Kumar]], [[Paul_Bobbitt]], [[Kooper_Frahm]]
+
+**Secondary Incident (June 24):** Hotfix rollback due to AS2 connection failures
 
 ---
 
@@ -86,7 +88,55 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 **23:40 MT** - Daniel watching "Lonesome Dove" as second incident movie  
 **23:42 MT** - Oliver takes over EU incident manager role  
 **~01:00 MT June 23** - STG validation passes for 2.273.5 hotfix  
-**~03:00 MT June 23** - PRD deployment completes for issues #5 & #6
+**~03:00 MT June 23** - PRD deployment completes for issues #5 & #6  
+**10:30 MT June 23** - Vast majority of GFax orders successfully processed and sent  
+**11:42 MT June 23** - IBR/MEX "red banner" issue resolved with hotfix (US)  
+**12:24 MT June 23** - IBR/MEX issue resolved (EU)  
+**~21:00 MT June 23** - DB data correction script running (~8 hour ETA for BigDecimal vs long data type issue)  
+**04:36 MT June 24** - EU AS2 issues begin (hotfix side effect)  
+**04:56 MT June 24** - US AS2 issues begin  
+**06:52 MT June 24** - EU AS2 mitigated (hotfix rolled back)  
+**07:14 MT June 24** - US AS2 mitigated  
+**~05:00 MT June 24** - DB data correction scripts complete (estimated completion time)
+
+---
+
+## June 24 Hotfix Rollback Details
+
+### Context
+Following resolution of most June 22-23 issues, a hotfix was attempted on the morning of June 24 to address the remaining email-to-PDF conversion issue. This hotfix inadvertently included an unrelated eInvoicing library modification that disrupted AS2 flows, requiring rollback.
+
+### Timeline (June 24, MDT)
+- **04:36 AM** - EU AS2 issues begin
+- **04:56 AM** - US AS2 issues begin
+- **06:52 AM** - EU mitigated (rollback complete)
+- **07:14 AM** - US mitigated (rollback complete)
+- **08:02 AM** - [[Chrystie_Leonard]] reports "significant unrest among customers"
+- **15:51 PM** - Marten updates GLT/SLT on rollback decision
+
+### Technical Root Cause
+**BouncyCastle library version conflict (1.68 vs 1.78):**
+- Hotfix pulled in eInvoicing library modification from "a while ago" with BouncyCastle updates
+- 2.273.7 changes didn't directly change dependencies
+- iText class initialization triggered by new PDF path altered classloader ordering
+- Caused 1.78 BouncyCastle classes to resolve before 1.68 ones
+- Error: `java.lang.NoSuchFieldError: id_ori_kem` (field introduced in BouncyCastle 1.70+)
+- **Bug was latent since 2.273.0** — this code path activated it
+
+### Customer Impact
+- **US:** ~5,186 transactions (Owens & Minor, Intertrade, Philips Healthcare, Cook Medical)
+- **EU:** 336+ failed flows
+- AS2 connection failures affecting order/document transmission
+- Failures before MDN sent → customers receiving errors, auto-resend or notification required
+- Customer confidence eroded by second incident within 48 hours
+
+### Outcome
+- Hotfix successfully addressed target issue (Email-to-PDF action confirmed working)
+- Collateral damage from bundled library changes required rollback
+- System returned to June 23 stable state
+- Email-to-PDF conversion issue remains unresolved
+- DB data correction scripts completed (BigDecimal vs long data type)
+- Decision pending on re-attempting hotfix with eInvoicing changes removed
 
 ---
 
@@ -98,6 +148,7 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 3. **Library Upgrades Without Adequate Testing:** IO SFTP/SSH algorithm issues
 4. **Team Area Without Manager:** Actions team (GFax, EML2PDF) issues orphaned
 5. **No Rollback Testing:** Extended downtime because rollback capability unclear
+6. **Monolithic Coupling/Dependencies (June 24):** Targeted hotfix for PDF conversion inadvertently bundled unrelated eInvoicing changes that broke AS2 flows. Deployment footprint too large to deploy isolated fixes safely.
 
 ### Organizational Factors (DM Analysis with Daniel)
 1. **Team Stretched Across Too Many Initiatives:**
@@ -125,9 +176,14 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 
 ### Process Gaps
 1. **Incident Response Dysfunctions:** Witnessed firsthand, need RCA
-2. **Deployment Pipeline Complexity:** ~10 hours to deploy tested hotfix
-3. **Knowledge Silos:** Critical deployment knowledge held by specific HM contractors
+2. **Deployment Pipeline Complexity:** ~10 hours to deploy tested hotfix (June 22-23)
+3. **Knowledge Silos:** Critical deployment knowledge held by specific HM contractors (only 2 engineers know current pipelines)
 4. **Team Participation Gaps:** Hari participated, but Prashanth and Ramesh did not initially
+5. **Deployment to Wrong Environment (June 24):** DevOps deployed hotfix to wrong environment, causing testing to fail. Repeated twice in 2 days.
+6. **Failed Rollback (June 24):** First rollback attempt didn't actually rollback — Matt caught it, required second attempt
+7. **Knowledge Transfer Failure:** Gagan tried to get KT from HM DevOps for 18 months without success (escalated to Curtis/Taylor)
+8. **Build Infrastructure:** AllRepos build failed twice during incident due to disk space issues
+9. **Pipeline Proliferation:** Too many cloned pipelines, several inactive, poor documentation
 
 ---
 
@@ -154,10 +210,12 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 
 ## Next Steps Identified
 
-### Immediate (June 23)
-- [ ] Resume MEX Orders fix testing/deployment (Visibility team, India)
+### Immediate (June 23-24)
+- [x] Resume MEX Orders fix testing/deployment (Visibility team, India) - **RESOLVED June 23**
 - [ ] Complete tracking issue investigation and fix
-- [ ] Begin reconciliation of failed GFax transactions
+- [x] Begin reconciliation of failed GFax transactions - **IN PROGRESS**
+- [x] DB data correction scripts (BigDecimal vs long data type) - **COMPLETED June 24**
+- [ ] Decision on re-attempting PDF conversion hotfix (remove eInvoicing changes, assess risk tolerance)
 
 ### Short-term (Week of June 23)
 - [ ] Root Cause Analysis for all 6 issues
@@ -173,17 +231,19 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 - [ ] Strengthen testing protocols for library upgrades
 - [ ] Clarify FTE vs. contractor ownership boundaries
 - [ ] Release note discipline (Summary, Test Plan consistently documented)
+- [ ] Address monolithic deployment coupling (June 24 lesson: inability to deploy targeted hotfix without bundling unrelated changes)
 
 ---
 
 ## References
 
 **Slack Channels:**
-- #ghx_incident_rm_1 (Primary incident coordination)
-- #ghx_incident_rm_2 (EU paused incident - MEX Orders)
+- #ghx_incident_rm_1 (Primary incident coordination) - June 24 AS2 rollback context captured
+- #ghx_incident_rm_2 (EU paused incident - MEX Orders, June 24 AS2 rollback)
 - #exchange_devops (Deployment coordination)
 - #help-corex (Infrastructure updates)
-- Direct DM with Daniel Milburn (Root cause discussion)
+- Direct DM with Daniel Milburn (Root cause discussion, June 24 DevOps issues)
+- Leadership Group DM (Marten, Daniel, Arshad, Ramesh) - June 24 organizational tensions
 
 **Salesforce Cases:**
 - 4-0011979745 (EU Orders/Worklist)
@@ -198,10 +258,14 @@ Following the early morning release (approx. 02:00 MT), we experienced **six sim
 - Internal status updates throughout the day
 
 **Leadership Communications:**
-- Executive Summary to Curtis Roady & CJ Singh (19:38 MT) - [`2026-06-22_Executive_Summary_to_Curtis_and_CJ.md`](2026-06-22_Executive_Summary_to_Curtis_and_CJ.md)
-- Formal handoff message in #ghx_incident_rm_1 (23:52 MT) - [`2026-06-22_Handoff_Message_Incident_Room.md`](2026-06-22_Handoff_Message_Incident_Room.md)
+- Executive Summary to Curtis Roady & CJ Singh (19:38 MT) - [`2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md`](2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md)
+- Formal handoff message in #ghx_incident_rm_1 (23:52 MT) - [`2026-06-22_23.52_Handoff_to_Ramesh_Slack.md`](2026-06-22_23.52_Handoff_to_Ramesh_Slack.md)
 - Communication analysis - [`2026-06-22_Incident_Leadership_Communications.md`](2026-06-22_Incident_Leadership_Communications.md)
+- June 24 GLT/SLT update - [`2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md`](2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md)
 - Internal strategic analysis with Daniel Milburn (captured in this document)
+
+**Slack Context:**
+- June 24 AS2 rollback technical details and organizational tensions - [`2026-06-24_Slack_Context_AS2_Rollback.md`](2026-06-24_Slack_Context_AS2_Rollback.md)
 
 ---
 
@@ -226,4 +290,4 @@ This incident represents significant leadership challenges across multiple dimen
 
 **Document Status:** Comprehensive incident record for reference, RCA, retrospective, and career evidence  
 **Created:** 2026-06-23  
-**Last Updated:** 2026-06-23
+**Last Updated:** 2026-06-24 (Added June 24 hotfix rollback incident)

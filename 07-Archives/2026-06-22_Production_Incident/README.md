@@ -116,6 +116,14 @@
 - Runbook currency and customer communication strategies
 - Shows organizational capacity during crisis
 
+**[2026-06-24_CJ_Arshad_RCA_Planning_Meeting.md](2026-06-24_CJ_Arshad_RCA_Planning_Meeting.md)**
+- CJ's directive for high-quality RCA (Marten/Arshad partnership, blameless postmortem, publish EOD Monday)
+- Scope: This incident + all GFax issues from last month (Steve Jackson raised 4-8 week reliability concerns)
+- Arshad to lead accelerated CI/CD pipeline standardization (100% teams on standard pipelines, all options on table)
+- Email communication strategy to GLT/SLT (CJ's 10-point structure)
+- Context: Historical July 4th period issues, need to build confidence entering freeze
+- Email sent to GLT/SLT with comprehensive update and RCA plan: [2026-06-24_Email_to_GLT_SLT.md](2026-06-24_Email_to_GLT_SLT.md)
+
 ---
 
 ## Related Documents

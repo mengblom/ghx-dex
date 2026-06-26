@@ -19,6 +19,8 @@
 | **June 24, 09:35 MT** | Slack | Incident Room | Validation question - hotfix effectiveness | [Slack](#8-hotfix-validation-question-slack) |
 | **June 24, 10:00 MT** | Slack DM | Arshad, Daniel, Ramesh | Defense of engineering team | [Slack](#9-engineering-defense-leadership-dm) |
 | **June 24, 15:51 MT** | Email | GLT, SLT | AS2 rollback explanation | [Email](#10-as2-rollback-explanation-to-gltslt) |
+| **June 24, Evening** | Email | GLT, SLT | Comprehensive incident update & RCA plan | [Email](#11-comprehensive-incident-update) |
+| **June 25, Morning** | Email | Chrystie Leonard, Ramesh | Clarification of Engineering self-critique | [Email](#12-clarification-to-chrystie-leonard) |
 
 ---
 
@@ -315,6 +317,42 @@
 
 ---
 
+### 11. Comprehensive Incident Update (Email)
+
+**Time:** June 24, 2026 (evening)  
+**Medium:** Email  
+**To:** GLT, SLT  
+**Cc:** CJ Singh, Ramesh Donnipadu, Arshad Mahammad  
+**Subject:** Exchange Incident Update - Status & Path Forward
+
+**Purpose:** Comprehensive update per CJ's directive - cover current status, RCA plan, path forward
+
+**Key Points (per CJ's 10-point structure):**
+1. **Current customer impact:** Minimal - AS2 resolved, GFax/MEX/IBR operational
+2. **Internal impact:** Minimal - CDP/Analytics data correction complete
+3. **Incident status:** 6 of 7 closed, 1 open (Email-to-PDF)
+4. **Open incident plan:** Re-deploy Thursday with eInvoicing changes removed
+5. **Last deployment before freeze:** Emphasize stability priority entering July 4th period
+6. **Confirmation:** Stable state going into freeze Monday
+7. **RCA timeline:** Starting Friday with full team
+8. **RCA scope:** This incident + broader GFax reliability issues (last several weeks)
+9. **Foreshadow findings:** Need to react quicker to PO-impacting issues, monolithic architecture prevents surgical fixes, DevOps complexities, rollback testing gaps, environment drift
+10. **Close:** Expect update EOD Monday with RCA status
+
+**Tone:** Confident, transparent, consultative, building trust for freeze period
+
+**Full Text:** [2026-06-24_Email_to_GLT_SLT.md](2026-06-24_Email_to_GLT_SLT.md)
+
+**Context:**
+- Sent per CJ's specific directive and 10-point structure
+- Included PS note to Ramesh about timezone (EST) and requesting feedback
+- Follows afternoon meeting with CJ and Arshad about RCA and CI/CD pipeline standardization
+- Addresses historical pattern of July 4th period issues - building confidence for freeze
+- Strategic framing: shows we understand what happened (not flying blind)
+- 5 specific observations foreshadowed for RCA focus
+
+---
+
 ## Communication Patterns
 
 ### Audience Adaptation
@@ -353,6 +391,7 @@
 4. **Action-Oriented:** Clear next steps with timeline expectations
 5. **Systemic Focus:** Framed issues as organizational, not individual blame
 6. **Consultative:** Committed to leadership consultation before major decisions
+7. **Immediate Clarification:** When miscommunication detected, owned it immediately and clarified with vulnerability
 
 ### What Was Consistently Avoided
 
@@ -373,6 +412,8 @@
 - **[2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md](2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md)** - Initial executive summary (vetted with team)
 - **[2026-06-22_23.52_Handoff_to_Ramesh_Slack.md](2026-06-22_23.52_Handoff_to_Ramesh_Slack.md)** - Formal handoff to Ramesh in Slack
 - **[2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md](2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md)** - June 24 GLT/SLT update with analysis
+- **[2026-06-24_Email_to_GLT_SLT.md](2026-06-24_Email_to_GLT_SLT.md)** - Comprehensive incident update and RCA plan
+- **[2026-06-25_Response_to_Chrystie_Leonard.md](2026-06-25_Response_to_Chrystie_Leonard.md)** - Clarification of Engineering self-critique
 
 ### Slack Context
 - **[2026-06-24_Slack_Context_AS2_Rollback.md](2026-06-24_Slack_Context_AS2_Rollback.md)** - Slack discussions including Marten's contributions
@@ -400,6 +441,10 @@ June 24
   09:35 ── Slack validation question
   10:00 ── Slack leadership DM (defense)
   15:51 ── Email to GLT/SLT (AS2 rollback)
+  Evening ── Email to GLT/SLT (comprehensive update & RCA plan)
+
+June 25
+  Morning ── Email to Chrystie/Ramesh (clarification of Engineering self-critique)
 ```
 
 ---

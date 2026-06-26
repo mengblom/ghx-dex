@@ -91,6 +91,8 @@ Following the June 22 early morning release (02:00 MT), Exchange experienced **s
 - **[2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md](2026-06-22_19.38_Executive_Summary_to_Curtis_and_CJ.md)** - Initial executive summary (19:38 MT)
 - **[2026-06-22_23.52_Handoff_to_Ramesh_Slack.md](2026-06-22_23.52_Handoff_to_Ramesh_Slack.md)** - Formal handoff to Ramesh (23:52 MT)
 - **[2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md](2026-06-24_15.51_AS2_Rollback_to_GLT_SLT.md)** - AS2 rollback explanation to GLT/SLT (15:51 MT)
+- **[2026-06-24_Email_to_GLT_SLT.md](2026-06-24_Email_to_GLT_SLT.md)** - Comprehensive incident update and RCA plan (evening)
+- **[2026-06-25_Response_to_Chrystie_Leonard.md](2026-06-25_Response_to_Chrystie_Leonard.md)** - Clarification of Engineering self-critique (morning)
 - **[2026-06-22_Incident_Leadership_Communications.md](2026-06-22_Incident_Leadership_Communications.md)** - Communication strategy analysis
 
 ### 🔧 Technical Deep Dives
@@ -101,6 +103,7 @@ Following the June 22 early morning release (02:00 MT), Exchange experienced **s
 ### 🤝 Meetings & Context
 - **[2026-06-23_Incident_Reflection_with_Curtis.md](2026-06-23_Incident_Reflection_with_Curtis.md)** - 1:1 debrief with Curtis
 - **[2026-06-23_DR_BCP_Meeting_Summaries.md](2026-06-23_DR_BCP_Meeting_Summaries.md)** - DR/BCP meetings during active incident
+- **[2026-06-24_CJ_Arshad_RCA_Planning_Meeting.md](2026-06-24_CJ_Arshad_RCA_Planning_Meeting.md)** - RCA directive, CI/CD pipeline standardization, leadership communication strategy
 
 ---
 
@@ -155,8 +158,11 @@ Following the June 22 early morning release (02:00 MT), Exchange experienced **s
 - 🟡 Decision on re-attempting PDF hotfix (remove eInvoicing changes)
 
 ### Short-term (Week of June 24)
-- Root Cause Analysis for all issues including AS2 rollback
-- Retrospective on incident response process
+- **RCA Sessions:** Friday June 26 and Monday June 29 (Marten/Arshad partnering to lead, blameless postmortem, everyone has voice)
+- **RCA Scope:** This incident + all GFax issues from last month (Steve Jackson raised reliability concerns over 4-8 weeks)
+- **RCA Publication:** End of day Monday, June 29
+- **Leadership Communication:** Draft email to GLT/SLT (pending Ramesh review) covering status, path forward, RCA timeline
+- **CI/CD Pipeline Standardization:** Arshad to lead accelerated plan for 100% teams on standard pipelines (CJ: "all options on table")
 - HM DevOps capability and hand-off protocol review
 - Address Actions team manager gap
 - Document rollback procedures

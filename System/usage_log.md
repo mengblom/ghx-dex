@@ -15,7 +15,7 @@
 - [ ] Quarterly planning (`/quarter-plan`)
 - [ ] Quarterly review (`/quarter-review`)
 - [ ] Getting started tour (`/getting-started`)
-- [ ] Journaling (`/journal`)
+- [x] Journaling (`/journal`)
 
 ## Meeting Workflows (7 features)
 
@@ -52,7 +52,7 @@
 
 ## Journaling (4 features)
 
-- [ ] Journaling setup (`/journal`)
+- [x] Journaling setup (`/journal`)
 - [ ] Morning journal entry
 - [ ] Evening journal entry
 - [ ] Weekly journal entry

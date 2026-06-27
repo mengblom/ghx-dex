@@ -105,13 +105,13 @@ meeting_intelligence:
 # Controls which journal types are enabled
 journaling:
   # Morning journal: intention-setting for the day
-  morning: false
-  
+  morning: true
+
   # Evening journal: reflection on the day
-  evening: false
-  
+  evening: true
+
   # Weekly journal: patterns and synthesis
-  weekly: false
+  weekly: true
 
 # Quarterly Planning Configuration
 # Controls whether you use quarterly goal setting

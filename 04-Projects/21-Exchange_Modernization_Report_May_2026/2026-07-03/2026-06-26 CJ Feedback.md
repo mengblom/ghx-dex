@@ -1,6 +1,7 @@
 - What is the business benefit 
-- ...
+- Framing the work
 	- Product Delivery Process Goals
+		- ... with engineering metrics
 	- Roadmap
 	- Customer / Business Goals
 		- Incident response time

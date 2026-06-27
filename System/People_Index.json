@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "built_at": "2026-06-22T15:20:28.250586",
-  "total": 29,
+  "built_at": "2026-06-27T06:34:20.094607",
+  "total": 30,
   "by_type": {
-    "internal": 19,
+    "internal": 20,
     "external": 10,
     "cpo_network": 0
   },
@@ -37,7 +37,7 @@
       "email": null,
       "type": "internal",
       "path": "05-Areas/People/Internal/Curtis.md",
-      "last_interaction": "2026-05-29",
+      "last_interaction": "2026-06-23",
       "tags": [],
       "status": "populated"
     },
@@ -71,6 +71,17 @@
       "type": "internal",
       "path": "05-Areas/People/Internal/Radha.md",
       "last_interaction": "2026-05-21 (via Ramesh)",
+      "tags": [],
+      "status": "populated"
+    },
+    {
+      "name": "Anan Bawa",
+      "company": null,
+      "role": null,
+      "email": null,
+      "type": "internal",
+      "path": "05-Areas/People/Internal/Anan_Bawa.md",
+      "last_interaction": null,
       "tags": [],
       "status": "populated"
     },

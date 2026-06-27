@@ -344,6 +344,19 @@ Help the user capture:
 - Quick thoughts → `00-Inbox/Ideas/`
 - Tasks → surface them clearly
 
+**Meeting Note Creation - Critical:**
+When creating meeting note files, ALWAYS get the actual meeting time from the calendar:
+1. Use `mcp__mcp-ical__list_events` to fetch calendar events for the meeting date
+2. Match the meeting title to find the correct calendar event
+3. Convert UTC time to Mountain Time (UTC-6 in summer MDT, UTC-7 in winter MST)
+4. Use the calendar time in the filename: `YYYY-MM-DD_HH.mm_TITLE.md`
+5. NEVER use file creation time or current time as meeting time
+
+**Example:**
+- Calendar shows: `2026-03-24 19:00:00 +0000` (UTC)
+- Convert to MT: 19:00 - 6 = 13:00 (MDT)
+- Filename: `2026-03-24_13.00_Interview David E Smith.md`
+
 ### Daily Notes Integration
 
 **Daily Notes** are lightweight scratchpads for real-time capture using Obsidian's daily note plugin (Cmd+D).
@@ -604,7 +617,9 @@ Use `capture_idea` MCP tool to capture Dex system improvements anytime. Ideas ar
 ## File Conventions
 
 - Date format: YYYY-MM-DD
-- Meeting notes: `YYYY-MM-DD HH.mm Meeting Topic.md` (24-hour time with period separator)
+- Meeting notes: `YYYY-MM-DD_HH.mm_TITLE.md` (underscore separators, 24-hour time with period)
+  - Date/time from calendar entry if available, otherwise file creation time
+  - Flat structure in `00-Inbox/Meetings/` (no date subfolders)
 - Person pages: `Firstname_Lastname.md`
 - Career skill tags: Add `# Career: [skill]` to tasks/goals that develop specific skills
   - Example: `Ship payments redesign [[^task-20260128-001]] # Career: System Design`

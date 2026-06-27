@@ -181,6 +181,7 @@ core/tests/fixtures/vault/System/.dex/*
 # Personal experiments
 playground/
 experiments/
+.scripts/
 .scripts/private/
 scripts/private/
 
